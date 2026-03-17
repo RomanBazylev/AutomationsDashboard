@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Automations Dashboard</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --green: #3fb950;
+  --red: #f85149;
+  --yellow: #d29922;
+  --orange: #db6d28;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 { font-size: 1.6rem; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px; }
+
+/* Health banner */
+.health-banner {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.health-ok { background: #0d2818; border: 1px solid var(--green); color: var(--green); }
+.health-warn { background: #2d1b00; border: 1px solid var(--yellow); color: var(--yellow); }
+.health-fail { background: #2d0000; border: 1px solid var(--red); color: var(--red); }
+
+/* Summary bar */
+.summary-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.summary-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+.summary-card .value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.summary-card .label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Channel grid */
+.channels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 16px;
+}
+
+.channel-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+.channel-card:hover { border-color: var(--accent); }
+
+.channel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.channel-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.channel-name .emoji { font-size: 1.3rem; }
+.repo-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.78rem;
+}
+.repo-link:hover { color: var(--accent); }
+
+/* Workflows section */
+.workflows { margin-bottom: 14px; }
+.workflow-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.workflow-row:last-child { border-bottom: none; }
+
+.wf-left { display: flex; align-items: center; gap: 8px; }
+.status-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dot-success { background: var(--green); }
+.dot-failure { background: var(--red); }
+.dot-pending { background: var(--yellow); animation: pulse 1.5s infinite; }
+.dot-unknown { background: var(--text-muted); }
+
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+.wf-name { color: var(--text); }
+.wf-right { display: flex; align-items: center; gap: 10px; }
+.wf-time { color: var(--text-muted); font-size: 0.78rem; }
+.streak-badge {
+  background: #2d0000;
+  color: var(--red);
+  font-size: 0.72rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.logs-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.78rem;
+}
+.logs-link:hover { text-decoration: underline; }
+
+/* Video stats */
+.video-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.stat {
+  text-align: center;
+  padding: 8px;
+  background: var(--bg);
+  border-radius: 6px;
+}
+.stat .num { font-size: 1.1rem; font-weight: 700; }
+.stat .lbl { font-size: 0.7rem; color: var(--text-muted); }
+
+.last-upload {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+.last-upload a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.last-upload a:hover { text-decoration: underline; }
+
+/* Run history dots */
+.run-history {
+  display: flex;
+  gap: 3px;
+  margin-top: 4px;
+}
+.run-dot {
+  width: 8px; height: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+.run-dot.success { background: var(--green); }
+.run-dot.failure { background: var(--red); }
+.run-dot.pending { background: var(--yellow); }
+.run-dot.other { background: var(--text-muted); }
+.run-dot:hover { opacity: 0.7; }
+
+/* Loading / error */
+.loading {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+.error-msg {
+  text-align: center;
+  padding: 40px;
+  color: var(--red);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .channels { grid-template-columns: 1fr; }
+  .video-stats { grid-template-columns: repeat(3, 1fr); }
+  .summary-bar { grid-template-columns: repeat(2, 1fr); }
+  body { padding: 12px; }
+}
+</style>
+</head>
+<body>
+
+<h1>📺 YouTube Automations Dashboard</h1>
+<p class="subtitle">Last updated: <span id="lastUpdated">loading...</span> · Auto-refreshes every 5 min</p>
+
+<div id="healthBanner" class="health-banner health-ok" style="display:none;"></div>
+
+<div id="summaryBar" class="summary-bar"></div>
+
+<div id="channelsGrid" class="channels">
+  <div class="loading">Loading dashboard data...</div>
+</div>
+
+<script>
+const DATA_URL = 'data/status.json';
+const REFRESH_MS = 5 * 60 * 1000;
+
+function timeAgo(iso) {
+  if (!iso) return '—';
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  const days = Math.floor(hrs / 24);
+  return days + 'd ago';
+}
+
+function fmtNumber(n) {
+  if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+  return String(n);
+}
+
+function dotClass(conclusion) {
+  if (conclusion === 'success') return 'dot-success';
+  if (conclusion === 'failure') return 'dot-failure';
+  if (!conclusion) return 'dot-pending';
+  return 'dot-unknown';
+}
+
+function runDotClass(conclusion) {
+  if (conclusion === 'success') return 'success';
+  if (conclusion === 'failure') return 'failure';
+  if (!conclusion) return 'pending';
+  return 'other';
+}
+
+function renderHealth(summary) {
+  const el = document.getElementById('healthBanner');
+  const failed = summary.failed_channels || [];
+  const warned = summary.warning_channels || [];
+
+  if (failed.length > 0) {
+    el.className = 'health-banner health-fail';
+    el.innerHTML = '🔴 Failed workflows: ' + failed.join(', ');
+    el.style.display = 'flex';
+  } else if (warned.length > 0) {
+    el.className = 'health-banner health-warn';
+    el.innerHTML = '🟡 No uploads in 24h+: ' + warned.join(', ');
+    el.style.display = 'flex';
+  } else {
+    el.className = 'health-banner health-ok';
+    el.innerHTML = '🟢 All systems operational';
+    el.style.display = 'flex';
+  }
+}
+
+function renderSummary(summary) {
+  const bar = document.getElementById('summaryBar');
+  bar.innerHTML = `
+    <div class="summary-card">
+      <div class="value">${summary.total_videos_30d}</div>
+      <div class="label">Videos (30 days)</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">${fmtNumber(summary.total_views_estimate)}</div>
+      <div class="label">Est. Total Views</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">${summary.success_rate}%</div>
+      <div class="label">Workflow Success Rate</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">${summary.total_runs_sampled}</div>
+      <div class="label">Runs Sampled</div>
+    </div>
+  `;
+}
+
+function renderChannel(ch) {
+  let wfHtml = '';
+  for (const [file, wf] of Object.entries(ch.workflows)) {
+    const latest = wf.latest;
+    const conclusion = latest ? latest.conclusion : null;
+    const dc = dotClass(conclusion);
+    const ago = latest ? timeAgo(latest.updated_at) : '—';
+    const logUrl = latest ? latest.html_url : ch.repo_url + '/actions';
+
+    let streakHtml = '';
+    if (wf.failure_streak >= 2) {
+      streakHtml = `<span class="streak-badge">🔥 ${wf.failure_streak}x</span>`;
+    }
+
+    // Run history dots (newest first, so reverse to show oldest→newest left-to-right)
+    const dots = (wf.recent_runs || []).slice().reverse().map(r =>
+      `<div class="run-dot ${runDotClass(r.conclusion)}" title="#${r.run_number} ${r.conclusion || 'in_progress'} ${timeAgo(r.updated_at)}"></div>`
+    ).join('');
+
+    wfHtml += `
+      <div class="workflow-row">
+        <div class="wf-left">
+          <span class="status-dot ${dc}"></span>
+          <span class="wf-name">${escHtml(wf.name)}</span>
+          ${streakHtml}
+        </div>
+        <div class="wf-right">
+          <span class="wf-time">${ago}</span>
+          <a class="logs-link" href="${escAttr(logUrl)}" target="_blank" rel="noopener">logs</a>
+        </div>
+      </div>
+      <div class="run-history">${dots}</div>
+    `;
+  }
+
+  const vs = ch.video_stats;
+  const lastUpload = vs.last_upload;
+  let lastHtml = '';
+  if (lastUpload) {
+    const ytLink = `https://youtube.com/watch?v=${encodeURIComponent(lastUpload.video_id)}`;
+    const title = lastUpload.title.length > 50 ? lastUpload.title.slice(0, 50) + '…' : lastUpload.title;
+    lastHtml = `<div class="last-upload">Latest: <a href="${escAttr(ytLink)}" target="_blank" rel="noopener">${escHtml(title)}</a> · ${timeAgo(lastUpload.uploaded_at)}</div>`;
+  }
+
+  let bestHtml = '';
+  if (vs.best_video) {
+    bestHtml = `<div class="last-upload" style="border-top:none;padding-top:2px;">🏆 Best: ${escHtml(vs.best_video.title.slice(0, 40))} (${fmtNumber(vs.best_video.views)} views)</div>`;
+  }
+
+  return `
+    <div class="channel-card">
+      <div class="channel-header">
+        <div class="channel-name">
+          <span class="emoji">${ch.emoji}</span> ${escHtml(ch.name)}
+        </div>
+        <a class="repo-link" href="${escAttr(ch.repo_url)}" target="_blank" rel="noopener">${escHtml(ch.repo)}</a>
+      </div>
+      <div class="workflows">${wfHtml}</div>
+      <div class="video-stats">
+        <div class="stat"><div class="num">${vs.last_30d}</div><div class="lbl">Videos (30d)</div></div>
+        <div class="stat"><div class="num">${fmtNumber(vs.avg_views)}</div><div class="lbl">Avg Views</div></div>
+        <div class="stat"><div class="num">${fmtNumber(vs.avg_likes)}</div><div class="lbl">Avg Likes</div></div>
+      </div>
+      ${lastHtml}
+      ${bestHtml}
+    </div>
+  `;
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function escAttr(s) {
+  return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+async function loadDashboard() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+
+    document.getElementById('lastUpdated').textContent =
+      new Date(data.updated_at).toLocaleString();
+
+    renderHealth(data.summary);
+    renderSummary(data.summary);
+
+    const grid = document.getElementById('channelsGrid');
+    grid.innerHTML = data.channels.map(renderChannel).join('');
+  } catch (e) {
+    document.getElementById('channelsGrid').innerHTML =
+      `<div class="error-msg">Failed to load data: ${escHtml(String(e))}<br>Make sure data/status.json exists.</div>`;
+  }
+}
+
+loadDashboard();
+setInterval(loadDashboard, REFRESH_MS);
+</script>
+</body>
+</html>
