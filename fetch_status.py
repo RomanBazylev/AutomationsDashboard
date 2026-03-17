@@ -146,6 +146,20 @@ def fetch_perf_log(repo: str, path: str) -> list[dict]:
         return []
 
 
+def resolve_channel_from_video(video_id: str) -> dict | None:
+    """Use YouTube oEmbed to get channel info from a video ID."""
+    url = f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={video_id}&format=json"
+    req = Request(url)
+    try:
+        with urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+            author = data.get("author_name", "")
+            author_url = data.get("author_url", "")
+            return {"channel_name": author, "channel_url": author_url}
+    except Exception:
+        return None
+
+
 def compute_video_stats(videos: list[dict]) -> dict:
     """Compute aggregate stats from a list of video entries."""
     if not videos:
@@ -254,13 +268,25 @@ def process_channel(channel: dict) -> dict:
 
     video_stats = compute_video_stats(videos)
 
+    # Resolve YouTube channel URL from latest video if not configured
+    youtube_url = channel.get("youtube_url", "")
+    if not youtube_url and videos:
+        for v in reversed(videos):
+            vid = v.get("video_id")
+            if vid:
+                info = resolve_channel_from_video(vid)
+                if info and info["channel_url"]:
+                    youtube_url = info["channel_url"]
+                    print(f"  Resolved YT channel: {youtube_url}")
+                    break
+
     return {
         "id": channel["id"],
         "name": channel["name"],
         "emoji": channel["emoji"],
         "repo": repo,
         "repo_url": f"https://github.com/{OWNER}/{repo}",
-        "youtube_url": channel.get("youtube_url", ""),
+        "youtube_url": youtube_url,
         "workflows": workflows,
         "video_stats": video_stats,
     }

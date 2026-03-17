@@ -146,9 +146,22 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 .channel-name .emoji { font-size: 1.3rem; }
+.channel-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+.channel-name-link {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.channel-name-link:hover { color: var(--accent); }
 
 .channel-links {
   display: flex;
@@ -453,10 +466,22 @@ function renderChannel(ch) {
   const vs = ch.video_stats;
   const freq = vs.last_30d > 0 ? (vs.last_30d / 30).toFixed(1) : '0';
 
-  // YouTube channel link
+  // YouTube channel link & avatar
   const ytUrl = ch.youtube_url || '';
   const ytLinkHtml = ytUrl
     ? `<a class="yt-link" href="${escAttr(ytUrl)}" target="_blank" rel="noopener">▶ YouTube</a>`
+    : '';
+
+  // Channel name: clickable if YouTube URL exists
+  const nameText = escHtml(ch.name);
+  const nameHtml = ytUrl
+    ? `<a class="channel-name-link" href="${escAttr(ytUrl)}" target="_blank" rel="noopener">${nameText}</a>`
+    : nameText;
+
+  // Avatar: use YouTube thumbnail from latest video as proxy for channel
+  const lastVid = vs.last_upload ? vs.last_upload.video_id : '';
+  const avatarHtml = lastVid
+    ? `<img class="channel-avatar" src="https://i.ytimg.com/vi/${encodeURIComponent(lastVid)}/default.jpg" alt="" onerror="this.style.display='none'">`
     : '';
 
   const lastUpload = vs.last_upload;
@@ -476,7 +501,8 @@ function renderChannel(ch) {
     <div class="channel-card">
       <div class="channel-header">
         <div class="channel-name">
-          <span class="emoji">${ch.emoji}</span> ${escHtml(ch.name)}
+          ${avatarHtml}
+          <span class="emoji">${ch.emoji}</span> ${nameHtml}
         </div>
       </div>
       <div class="channel-links">
