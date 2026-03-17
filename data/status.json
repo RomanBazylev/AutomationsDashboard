@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T11:53:39.402157+00:00",
+  "updated_at": "2026-03-17T12:05:16.097352+00:00",
   "summary": {
     "total_videos_30d": 38,
     "total_views_estimate": 0,
@@ -17,9 +17,11 @@
       "emoji": "🔮",
       "repo": "Omni-Mystery-Machine",
       "repo_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine",
+      "youtube_url": "",
       "workflows": {
         "run_bot.yml": {
           "name": "Run Bot",
+          "schedule": "every 4h",
           "latest": {
             "id": 23185630094,
             "status": "completed",
@@ -80,6 +82,7 @@
         },
         "generate_long_video.yml": {
           "name": "Generate Long Video",
+          "schedule": "daily 09:00",
           "latest": {
             "id": 23188415592,
             "status": "completed",
@@ -159,9 +162,11 @@
       "emoji": "📖",
       "repo": "youtube-reddit-stories",
       "repo_url": "https://github.com/RomanBazylev/youtube-reddit-stories",
+      "youtube_url": "",
       "workflows": {
         "generate_story_short.yml": {
           "name": "Generate Story Short",
+          "schedule": "every 4h",
           "latest": {
             "id": 23188468774,
             "status": "completed",
@@ -222,6 +227,7 @@
         },
         "generate_story_long.yml": {
           "name": "Generate Story Long",
+          "schedule": "daily 07:00",
           "latest": {
             "id": 23184995316,
             "status": "completed",
@@ -288,9 +294,11 @@
       "emoji": "🇵🇱",
       "repo": "youtube-poland-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-poland-automation",
+      "youtube_url": "",
       "workflows": {
         "generate_poland_short.yml": {
           "name": "Generate Poland Short",
+          "schedule": "every 4h",
           "latest": {
             "id": 23190490671,
             "status": "completed",
@@ -351,6 +359,7 @@
         },
         "generate_poland_long.yml": {
           "name": "Generate Poland Long",
+          "schedule": "Tue & Fri 08:00",
           "latest": {
             "id": 23189809498,
             "status": "completed",
@@ -421,9 +430,11 @@
       "emoji": "⚡",
       "repo": "youtube-salesforce-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-salesforce-automation",
+      "youtube_url": "",
       "workflows": {
         "generate_salesforce_short.yml": {
           "name": "Generate Salesforce Short",
+          "schedule": "every 4h",
           "latest": {
             "id": 23191906741,
             "status": "completed",
@@ -503,9 +514,11 @@
       "emoji": "💰",
       "repo": "youtube-smart-money-tips",
       "repo_url": "https://github.com/RomanBazylev/youtube-smart-money-tips",
+      "youtube_url": "",
       "workflows": {
         "generate_money_short.yml": {
           "name": "Generate Money Short",
+          "schedule": "every 3h",
           "latest": {
             "id": 23188427768,
             "status": "completed",
@@ -585,9 +598,11 @@
       "emoji": "🦾",
       "repo": "youtube-ironman-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-ironman-automation",
+      "youtube_url": "",
       "workflows": {
         "generate_video.yml": {
           "name": "Generate Video",
+          "schedule": "every 3h",
           "latest": {
             "id": 23188538061,
             "status": "completed",
@@ -648,6 +663,7 @@
         },
         "generate_longform.yml": {
           "name": "Generate Longform",
+          "schedule": "Mon/Wed/Fri 06:00",
           "latest": {
             "id": 23186972036,
             "status": "completed",
@@ -691,9 +707,11 @@
       "emoji": "🎣",
       "repo": "youtube-fishing-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-fishing-automation",
+      "youtube_url": "",
       "workflows": {
         "generate_fishing_short.yml": {
           "name": "Generate Fishing Short",
+          "schedule": "every 4h",
           "latest": {
             "id": 23186574161,
             "status": "completed",
