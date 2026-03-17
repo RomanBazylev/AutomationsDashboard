@@ -212,19 +212,59 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   color: var(--red);
 }
 
+/* Header row */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.header-actions { display: flex; gap: 8px; align-items: center; }
+
+.btn {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.btn:hover { border-color: var(--accent); background: #1c2333; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn.spinning .icon { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
 /* Responsive */
 @media (max-width: 500px) {
   .channels { grid-template-columns: 1fr; }
   .video-stats { grid-template-columns: repeat(3, 1fr); }
   .summary-bar { grid-template-columns: repeat(2, 1fr); }
   body { padding: 12px; }
+  .header-row { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 </style>
 </head>
 <body>
 
-<h1>📺 YouTube Automations Dashboard</h1>
-<p class="subtitle">Last updated: <span id="lastUpdated">loading...</span> · Auto-refreshes every 5 min</p>
+<div class="header-row">
+  <div>
+    <h1>📺 YouTube Automations Dashboard</h1>
+    <p class="subtitle">Last updated: <span id="lastUpdated">loading...</span> · Auto-refreshes every 5 min</p>
+  </div>
+  <div class="header-actions">
+    <button class="btn" id="refreshBtn" onclick="triggerRefresh()">
+      <span class="icon">🔄</span> Refresh Now
+    </button>
+    <button class="btn" id="tokenBtn" onclick="setToken()" title="Set GitHub PAT for API access">
+      🔑 Token
+    </button>
+  </div>
+</div>
 
 <div id="healthBanner" class="health-banner health-ok" style="display:none;"></div>
 
@@ -237,6 +277,66 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 <script>
 const DATA_URL = 'data/status.json';
 const REFRESH_MS = 5 * 60 * 1000;
+const REPO_OWNER = 'RomanBazylev';
+const DASH_REPO = 'AutomationsDashboard';
+const WORKFLOW_FILE = 'update_dashboard.yml';
+
+function getToken() { return localStorage.getItem('gh_pat') || ''; }
+
+function setToken() {
+  const current = getToken();
+  const val = prompt('Enter GitHub PAT (repo scope).\nStored in browser localStorage only.', current ? '••••' + current.slice(-4) : '');
+  if (val === null) return;
+  if (val && !val.startsWith('••••')) {
+    localStorage.setItem('gh_pat', val);
+    alert('Token saved.');
+  } else if (!val) {
+    localStorage.removeItem('gh_pat');
+    alert('Token removed.');
+  }
+}
+
+async function triggerRefresh() {
+  const token = getToken();
+  if (!token) {
+    setToken();
+    if (!getToken()) return;
+  }
+  const btn = document.getElementById('refreshBtn');
+  btn.disabled = true;
+  btn.classList.add('spinning');
+  btn.querySelector('.icon').textContent = '⏳';
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${REPO_OWNER}/${DASH_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Accept': 'application/vnd.github+json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+    if (resp.status === 204) {
+      btn.querySelector('.icon').textContent = '✅';
+      // Wait for workflow to finish, then reload data
+      setTimeout(() => loadDashboard(), 40000);
+      setTimeout(() => loadDashboard(), 80000);
+    } else if (resp.status === 401 || resp.status === 403) {
+      alert('Token invalid or missing repo scope. Click 🔑 Token to update.');
+      localStorage.removeItem('gh_pat');
+    } else {
+      alert('Trigger failed: HTTP ' + resp.status);
+    }
+  } catch (e) {
+    alert('Error: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.classList.remove('spinning');
+    setTimeout(() => { btn.querySelector('.icon').textContent = '🔄'; }, 3000);
+  }
+}
 
 function timeAgo(iso) {
   if (!iso) return '—';
