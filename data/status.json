@@ -1,13 +1,11 @@
 {
-  "updated_at": "2026-03-17T12:05:16.097352+00:00",
+  "updated_at": "2026-03-17T12:24:24.351934+00:00",
   "summary": {
-    "total_videos_30d": 38,
+    "total_videos_30d": 39,
     "total_views_estimate": 0,
-    "success_rate": 53.1,
-    "total_runs_sampled": 49,
-    "failed_channels": [
-      "Iron Man"
-    ],
+    "success_rate": 56.0,
+    "total_runs_sampled": 50,
+    "failed_channels": [],
     "warning_channels": []
   },
   "channels": [
@@ -17,7 +15,7 @@
       "emoji": "🔮",
       "repo": "Omni-Mystery-Machine",
       "repo_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@VoidChronicles-AI",
       "workflows": {
         "run_bot.yml": {
           "name": "Run Bot",
@@ -168,16 +166,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 23188468774,
+            "id": 23193538613,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-17T09:55:48Z",
-            "updated_at": "2026-03-17T10:09:33Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23188468774",
-            "run_number": 60
+            "created_at": "2026-03-17T12:11:18Z",
+            "updated_at": "2026-03-17T12:22:03Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23193538613",
+            "run_number": 61
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23193538613,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-17T12:11:18Z",
+              "updated_at": "2026-03-17T12:22:03Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23193538613",
+              "run_number": 61
+            },
             {
               "id": 23188468774,
               "status": "completed",
@@ -213,15 +220,6 @@
               "updated_at": "2026-03-17T08:04:46Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23184059715",
               "run_number": 57
-            },
-            {
-              "id": 23179747653,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-03-17T05:22:04Z",
-              "updated_at": "2026-03-17T05:31:40Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23179747653",
-              "run_number": 56
             }
           ]
         },
@@ -294,7 +292,7 @@
       "emoji": "🇵🇱",
       "repo": "youtube-poland-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-poland-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@i_in_poland",
       "workflows": {
         "generate_poland_short.yml": {
           "name": "Generate Poland Short",
@@ -430,7 +428,7 @@
       "emoji": "⚡",
       "repo": "youtube-salesforce-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-salesforce-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@SalesforceRaman",
       "workflows": {
         "generate_salesforce_short.yml": {
           "name": "Generate Salesforce Short",
@@ -514,7 +512,7 @@
       "emoji": "💰",
       "repo": "youtube-smart-money-tips",
       "repo_url": "https://github.com/RomanBazylev/youtube-smart-money-tips",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@BestSmartMoneyTips",
       "workflows": {
         "generate_money_short.yml": {
           "name": "Generate Money Short",
@@ -598,7 +596,7 @@
       "emoji": "🦾",
       "repo": "youtube-ironman-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-ironman-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@IronMind_Unbreakable",
       "workflows": {
         "generate_video.yml": {
           "name": "Generate Video",
@@ -665,16 +663,25 @@
           "name": "Generate Longform",
           "schedule": "Mon/Wed/Fri 06:00",
           "latest": {
-            "id": 23186972036,
+            "id": 23193581147,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-03-17T09:17:34Z",
-            "updated_at": "2026-03-17T09:20:16Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23186972036",
-            "run_number": 1
+            "conclusion": "success",
+            "created_at": "2026-03-17T12:12:27Z",
+            "updated_at": "2026-03-17T12:15:15Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23193581147",
+            "run_number": 2
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23193581147,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-17T12:12:27Z",
+              "updated_at": "2026-03-17T12:15:15Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23193581147",
+              "run_number": 2
+            },
             {
               "id": 23186972036,
               "status": "completed",
@@ -688,16 +695,16 @@
         }
       },
       "video_stats": {
-        "total": 10,
-        "last_30d": 10,
+        "total": 11,
+        "last_30d": 11,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "The 300 Spartans' Brutal Lesson to Sons: Why Embracing Pain Builds Unbreakable Men",
-          "video_id": "Y6b0c3Ou33Y",
-          "uploaded_at": "2026-03-17T09:59:39.812460+00:00"
+          "title": "Jocko Willink: The Unyielding Leadership Lessons from the Battle of Ramadi that Make Men truly Respectable to Women",
+          "video_id": "xyc5w3rxlsA",
+          "uploaded_at": "2026-03-17T12:14:46.567684+00:00"
         }
       }
     },
@@ -707,7 +714,7 @@
       "emoji": "🎣",
       "repo": "youtube-fishing-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-fishing-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@rybak-Artsiom",
       "workflows": {
         "generate_fishing_short.yml": {
           "name": "Generate Fishing Short",
