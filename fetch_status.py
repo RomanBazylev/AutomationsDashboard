@@ -23,7 +23,9 @@ CHANNELS = [
         "emoji": "\U0001f52e",
         "repo": "Omni-Mystery-Machine",
         "workflows": ["run_bot.yml", "generate_long_video.yml"],
+        "schedules": {"run_bot.yml": "every 4h", "generate_long_video.yml": "daily 09:00"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
     {
         "id": "reddit-stories",
@@ -31,7 +33,9 @@ CHANNELS = [
         "emoji": "\U0001f4d6",
         "repo": "youtube-reddit-stories",
         "workflows": ["generate_story_short.yml", "generate_story_long.yml"],
+        "schedules": {"generate_story_short.yml": "every 4h", "generate_story_long.yml": "daily 07:00"},
         "perf_log_path": None,
+        "youtube_url": "",
     },
     {
         "id": "poland",
@@ -39,7 +43,9 @@ CHANNELS = [
         "emoji": "\U0001f1f5\U0001f1f1",
         "repo": "youtube-poland-automation",
         "workflows": ["generate_poland_short.yml", "generate_poland_long.yml"],
+        "schedules": {"generate_poland_short.yml": "every 4h", "generate_poland_long.yml": "Tue & Fri 08:00"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
     {
         "id": "salesforce",
@@ -47,7 +53,9 @@ CHANNELS = [
         "emoji": "\u26a1",
         "repo": "youtube-salesforce-automation",
         "workflows": ["generate_salesforce_short.yml"],
+        "schedules": {"generate_salesforce_short.yml": "every 4h"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
     {
         "id": "money",
@@ -55,7 +63,9 @@ CHANNELS = [
         "emoji": "\U0001f4b0",
         "repo": "youtube-smart-money-tips",
         "workflows": ["generate_money_short.yml"],
+        "schedules": {"generate_money_short.yml": "every 3h"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
     {
         "id": "ironman",
@@ -63,7 +73,9 @@ CHANNELS = [
         "emoji": "\U0001f9be",
         "repo": "youtube-ironman-automation",
         "workflows": ["generate_video.yml", "generate_longform.yml"],
+        "schedules": {"generate_video.yml": "every 3h", "generate_longform.yml": "Mon/Wed/Fri 06:00"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
     {
         "id": "fishing",
@@ -71,7 +83,9 @@ CHANNELS = [
         "emoji": "\U0001f3a3",
         "repo": "youtube-fishing-automation",
         "workflows": ["generate_fishing_short.yml"],
+        "schedules": {"generate_fishing_short.yml": "every 4h"},
         "perf_log_path": "performance_log.json",
+        "youtube_url": "",
     },
 ]
 
@@ -211,6 +225,7 @@ def process_channel(channel: dict) -> dict:
 
     # Fetch workflow runs
     workflows = {}
+    schedules = channel.get("schedules", {})
     for wf in channel["workflows"]:
         wf_name = wf.replace(".yml", "").replace("_", " ").title()
         runs = fetch_workflow_runs(repo, wf)
@@ -226,6 +241,7 @@ def process_channel(channel: dict) -> dict:
 
         workflows[wf] = {
             "name": wf_name,
+            "schedule": schedules.get(wf, ""),
             "latest": latest,
             "failure_streak": failure_streak,
             "recent_runs": runs,
@@ -244,6 +260,7 @@ def process_channel(channel: dict) -> dict:
         "emoji": channel["emoji"],
         "repo": repo,
         "repo_url": f"https://github.com/{OWNER}/{repo}",
+        "youtube_url": channel.get("youtube_url", ""),
         "workflows": workflows,
         "video_stats": video_stats,
     }

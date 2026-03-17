@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>YouTube Automations Dashboard</title>
 <style>
-:root {
+/* ── Theme variables ── */
+[data-theme="dark"] {
   --bg: #0d1117;
   --card: #161b22;
   --border: #30363d;
@@ -16,6 +17,28 @@
   --red: #f85149;
   --yellow: #d29922;
   --orange: #db6d28;
+  --stat-bg: #0d1117;
+  --health-ok-bg: #0d2818;
+  --health-warn-bg: #2d1b00;
+  --health-fail-bg: #2d0000;
+  --streak-bg: #2d0000;
+}
+[data-theme="light"] {
+  --bg: #f6f8fa;
+  --card: #ffffff;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-muted: #656d76;
+  --accent: #0969da;
+  --green: #1a7f37;
+  --red: #cf222e;
+  --yellow: #9a6700;
+  --orange: #bc4c00;
+  --stat-bg: #f0f3f6;
+  --health-ok-bg: #dafbe1;
+  --health-warn-bg: #fff8c5;
+  --health-fail-bg: #ffebe9;
+  --streak-bg: #ffebe9;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -28,12 +51,36 @@ body {
   padding: 20px;
   max-width: 1400px;
   margin: 0 auto;
+  transition: background 0.3s, color 0.3s;
 }
 
+/* ── Header ── */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 h1 { font-size: 1.6rem; margin-bottom: 4px; }
-.subtitle { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px; }
+.subtitle { color: var(--text-muted); font-size: 0.85rem; }
 
-/* Health banner */
+.theme-toggle {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* ── Health banner ── */
 .health-banner {
   padding: 12px 16px;
   border-radius: 8px;
@@ -43,14 +90,14 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   align-items: center;
   gap: 8px;
 }
-.health-ok { background: #0d2818; border: 1px solid var(--green); color: var(--green); }
-.health-warn { background: #2d1b00; border: 1px solid var(--yellow); color: var(--yellow); }
-.health-fail { background: #2d0000; border: 1px solid var(--red); color: var(--red); }
+.health-ok { background: var(--health-ok-bg); border: 1px solid var(--green); color: var(--green); }
+.health-warn { background: var(--health-warn-bg); border: 1px solid var(--yellow); color: var(--yellow); }
+.health-fail { background: var(--health-fail-bg); border: 1px solid var(--red); color: var(--red); }
 
-/* Summary bar */
+/* ── Summary bar ── */
 .summary-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -72,10 +119,10 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   margin-top: 4px;
 }
 
-/* Channel grid */
+/* ── Channel grid ── */
 .channels {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 16px;
 }
 
@@ -84,7 +131,7 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 20px;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.3s;
 }
 .channel-card:hover { border-color: var(--accent); }
 
@@ -92,7 +139,7 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  margin-bottom: 6px;
 }
 .channel-name {
   font-size: 1.15rem;
@@ -102,14 +149,27 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   gap: 8px;
 }
 .channel-name .emoji { font-size: 1.3rem; }
-.repo-link {
+
+.channel-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.channel-links a {
   color: var(--text-muted);
   text-decoration: none;
   font-size: 0.78rem;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  transition: color 0.2s, border-color 0.2s;
 }
-.repo-link:hover { color: var(--accent); }
+.channel-links a:hover { color: var(--accent); border-color: var(--accent); }
+.yt-link { color: var(--red) !important; }
+.yt-link:hover { border-color: var(--red) !important; }
 
-/* Workflows section */
+/* ── Workflows ── */
 .workflows { margin-bottom: 14px; }
 .workflow-row {
   display: flex;
@@ -136,10 +196,11 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 .wf-name { color: var(--text); }
+.wf-schedule { color: var(--text-muted); font-size: 0.68rem; margin-left: 4px; }
 .wf-right { display: flex; align-items: center; gap: 10px; }
 .wf-time { color: var(--text-muted); font-size: 0.78rem; }
 .streak-badge {
-  background: #2d0000;
+  background: var(--streak-bg);
   color: var(--red);
   font-size: 0.72rem;
   padding: 2px 6px;
@@ -153,21 +214,21 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 }
 .logs-link:hover { text-decoration: underline; }
 
-/* Video stats */
+/* ── Video stats ── */
 .video-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-bottom: 10px;
 }
 .stat {
   text-align: center;
-  padding: 8px;
-  background: var(--bg);
+  padding: 8px 4px;
+  background: var(--stat-bg);
   border-radius: 6px;
 }
-.stat .num { font-size: 1.1rem; font-weight: 700; }
-.stat .lbl { font-size: 0.7rem; color: var(--text-muted); }
+.stat .num { font-size: 1.05rem; font-weight: 700; }
+.stat .lbl { font-size: 0.68rem; color: var(--text-muted); }
 
 .last-upload {
   font-size: 0.8rem;
@@ -181,7 +242,7 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 }
 .last-upload a:hover { text-decoration: underline; }
 
-/* Run history dots */
+/* ── Run history dots ── */
 .run-history {
   display: flex;
   gap: 3px;
@@ -199,7 +260,7 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 .run-dot.other { background: var(--text-muted); }
 .run-dot:hover { opacity: 0.7; }
 
-/* Loading / error */
+/* ── Loading / error ── */
 .loading {
   text-align: center;
   padding: 60px;
@@ -212,19 +273,37 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   color: var(--red);
 }
 
-/* Responsive */
+/* ── Footer ── */
+.footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* ── Responsive ── */
 @media (max-width: 500px) {
   .channels { grid-template-columns: 1fr; }
-  .video-stats { grid-template-columns: repeat(3, 1fr); }
+  .video-stats { grid-template-columns: repeat(2, 1fr); }
   .summary-bar { grid-template-columns: repeat(2, 1fr); }
   body { padding: 12px; }
+  .header-row { flex-wrap: wrap; gap: 8px; }
 }
 </style>
 </head>
 <body>
 
-<h1>📺 YouTube Automations Dashboard</h1>
-<p class="subtitle">Last updated: <span id="lastUpdated">loading...</span> · Auto-refreshes every 5 min</p>
+<div class="header-row">
+  <div>
+    <h1>📺 YouTube Automations Dashboard</h1>
+    <p class="subtitle">Last updated: <span id="lastUpdated">loading...</span> · Auto-refreshes every 5 min</p>
+  </div>
+  <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()" title="Toggle light/dark theme">🌙</button>
+</div>
 
 <div id="healthBanner" class="health-banner health-ok" style="display:none;"></div>
 
@@ -234,9 +313,25 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
   <div class="loading">Loading dashboard data...</div>
 </div>
 
+<div class="footer">
+  Data refreshed every 30 min by <a href="https://github.com/RomanBazylev/AutomationsDashboard" target="_blank" rel="noopener">GitHub Actions</a>
+</div>
+
 <script>
 const DATA_URL = 'data/status.json';
 const REFRESH_MS = 5 * 60 * 1000;
+
+/* ── Theme toggle ── */
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  document.getElementById('themeBtn').textContent = theme === 'dark' ? '☀️' : '🌙';
+  localStorage.setItem('theme', theme);
+}
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  applyTheme(current === 'dark' ? 'light' : 'dark');
+}
+applyTheme(localStorage.getItem('theme') || 'dark');
 
 function timeAgo(iso) {
   if (!iso) return '—';
@@ -292,7 +387,12 @@ function renderHealth(summary) {
 
 function renderSummary(summary) {
   const bar = document.getElementById('summaryBar');
+  const channels = summary.channels_count || 7;
   bar.innerHTML = `
+    <div class="summary-card">
+      <div class="value">${channels}</div>
+      <div class="label">Channels</div>
+    </div>
     <div class="summary-card">
       <div class="value">${summary.total_videos_30d}</div>
       <div class="label">Videos (30 days)</div>
@@ -303,7 +403,7 @@ function renderSummary(summary) {
     </div>
     <div class="summary-card">
       <div class="value">${summary.success_rate}%</div>
-      <div class="label">Workflow Success Rate</div>
+      <div class="label">Workflow Success</div>
     </div>
     <div class="summary-card">
       <div class="value">${summary.total_runs_sampled}</div>
@@ -326,7 +426,9 @@ function renderChannel(ch) {
       streakHtml = `<span class="streak-badge">🔥 ${wf.failure_streak}x</span>`;
     }
 
-    // Run history dots (newest first, so reverse to show oldest→newest left-to-right)
+    const schedule = wf.schedule || '';
+    const schedHtml = schedule ? `<span class="wf-schedule">${escHtml(schedule)}</span>` : '';
+
     const dots = (wf.recent_runs || []).slice().reverse().map(r =>
       `<div class="run-dot ${runDotClass(r.conclusion)}" title="#${r.run_number} ${r.conclusion || 'in_progress'} ${timeAgo(r.updated_at)}"></div>`
     ).join('');
@@ -336,6 +438,7 @@ function renderChannel(ch) {
         <div class="wf-left">
           <span class="status-dot ${dc}"></span>
           <span class="wf-name">${escHtml(wf.name)}</span>
+          ${schedHtml}
           ${streakHtml}
         </div>
         <div class="wf-right">
@@ -348,6 +451,14 @@ function renderChannel(ch) {
   }
 
   const vs = ch.video_stats;
+  const freq = vs.last_30d > 0 ? (vs.last_30d / 30).toFixed(1) : '0';
+
+  // YouTube channel link
+  const ytUrl = ch.youtube_url || '';
+  const ytLinkHtml = ytUrl
+    ? `<a class="yt-link" href="${escAttr(ytUrl)}" target="_blank" rel="noopener">▶ YouTube</a>`
+    : '';
+
   const lastUpload = vs.last_upload;
   let lastHtml = '';
   if (lastUpload) {
@@ -367,11 +478,16 @@ function renderChannel(ch) {
         <div class="channel-name">
           <span class="emoji">${ch.emoji}</span> ${escHtml(ch.name)}
         </div>
-        <a class="repo-link" href="${escAttr(ch.repo_url)}" target="_blank" rel="noopener">${escHtml(ch.repo)}</a>
+      </div>
+      <div class="channel-links">
+        ${ytLinkHtml}
+        <a href="${escAttr(ch.repo_url)}" target="_blank" rel="noopener">⚙ Repo</a>
+        <a href="${escAttr(ch.repo_url + '/actions')}" target="_blank" rel="noopener">🔧 Actions</a>
       </div>
       <div class="workflows">${wfHtml}</div>
       <div class="video-stats">
         <div class="stat"><div class="num">${vs.last_30d}</div><div class="lbl">Videos (30d)</div></div>
+        <div class="stat"><div class="num">${freq}/d</div><div class="lbl">Frequency</div></div>
         <div class="stat"><div class="num">${fmtNumber(vs.avg_views)}</div><div class="lbl">Avg Views</div></div>
         <div class="stat"><div class="num">${fmtNumber(vs.avg_likes)}</div><div class="lbl">Avg Likes</div></div>
       </div>
