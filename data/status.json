@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-03-17T21:41:02.789349+00:00",
+  "updated_at": "2026-03-17T22:36:46.886457+00:00",
   "summary": {
-    "total_videos_30d": 54,
+    "total_videos_30d": 55,
     "total_views_estimate": 0,
-    "success_rate": 66.7,
+    "success_rate": 68.6,
     "total_runs_sampled": 51,
-    "failed_channels": [],
+    "failed_channels": [
+      "Iron Man"
+    ],
     "warning_channels": []
   },
   "channels": [
@@ -528,10 +530,10 @@
           "schedule": "every 3h",
           "latest": {
             "id": 23217528501,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "success",
             "created_at": "2026-03-17T21:36:21Z",
-            "updated_at": "2026-03-17T21:36:25Z",
+            "updated_at": "2026-03-17T21:45:34Z",
             "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23217528501",
             "run_number": 43
           },
@@ -539,10 +541,10 @@
           "recent_runs": [
             {
               "id": 23217528501,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "created_at": "2026-03-17T21:36:21Z",
-              "updated_at": "2026-03-17T21:36:25Z",
+              "updated_at": "2026-03-17T21:45:34Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23217528501",
               "run_number": 43
             },
@@ -586,16 +588,16 @@
         }
       },
       "video_stats": {
-        "total": 13,
-        "last_30d": 13,
+        "total": 14,
+        "last_30d": 14,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "🚨 $30k Student Loan Mistake 🚨 #shorts #money",
-          "video_id": "cUxMLsekKXs",
-          "uploaded_at": "2026-03-17T19:09:42.366308+00:00"
+          "title": "Millionaires' $1M Secret 🤑 #shorts #money",
+          "video_id": "tjpGoGCP-yE",
+          "uploaded_at": "2026-03-17T21:45:29.726929+00:00"
         }
       }
     },
@@ -612,21 +614,21 @@
           "schedule": "every 3h",
           "latest": {
             "id": 23217654277,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-03-17T21:39:45Z",
-            "updated_at": "2026-03-17T21:39:48Z",
+            "updated_at": "2026-03-17T21:41:55Z",
             "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23217654277",
             "run_number": 68
           },
-          "failure_streak": 0,
+          "failure_streak": 3,
           "recent_runs": [
             {
               "id": 23217654277,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-03-17T21:39:45Z",
-              "updated_at": "2026-03-17T21:39:48Z",
+              "updated_at": "2026-03-17T21:41:55Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23217654277",
               "run_number": 68
             },
