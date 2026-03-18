@@ -486,10 +486,25 @@ function renderChannel(ch) {
 
   const lastUpload = vs.last_upload;
   let lastHtml = '';
-  if (lastUpload) {
+
+  // Show last short and last long separately
+  const lastShort = vs.last_short;
+  const lastLong = vs.last_long;
+
+  if (lastShort) {
+    const ytLink = `https://youtube.com/watch?v=${encodeURIComponent(lastShort.video_id)}`;
+    const title = lastShort.title.length > 45 ? lastShort.title.slice(0, 45) + '…' : lastShort.title;
+    lastHtml += `<div class="last-upload">🎬 Short: <a href="${escAttr(ytLink)}" target="_blank" rel="noopener">${escHtml(title)}</a> · ${timeAgo(lastShort.uploaded_at)}</div>`;
+  }
+  if (lastLong) {
+    const ytLink = `https://youtube.com/watch?v=${encodeURIComponent(lastLong.video_id)}`;
+    const title = lastLong.title.length > 45 ? lastLong.title.slice(0, 45) + '…' : lastLong.title;
+    lastHtml += `<div class="last-upload" style="${lastShort ? 'border-top:none;padding-top:2px;' : ''}">🎥 Long: <a href="${escAttr(ytLink)}" target="_blank" rel="noopener">${escHtml(title)}</a> · ${timeAgo(lastLong.uploaded_at)}</div>`;
+  }
+  if (!lastShort && !lastLong && lastUpload) {
     const ytLink = `https://youtube.com/watch?v=${encodeURIComponent(lastUpload.video_id)}`;
-    const title = lastUpload.title.length > 50 ? lastUpload.title.slice(0, 50) + '…' : lastUpload.title;
-    lastHtml = `<div class="last-upload">Latest: <a href="${escAttr(ytLink)}" target="_blank" rel="noopener">${escHtml(title)}</a> · ${timeAgo(lastUpload.uploaded_at)}</div>`;
+    const title = lastUpload.title.length > 45 ? lastUpload.title.slice(0, 45) + '…' : lastUpload.title;
+    lastHtml += `<div class="last-upload">Latest: <a href="${escAttr(ytLink)}" target="_blank" rel="noopener">${escHtml(title)}</a> · ${timeAgo(lastUpload.uploaded_at)}</div>`;
   }
 
   let bestHtml = '';

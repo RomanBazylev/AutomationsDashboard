@@ -34,7 +34,7 @@ CHANNELS = [
         "repo": "youtube-reddit-stories",
         "workflows": ["generate_story_short.yml", "generate_story_long.yml"],
         "schedules": {"generate_story_short.yml": "every 4h", "generate_story_long.yml": "daily 07:00"},
-        "perf_log_path": None,
+        "perf_log_path": "performance_log.json",
         "youtube_url": "",
     },
     {
@@ -160,6 +160,13 @@ def resolve_channel_from_video(video_id: str) -> dict | None:
         return None
 
 
+def _is_short(video: dict) -> bool:
+    """Detect if a video is a Short by title or tags."""
+    title = (video.get("title") or "").lower()
+    tags = [t.lower() for t in (video.get("tags") or [])]
+    return "#shorts" in title or "shorts" in tags
+
+
 def compute_video_stats(videos: list[dict]) -> dict:
     """Compute aggregate stats from a list of video entries."""
     if not videos:
@@ -171,6 +178,8 @@ def compute_video_stats(videos: list[dict]) -> dict:
             "avg_comments": 0,
             "best_video": None,
             "last_upload": None,
+            "last_short": None,
+            "last_long": None,
         }
 
     now = datetime.now(timezone.utc)
@@ -183,6 +192,10 @@ def compute_video_stats(videos: list[dict]) -> dict:
     best_views = -1
     last_upload = None
     last_upload_dt = None
+    last_short = None
+    last_short_dt = None
+    last_long = None
+    last_long_dt = None
 
     for v in videos:
         # Count uploads in last 30 days
@@ -193,13 +206,22 @@ def compute_video_stats(videos: list[dict]) -> dict:
                 age_days = (now - dt).total_seconds() / 86400
                 if age_days <= 30:
                     last_30d += 1
+                entry = {
+                    "title": v.get("title", ""),
+                    "video_id": v.get("video_id", ""),
+                    "uploaded_at": uploaded,
+                }
                 if last_upload_dt is None or dt > last_upload_dt:
                     last_upload_dt = dt
-                    last_upload = {
-                        "title": v.get("title", ""),
-                        "video_id": v.get("video_id", ""),
-                        "uploaded_at": uploaded,
-                    }
+                    last_upload = entry
+                if _is_short(v):
+                    if last_short_dt is None or dt > last_short_dt:
+                        last_short_dt = dt
+                        last_short = entry
+                else:
+                    if last_long_dt is None or dt > last_long_dt:
+                        last_long_dt = dt
+                        last_long = entry
             except (ValueError, TypeError):
                 pass
 
@@ -229,6 +251,8 @@ def compute_video_stats(videos: list[dict]) -> dict:
         "avg_comments": round(total_comments / stats_count) if stats_count else 0,
         "best_video": best_video,
         "last_upload": last_upload,
+        "last_short": last_short,
+        "last_long": last_long,
     }
 
 
