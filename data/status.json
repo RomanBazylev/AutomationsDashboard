@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-03-18T04:58:44.348135+00:00",
+  "updated_at": "2026-03-18T06:08:14.350553+00:00",
   "summary": {
-    "total_videos_30d": 60,
+    "total_videos_30d": 65,
     "total_views_estimate": 0,
-    "success_rate": 68.6,
+    "success_rate": 70.6,
     "total_runs_sampled": 51,
-    "failed_channels": [],
+    "failed_channels": [
+      "Iron Man"
+    ],
     "warning_channels": []
   },
   "channels": [
@@ -21,16 +23,25 @@
           "name": "Run Bot",
           "schedule": "every 4h",
           "latest": {
-            "id": 23224519582,
+            "id": 23230387675,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-18T01:22:24Z",
-            "updated_at": "2026-03-18T01:32:22Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/23224519582",
-            "run_number": 23
+            "created_at": "2026-03-18T05:22:06Z",
+            "updated_at": "2026-03-18T05:31:43Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/23230387675",
+            "run_number": 24
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23230387675,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-18T05:22:06Z",
+              "updated_at": "2026-03-18T05:31:43Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/23230387675",
+              "run_number": 24
+            },
             {
               "id": 23224519582,
               "status": "completed",
@@ -66,15 +77,6 @@
               "updated_at": "2026-03-17T13:00:26Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/23194995143",
               "run_number": 20
-            },
-            {
-              "id": 23185630094,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-17T08:41:12Z",
-              "updated_at": "2026-03-17T08:51:46Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/23185630094",
-              "run_number": 19
             }
           ]
         },
@@ -141,16 +143,16 @@
         }
       },
       "video_stats": {
-        "total": 11,
-        "last_30d": 11,
+        "total": 12,
+        "last_30d": 12,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Bermuda Triangle Secrets 🌀 #Shorts",
-          "video_id": "AtheY9CAjWo",
-          "uploaded_at": "2026-03-18T01:32:18.420795+00:00"
+          "title": "9 Dimensions Exist 🚀 #Shorts",
+          "video_id": "Y9NsN6vJN8Y",
+          "uploaded_at": "2026-03-18T05:31:40.344684+00:00"
         }
       }
     },
@@ -166,16 +168,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 23226145281,
+            "id": 23230492735,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-18T02:24:34Z",
-            "updated_at": "2026-03-18T02:34:35Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23226145281",
-            "run_number": 66
+            "created_at": "2026-03-18T05:26:18Z",
+            "updated_at": "2026-03-18T05:35:24Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23230492735",
+            "run_number": 67
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23230492735,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-18T05:26:18Z",
+              "updated_at": "2026-03-18T05:35:24Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23230492735",
+              "run_number": 67
+            },
             {
               "id": 23226145281,
               "status": "completed",
@@ -211,15 +222,6 @@
               "updated_at": "2026-03-17T16:31:42Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23204575234",
               "run_number": 63
-            },
-            {
-              "id": 23196036964,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-17T13:15:41Z",
-              "updated_at": "2026-03-17T13:26:35Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23196036964",
-              "run_number": 62
             }
           ]
         },
@@ -307,16 +309,25 @@
           "name": "Generate Poland Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 23224384310,
+            "id": 23230384438,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-18T01:17:27Z",
-            "updated_at": "2026-03-18T01:28:47Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23224384310",
-            "run_number": 58
+            "created_at": "2026-03-18T05:21:58Z",
+            "updated_at": "2026-03-18T05:31:51Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23230384438",
+            "run_number": 59
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23230384438,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-18T05:21:58Z",
+              "updated_at": "2026-03-18T05:31:51Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23230384438",
+              "run_number": 59
+            },
             {
               "id": 23224384310,
               "status": "completed",
@@ -352,15 +363,6 @@
               "updated_at": "2026-03-17T12:57:37Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23194817655",
               "run_number": 55
-            },
-            {
-              "id": 23190490671,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-17T10:48:04Z",
-              "updated_at": "2026-03-17T10:58:50Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23190490671",
-              "run_number": 54
             }
           ]
         },
@@ -418,16 +420,16 @@
         }
       },
       "video_stats": {
-        "total": 9,
-        "last_30d": 9,
+        "total": 10,
+        "last_30d": 10,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Познань — город козликов 🇵🇱 #shorts",
-          "video_id": "Oj6py3SValo",
-          "uploaded_at": "2026-03-18T01:28:41.772887+00:00"
+          "title": "Познань: козлики и рогали 🇵🇱 #shorts",
+          "video_id": "_hHNs4bunZY",
+          "uploaded_at": "2026-03-18T05:31:47.219028+00:00"
         }
       }
     },
@@ -443,16 +445,25 @@
           "name": "Generate Salesforce Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 23223960087,
+            "id": 23230342418,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-18T01:01:56Z",
-            "updated_at": "2026-03-18T01:10:36Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/23223960087",
-            "run_number": 58
+            "created_at": "2026-03-18T05:20:14Z",
+            "updated_at": "2026-03-18T05:31:47Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/23230342418",
+            "run_number": 59
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23230342418,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-18T05:20:14Z",
+              "updated_at": "2026-03-18T05:31:47Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/23230342418",
+              "run_number": 59
+            },
             {
               "id": 23223960087,
               "status": "completed",
@@ -488,30 +499,21 @@
               "updated_at": "2026-03-17T12:45:26Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/23194529799",
               "run_number": 55
-            },
-            {
-              "id": 23191906741,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-17T11:26:17Z",
-              "updated_at": "2026-03-17T11:36:41Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/23191906741",
-              "run_number": 54
             }
           ]
         }
       },
       "video_stats": {
-        "total": 7,
-        "last_30d": 7,
+        "total": 8,
+        "last_30d": 8,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "🚀 80% of Reports Fail #shorts #salesforce",
-          "video_id": "zakVnY6nvIA",
-          "uploaded_at": "2026-03-18T01:10:32.762298+00:00"
+          "title": "Automate 80% of Tasks 🚀 #shorts #salesforce",
+          "video_id": "PMdGovRJd8w",
+          "uploaded_at": "2026-03-18T05:31:43.072682+00:00"
         }
       }
     },
@@ -528,10 +530,10 @@
           "schedule": "every 3h",
           "latest": {
             "id": 23229745295,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "success",
             "created_at": "2026-03-18T04:55:03Z",
-            "updated_at": "2026-03-18T04:55:07Z",
+            "updated_at": "2026-03-18T05:05:32Z",
             "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23229745295",
             "run_number": 45
           },
@@ -539,10 +541,10 @@
           "recent_runs": [
             {
               "id": 23229745295,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "created_at": "2026-03-18T04:55:03Z",
-              "updated_at": "2026-03-18T04:55:07Z",
+              "updated_at": "2026-03-18T05:05:32Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23229745295",
               "run_number": 45
             },
@@ -586,16 +588,16 @@
         }
       },
       "video_stats": {
-        "total": 15,
-        "last_30d": 15,
+        "total": 16,
+        "last_30d": 16,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Don't Waste $10k on Rent 🚫 #shorts #money",
-          "video_id": "qgU8MsUj4-M",
-          "uploaded_at": "2026-03-18T02:17:04.390981+00:00"
+          "title": "Pay Off Debt Fast 💸 #shorts #money",
+          "video_id": "OGyBq2rpWOE",
+          "uploaded_at": "2026-03-18T05:05:29.161618+00:00"
         }
       }
     },
@@ -612,21 +614,21 @@
           "schedule": "every 3h",
           "latest": {
             "id": 23229818321,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-03-18T04:58:12Z",
-            "updated_at": "2026-03-18T04:58:15Z",
+            "updated_at": "2026-03-18T05:00:42Z",
             "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23229818321",
             "run_number": 70
           },
-          "failure_streak": 0,
+          "failure_streak": 5,
           "recent_runs": [
             {
               "id": 23229818321,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-03-18T04:58:12Z",
-              "updated_at": "2026-03-18T04:58:15Z",
+              "updated_at": "2026-03-18T05:00:42Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23229818321",
               "run_number": 70
             },
@@ -729,16 +731,25 @@
           "name": "Generate Fishing Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 23223942001,
+            "id": 23230340057,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-18T01:01:14Z",
-            "updated_at": "2026-03-18T01:08:30Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/23223942001",
-            "run_number": 71
+            "created_at": "2026-03-18T05:20:09Z",
+            "updated_at": "2026-03-18T05:27:26Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/23230340057",
+            "run_number": 72
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23230340057,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-18T05:20:09Z",
+              "updated_at": "2026-03-18T05:27:26Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/23230340057",
+              "run_number": 72
+            },
             {
               "id": 23223942001,
               "status": "completed",
@@ -774,30 +785,21 @@
               "updated_at": "2026-03-17T12:44:14Z",
               "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/23194511892",
               "run_number": 68
-            },
-            {
-              "id": 23186574161,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-17T09:07:05Z",
-              "updated_at": "2026-03-17T09:14:23Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/23186574161",
-              "run_number": 67
             }
           ]
         }
       },
       "video_stats": {
-        "total": 6,
-        "last_30d": 6,
+        "total": 7,
+        "last_30d": 7,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Раки на сало? #shorts 🐟",
-          "video_id": "rXoUN49Fijg",
-          "uploaded_at": "2026-03-18T01:08:25.471203+00:00"
+          "title": "Камбала: 95% рыбаков делают это неправильно 🎣 #shorts",
+          "video_id": "TQIvxYhQNB0",
+          "uploaded_at": "2026-03-18T05:27:23.040206+00:00"
         }
       }
     }
