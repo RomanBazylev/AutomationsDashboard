@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-19T17:57:14.955851+00:00",
+  "updated_at": "2026-03-19T19:10:17.739228+00:00",
   "summary": {
-    "total_videos_30d": 115,
+    "total_videos_30d": 116,
     "total_views_estimate": 0,
     "success_rate": 78.8,
     "total_runs_sampled": 52,
@@ -559,16 +559,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 23303803959,
+            "id": 23311777446,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-19T15:53:39Z",
-            "updated_at": "2026-03-19T16:04:03Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23303803959",
-            "run_number": 57
+            "created_at": "2026-03-19T18:57:03Z",
+            "updated_at": "2026-03-19T19:09:45Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23311777446",
+            "run_number": 58
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23311777446,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-19T18:57:03Z",
+              "updated_at": "2026-03-19T19:09:45Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23311777446",
+              "run_number": 58
+            },
             {
               "id": 23303803959,
               "status": "completed",
@@ -604,35 +613,26 @@
               "updated_at": "2026-03-19T07:08:20Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23283543545",
               "run_number": 54
-            },
-            {
-              "id": 23280405305,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-19T04:52:43Z",
-              "updated_at": "2026-03-19T05:03:33Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23280405305",
-              "run_number": 53
             }
           ]
         }
       },
       "video_stats": {
-        "total": 28,
-        "last_30d": 28,
+        "total": 29,
+        "last_30d": 29,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "🚨 Insurance Secret: Save $1,200/yr 🤑 #shorts #money",
-          "video_id": "sCx00VVXr90",
-          "uploaded_at": "2026-03-19T16:03:56.853104+00:00"
+          "title": "Boost Savings 500% 🚀 #shorts #money",
+          "video_id": "4nkAocqt-w4",
+          "uploaded_at": "2026-03-19T19:09:40.726464+00:00"
         },
         "last_short": {
-          "title": "🚨 Insurance Secret: Save $1,200/yr 🤑 #shorts #money",
-          "video_id": "sCx00VVXr90",
-          "uploaded_at": "2026-03-19T16:03:56.853104+00:00"
+          "title": "Boost Savings 500% 🚀 #shorts #money",
+          "video_id": "4nkAocqt-w4",
+          "uploaded_at": "2026-03-19T19:09:40.726464+00:00"
         },
         "last_long": null
       }
@@ -649,16 +649,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 23303951128,
+            "id": 23311965217,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-03-19T15:56:48Z",
-            "updated_at": "2026-03-19T15:59:47Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23303951128",
-            "run_number": 82
+            "created_at": "2026-03-19T19:01:25Z",
+            "updated_at": "2026-03-19T19:03:55Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23311965217",
+            "run_number": 83
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 23311965217,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-03-19T19:01:25Z",
+              "updated_at": "2026-03-19T19:03:55Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23311965217",
+              "run_number": 83
+            },
             {
               "id": 23303951128,
               "status": "completed",
@@ -694,15 +703,6 @@
               "updated_at": "2026-03-19T07:03:36Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23283652322",
               "run_number": 79
-            },
-            {
-              "id": 23280489788,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-03-19T04:56:15Z",
-              "updated_at": "2026-03-19T04:59:04Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23280489788",
-              "run_number": 78
             }
           ]
         },
