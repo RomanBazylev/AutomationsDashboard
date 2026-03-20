@@ -1,16 +1,12 @@
 {
-  "updated_at": "2026-03-20T09:53:04.885915+00:00",
+  "updated_at": "2026-03-20T10:42:53.076856+00:00",
   "summary": {
-    "total_videos_30d": 140,
-    "total_views_estimate": 0,
-    "success_rate": 79.6,
-    "total_runs_sampled": 54,
-    "failed_channels": [
-      "Iron Man"
-    ],
-    "warning_channels": [
-      "Iron Man"
-    ]
+    "total_videos_30d": 141,
+    "total_views_estimate": 4576,
+    "success_rate": 81.8,
+    "total_runs_sampled": 55,
+    "failed_channels": [],
+    "warning_channels": []
   },
   "channels": [
     {
@@ -673,16 +669,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 23337334172,
+            "id": 23338516171,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-03-20T09:43:48Z",
-            "updated_at": "2026-03-20T09:46:07Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23337334172",
-            "run_number": 88
+            "conclusion": "success",
+            "created_at": "2026-03-20T10:18:46Z",
+            "updated_at": "2026-03-20T10:21:34Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23338516171",
+            "run_number": 89
           },
-          "failure_streak": 5,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23338516171,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-20T10:18:46Z",
+              "updated_at": "2026-03-20T10:21:34Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23338516171",
+              "run_number": 89
+            },
             {
               "id": 23337334172,
               "status": "completed",
@@ -718,15 +723,6 @@
               "updated_at": "2026-03-20T02:24:04Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23326376547",
               "run_number": 85
-            },
-            {
-              "id": 23318148900,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-03-19T21:38:09Z",
-              "updated_at": "2026-03-19T21:40:52Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23318148900",
-              "run_number": 84
             }
           ]
         },
@@ -734,16 +730,34 @@
           "name": "Generate Longform",
           "schedule": "Mon/Wed/Fri 06:00",
           "latest": {
-            "id": 23332601515,
-            "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-03-20T07:03:33Z",
-            "updated_at": "2026-03-20T07:05:56Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23332601515",
-            "run_number": 4
+            "id": 23339254541,
+            "status": "in_progress",
+            "conclusion": null,
+            "created_at": "2026-03-20T10:40:43Z",
+            "updated_at": "2026-03-20T10:40:48Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23339254541",
+            "run_number": 6
           },
-          "failure_streak": 2,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23339254541,
+              "status": "in_progress",
+              "conclusion": null,
+              "created_at": "2026-03-20T10:40:43Z",
+              "updated_at": "2026-03-20T10:40:48Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23339254541",
+              "run_number": 6
+            },
+            {
+              "id": 23338508434,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-20T10:18:32Z",
+              "updated_at": "2026-03-20T10:21:06Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23338508434",
+              "run_number": 5
+            },
             {
               "id": 23332601515,
               "status": "completed",
@@ -770,36 +784,31 @@
               "updated_at": "2026-03-17T12:15:15Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23193581147",
               "run_number": 2
-            },
-            {
-              "id": 23186972036,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-03-17T09:17:34Z",
-              "updated_at": "2026-03-17T09:20:16Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/23186972036",
-              "run_number": 1
             }
           ]
         }
       },
       "video_stats": {
-        "total": 12,
-        "last_30d": 12,
-        "avg_views": 0,
-        "avg_likes": 0,
+        "total": 13,
+        "last_30d": 13,
+        "avg_views": 352,
+        "avg_likes": 4,
         "avg_comments": 0,
-        "best_video": null,
+        "best_video": {
+          "title": "The 3 Stoic Principles Nelson Mandela Used to Survive 27 Years in Prison: What Your Father Never Taught You",
+          "video_id": "giH56BIhVg8",
+          "views": 1286
+        },
         "last_upload": {
-          "title": "What 8 Hours of Solitude a Day Taught Jordan Peterson About Masculine Discipline",
-          "video_id": "VWfki7nCpcE",
-          "uploaded_at": "2026-03-17T13:19:27.593465+00:00"
+          "title": "The 3-Word Phrase That Saved Seneca from Madness During the Roman Plague",
+          "video_id": "Xwd8sft9wmM",
+          "uploaded_at": "2026-03-20T10:21:03.766061+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "What 8 Hours of Solitude a Day Taught Jordan Peterson About Masculine Discipline",
-          "video_id": "VWfki7nCpcE",
-          "uploaded_at": "2026-03-17T13:19:27.593465+00:00"
+          "title": "The 3-Word Phrase That Saved Seneca from Madness During the Roman Plague",
+          "video_id": "Xwd8sft9wmM",
+          "uploaded_at": "2026-03-20T10:21:03.766061+00:00"
         }
       }
     },
