@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-03-20T19:00:32.512210+00:00",
+  "updated_at": "2026-03-20T19:50:31.207551+00:00",
   "summary": {
     "total_videos_30d": 158,
     "total_views_estimate": 5015,
     "success_rate": 90.9,
     "total_runs_sampled": 55,
-    "failed_channels": [],
+    "failed_channels": [
+      "Smart Money"
+    ],
     "warning_channels": []
   },
   "channels": [
@@ -573,21 +575,21 @@
           "schedule": "every 3h",
           "latest": {
             "id": 23357792330,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-03-20T18:48:20Z",
-            "updated_at": "2026-03-20T18:48:24Z",
+            "updated_at": "2026-03-20T19:00:58Z",
             "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23357792330",
             "run_number": 66
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
             {
               "id": 23357792330,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-03-20T18:48:20Z",
-              "updated_at": "2026-03-20T18:48:24Z",
+              "updated_at": "2026-03-20T19:00:58Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/23357792330",
               "run_number": 66
             },
