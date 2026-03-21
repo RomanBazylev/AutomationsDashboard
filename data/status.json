@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-03-21T17:32:37.458996+00:00",
+  "updated_at": "2026-03-21T17:59:10.186621+00:00",
   "summary": {
     "total_videos_30d": 195,
     "total_views_estimate": 6486,
     "success_rate": 80.7,
     "total_runs_sampled": 57,
     "failed_channels": [
-      "Smart Money"
+      "Smart Money",
+      "GlitchRealityAI"
     ],
     "warning_channels": [
       "Smart Money"
@@ -941,21 +942,21 @@
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
             "id": 23384910423,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-03-21T17:31:20Z",
-            "updated_at": "2026-03-21T17:31:26Z",
+            "updated_at": "2026-03-21T17:40:13Z",
             "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23384910423",
             "run_number": 1
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
             {
               "id": 23384910423,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-03-21T17:31:20Z",
-              "updated_at": "2026-03-21T17:31:26Z",
+              "updated_at": "2026-03-21T17:40:13Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23384910423",
               "run_number": 1
             }
