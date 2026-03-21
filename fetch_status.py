@@ -87,6 +87,16 @@ CHANNELS = [
         "perf_log_path": "performance_log.json",
         "youtube_url": "",
     },
+    {
+        "id": "hard4fun",
+        "name": "GlitchRealityAI",
+        "emoji": "\U0001f47e",
+        "repo": "hard4fun",
+        "workflows": ["daily-shorts.yml"],
+        "schedules": {"daily-shorts.yml": "2x daily (00:00 + 14:00 UTC)"},
+        "perf_log_path": "performance_log.json",
+        "youtube_url": "",
+    },
 ]
 
 
