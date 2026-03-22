@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-22T13:54:41.936910+00:00",
+  "updated_at": "2026-03-22T14:36:15.253914+00:00",
   "summary": {
     "total_videos_30d": 230,
     "total_views_estimate": 7650,
-    "success_rate": 82.0,
-    "total_runs_sampled": 61,
+    "success_rate": 82.3,
+    "total_runs_sampled": 62,
     "failed_channels": [
       "Smart Money"
     ],
@@ -949,16 +949,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 23393905392,
+            "id": 23404955849,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-22T02:26:42Z",
-            "updated_at": "2026-03-22T02:30:39Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23393905392",
-            "run_number": 4
+            "created_at": "2026-03-22T14:17:23Z",
+            "updated_at": "2026-03-22T14:20:06Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23404955849",
+            "run_number": 5
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23404955849,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-22T14:17:23Z",
+              "updated_at": "2026-03-22T14:20:06Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23404955849",
+              "run_number": 5
+            },
             {
               "id": 23393905392,
               "status": "completed",
