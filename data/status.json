@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-23T13:51:37.196089+00:00",
+  "updated_at": "2026-03-23T15:04:32.564358+00:00",
   "summary": {
-    "total_videos_30d": 271,
-    "total_views_estimate": 10331,
+    "total_videos_30d": 272,
+    "total_views_estimate": 10332,
     "success_rate": 71.4,
     "total_runs_sampled": 63,
     "failed_channels": [
@@ -955,22 +955,31 @@
       "emoji": "👾",
       "repo": "hard4fun",
       "repo_url": "https://github.com/RomanBazylev/hard4fun",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@hard4fun",
       "workflows": {
         "daily-shorts.yml": {
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 23429407236,
+            "id": 23443410979,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-23T09:04:07Z",
-            "updated_at": "2026-03-23T09:06:44Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23429407236",
-            "run_number": 13
+            "created_at": "2026-03-23T14:47:54Z",
+            "updated_at": "2026-03-23T15:04:13Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23443410979",
+            "run_number": 14
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23443410979,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-23T14:47:54Z",
+              "updated_at": "2026-03-23T15:04:13Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23443410979",
+              "run_number": 14
+            },
             {
               "id": 23429407236,
               "status": "completed",
@@ -1006,40 +1015,31 @@
               "updated_at": "2026-03-23T02:38:19Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23418833902",
               "run_number": 10
-            },
-            {
-              "id": 23410369062,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-22T19:10:00Z",
-              "updated_at": "2026-03-22T19:14:49Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23410369062",
-              "run_number": 9
             }
           ]
         }
       },
       "video_stats": {
-        "total": 8,
-        "last_30d": 8,
+        "total": 9,
+        "last_30d": 9,
         "avg_views": 1,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
           "title": "Rain going up but only in this one specific spot",
           "video_id": "5hVIB-KIpKM",
-          "views": 6
+          "views": 7
         },
         "last_upload": {
-          "title": "Spotify played a song that doesnt exist yet",
-          "video_id": "BnNqO58NBgc",
-          "uploaded_at": "2026-03-23T09:06:40.522378+00:00"
+          "title": "When your coffee pours upward instead of down",
+          "video_id": "VriT-RvHZ3Q",
+          "uploaded_at": "2026-03-23T14:51:57.694882+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Spotify played a song that doesnt exist yet",
-          "video_id": "BnNqO58NBgc",
-          "uploaded_at": "2026-03-23T09:06:40.522378+00:00"
+          "title": "When your coffee pours upward instead of down",
+          "video_id": "VriT-RvHZ3Q",
+          "uploaded_at": "2026-03-23T14:51:57.694882+00:00"
         }
       }
     }
