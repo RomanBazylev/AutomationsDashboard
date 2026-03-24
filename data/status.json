@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-24T14:07:17.824656+00:00",
+  "updated_at": "2026-03-24T15:35:22.877911+00:00",
   "summary": {
-    "total_videos_30d": 303,
-    "total_views_estimate": 11240,
+    "total_videos_30d": 307,
+    "total_views_estimate": 11221,
     "success_rate": 64.1,
     "total_runs_sampled": 64,
     "failed_channels": [
@@ -971,16 +971,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 23469794765,
+            "id": 23495822706,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-24T02:12:30Z",
-            "updated_at": "2026-03-24T02:22:18Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23469794765",
-            "run_number": 15
+            "created_at": "2026-03-24T14:50:20Z",
+            "updated_at": "2026-03-24T14:59:54Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23495822706",
+            "run_number": 16
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23495822706,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-24T14:50:20Z",
+              "updated_at": "2026-03-24T14:59:54Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23495822706",
+              "run_number": 16
+            },
             {
               "id": 23469794765,
               "status": "completed",
@@ -1016,40 +1025,31 @@
               "updated_at": "2026-03-23T08:34:10Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23428164802",
               "run_number": 12
-            },
-            {
-              "id": 23427072391,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-23T07:58:15Z",
-              "updated_at": "2026-03-23T08:04:16Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23427072391",
-              "run_number": 11
             }
           ]
         }
       },
       "video_stats": {
-        "total": 13,
-        "last_30d": 13,
-        "avg_views": 25,
+        "total": 17,
+        "last_30d": 17,
+        "avg_views": 18,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
           "title": "When your coffee pours upward instead of down",
           "video_id": "VriT-RvHZ3Q",
-          "views": 217
+          "views": 218
         },
         "last_upload": {
-          "title": "Stairs keep adding an extra step that shouldnt exist",
-          "video_id": "oD_Tnv2z2_Q",
-          "uploaded_at": "2026-03-24T02:22:14.052675+00:00"
+          "title": "Sun rose twice and nobody said anything",
+          "video_id": "ZjGR-bW0wrU",
+          "uploaded_at": "2026-03-24T14:59:50.357142+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Stairs keep adding an extra step that shouldnt exist",
-          "video_id": "oD_Tnv2z2_Q",
-          "uploaded_at": "2026-03-24T02:22:14.052675+00:00"
+          "title": "Sun rose twice and nobody said anything",
+          "video_id": "ZjGR-bW0wrU",
+          "uploaded_at": "2026-03-24T14:59:50.357142+00:00"
         }
       }
     }
