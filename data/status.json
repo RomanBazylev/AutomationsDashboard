@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-25T13:51:37.884409+00:00",
+  "updated_at": "2026-03-25T15:09:31.505017+00:00",
   "summary": {
-    "total_videos_30d": 337,
-    "total_views_estimate": 11188,
+    "total_videos_30d": 341,
+    "total_views_estimate": 12315,
     "success_rate": 61.5,
     "total_runs_sampled": 65,
     "failed_channels": [
@@ -980,16 +980,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 23521905433,
+            "id": 23547386704,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-03-25T02:24:33Z",
-            "updated_at": "2026-03-25T02:33:05Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23521905433",
-            "run_number": 17
+            "created_at": "2026-03-25T14:51:49Z",
+            "updated_at": "2026-03-25T15:04:42Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23547386704",
+            "run_number": 18
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23547386704,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-03-25T14:51:49Z",
+              "updated_at": "2026-03-25T15:04:42Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23547386704",
+              "run_number": 18
+            },
             {
               "id": 23521905433,
               "status": "completed",
@@ -1025,40 +1034,31 @@
               "updated_at": "2026-03-23T15:04:13Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23443410979",
               "run_number": 14
-            },
-            {
-              "id": 23429407236,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-23T09:04:07Z",
-              "updated_at": "2026-03-23T09:06:44Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23429407236",
-              "run_number": 13
             }
           ]
         }
       },
       "video_stats": {
-        "total": 21,
-        "last_30d": 21,
-        "avg_views": 13,
+        "total": 25,
+        "last_30d": 25,
+        "avg_views": 56,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
           "title": "When your coffee pours upward instead of down",
           "video_id": "VriT-RvHZ3Q",
-          "views": 219
+          "views": 619
         },
         "last_upload": {
-          "title": "This cloud has been following me for 3 days",
-          "video_id": "s5h1RdHmjK4",
-          "uploaded_at": "2026-03-25T02:33:01.775344+00:00"
+          "title": "My printer started printing things I only THOUGHT about",
+          "video_id": "PBNy7hD3p9M",
+          "uploaded_at": "2026-03-25T15:04:38.279821+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "This cloud has been following me for 3 days",
-          "video_id": "s5h1RdHmjK4",
-          "uploaded_at": "2026-03-25T02:33:01.775344+00:00"
+          "title": "My printer started printing things I only THOUGHT about",
+          "video_id": "PBNy7hD3p9M",
+          "uploaded_at": "2026-03-25T15:04:38.279821+00:00"
         }
       }
     }
