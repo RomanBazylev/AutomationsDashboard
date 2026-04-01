@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-04-01T17:05:12.901712+00:00",
+  "updated_at": "2026-04-01T18:04:48.623150+00:00",
   "summary": {
-    "total_videos_30d": 577,
+    "total_videos_30d": 578,
     "total_views_estimate": 12211,
-    "success_rate": 46.2,
+    "success_rate": 47.7,
     "total_runs_sampled": 65,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
+      "Я в Польше",
       "Smart Money",
       "Iron Man"
     ],
@@ -186,10 +187,10 @@
           "schedule": "every 4h",
           "latest": {
             "id": 23860503054,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "success",
             "created_at": "2026-04-01T16:57:02Z",
-            "updated_at": "2026-04-01T16:57:06Z",
+            "updated_at": "2026-04-01T17:13:07Z",
             "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23860503054",
             "run_number": 154
           },
@@ -197,10 +198,10 @@
           "recent_runs": [
             {
               "id": 23860503054,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "created_at": "2026-04-01T16:57:02Z",
-              "updated_at": "2026-04-01T16:57:06Z",
+              "updated_at": "2026-04-01T17:13:07Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/23860503054",
               "run_number": 154
             },
@@ -305,21 +306,21 @@
         }
       },
       "video_stats": {
-        "total": 83,
-        "last_30d": 83,
+        "total": 84,
+        "last_30d": 84,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "My Boss Fired Me Friday. Monday He Begged Me Back 💰 #shorts",
-          "video_id": "7H6x2dc0W3w",
-          "uploaded_at": "2026-04-01T13:38:28.677167+00:00"
+          "title": "A DNA Test Revealed My Dad's 30-Year Secret 🧬 #shorts",
+          "video_id": "k_OWYuqiKPs",
+          "uploaded_at": "2026-04-01T17:13:03.458617+00:00"
         },
         "last_short": {
-          "title": "My Boss Fired Me Friday. Monday He Begged Me Back 💰 #shorts",
-          "video_id": "7H6x2dc0W3w",
-          "uploaded_at": "2026-04-01T13:38:28.677167+00:00"
+          "title": "A DNA Test Revealed My Dad's 30-Year Secret 🧬 #shorts",
+          "video_id": "k_OWYuqiKPs",
+          "uploaded_at": "2026-04-01T17:13:03.458617+00:00"
         },
         "last_long": {
           "title": "3 Insane Betrayal Stories 🤯",
@@ -402,21 +403,21 @@
           "schedule": "2x daily",
           "latest": {
             "id": 23860159105,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-04-01T16:48:49Z",
-            "updated_at": "2026-04-01T16:48:54Z",
+            "updated_at": "2026-04-01T17:05:57Z",
             "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23860159105",
             "run_number": 31
           },
-          "failure_streak": 0,
+          "failure_streak": 3,
           "recent_runs": [
             {
               "id": 23860159105,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-04-01T16:48:49Z",
-              "updated_at": "2026-04-01T16:48:54Z",
+              "updated_at": "2026-04-01T17:05:57Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/23860159105",
               "run_number": 31
             },
