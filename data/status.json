@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-02T13:58:22.140461+00:00",
+  "updated_at": "2026-04-02T15:09:55.012334+00:00",
   "summary": {
-    "total_videos_30d": 602,
-    "total_views_estimate": 12190,
+    "total_videos_30d": 606,
+    "total_views_estimate": 12161,
     "success_rate": 46.2,
     "total_runs_sampled": 65,
     "failed_channels": [
@@ -982,16 +982,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 23880781476,
+            "id": 23906277895,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-02T02:29:18Z",
-            "updated_at": "2026-04-02T02:40:01Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23880781476",
-            "run_number": 33
+            "created_at": "2026-04-02T14:45:15Z",
+            "updated_at": "2026-04-02T14:56:03Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23906277895",
+            "run_number": 34
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 23906277895,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-02T14:45:15Z",
+              "updated_at": "2026-04-02T14:56:03Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23906277895",
+              "run_number": 34
+            },
             {
               "id": 23880781476,
               "status": "completed",
@@ -1027,23 +1036,14 @@
               "updated_at": "2026-03-31T15:05:17Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23803865644",
               "run_number": 30
-            },
-            {
-              "id": 23777685551,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-03-31T02:33:06Z",
-              "updated_at": "2026-03-31T02:42:40Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23777685551",
-              "run_number": 29
             }
           ]
         }
       },
       "video_stats": {
-        "total": 85,
-        "last_30d": 85,
-        "avg_views": 15,
+        "total": 89,
+        "last_30d": 89,
+        "avg_views": 14,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
@@ -1052,15 +1052,15 @@
           "views": 620
         },
         "last_upload": {
-          "title": "Spotify played a song that doesnt exist yet",
-          "video_id": "D1CJH2PxCBs",
-          "uploaded_at": "2026-04-02T02:39:57.369457+00:00"
+          "title": "Stars rearranged themselves into a grid at 3am",
+          "video_id": "O6rXpLEytgo",
+          "uploaded_at": "2026-04-02T14:55:58.576396+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Spotify played a song that doesnt exist yet",
-          "video_id": "D1CJH2PxCBs",
-          "uploaded_at": "2026-04-02T02:39:57.369457+00:00"
+          "title": "Stars rearranged themselves into a grid at 3am",
+          "video_id": "O6rXpLEytgo",
+          "uploaded_at": "2026-04-02T14:55:58.576396+00:00"
         }
       }
     }
