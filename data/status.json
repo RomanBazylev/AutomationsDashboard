@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-07T14:47:16.389728+00:00",
+  "updated_at": "2026-04-07T16:14:09.835973+00:00",
   "summary": {
-    "total_videos_30d": 762,
-    "total_views_estimate": 12165,
+    "total_videos_30d": 766,
+    "total_views_estimate": 12205,
     "success_rate": 38.5,
     "total_runs_sampled": 65,
     "failed_channels": [
@@ -586,16 +586,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 24083370667,
-            "status": "completed",
-            "conclusion": "cancelled",
-            "created_at": "2026-04-07T13:16:22Z",
-            "updated_at": "2026-04-07T13:36:46Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24083370667",
-            "run_number": 208
+            "id": 24091621839,
+            "status": "in_progress",
+            "conclusion": null,
+            "created_at": "2026-04-07T16:09:09Z",
+            "updated_at": "2026-04-07T16:09:14Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24091621839",
+            "run_number": 209
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24091621839,
+              "status": "in_progress",
+              "conclusion": null,
+              "created_at": "2026-04-07T16:09:09Z",
+              "updated_at": "2026-04-07T16:09:14Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24091621839",
+              "run_number": 209
+            },
             {
               "id": 24083370667,
               "status": "completed",
@@ -631,15 +640,6 @@
               "updated_at": "2026-04-07T05:20:11Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24065374508",
               "run_number": 205
-            },
-            {
-              "id": 24060894619,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-07T02:13:14Z",
-              "updated_at": "2026-04-07T02:23:59Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24060894619",
-              "run_number": 204
             }
           ]
         },
@@ -737,16 +737,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 24083692436,
+            "id": 24091697179,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-04-07T13:23:28Z",
-            "updated_at": "2026-04-07T13:24:44Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24083692436",
-            "run_number": 234
+            "created_at": "2026-04-07T16:10:49Z",
+            "updated_at": "2026-04-07T16:11:59Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24091697179",
+            "run_number": 235
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 24091697179,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-04-07T16:10:49Z",
+              "updated_at": "2026-04-07T16:11:59Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24091697179",
+              "run_number": 235
+            },
             {
               "id": 24083692436,
               "status": "completed",
@@ -782,15 +791,6 @@
               "updated_at": "2026-04-07T05:12:27Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24065459013",
               "run_number": 231
-            },
-            {
-              "id": 24061507127,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-07T02:36:45Z",
-              "updated_at": "2026-04-07T02:38:01Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24061507127",
-              "run_number": 230
             }
           ]
         },
@@ -982,16 +982,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 24061434418,
+            "id": 24088275804,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-07T02:34:02Z",
-            "updated_at": "2026-04-07T02:43:56Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24061434418",
-            "run_number": 43
+            "created_at": "2026-04-07T14:58:50Z",
+            "updated_at": "2026-04-07T15:10:38Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24088275804",
+            "run_number": 44
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24088275804,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-07T14:58:50Z",
+              "updated_at": "2026-04-07T15:10:38Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24088275804",
+              "run_number": 44
+            },
             {
               "id": 24061434418,
               "status": "completed",
@@ -1027,22 +1036,13 @@
               "updated_at": "2026-04-05T14:39:26Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24003483856",
               "run_number": 40
-            },
-            {
-              "id": 23992673434,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-04-05T02:38:09Z",
-              "updated_at": "2026-04-05T02:50:07Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/23992673434",
-              "run_number": 39
             }
           ]
         }
       },
       "video_stats": {
-        "total": 125,
-        "last_30d": 125,
+        "total": 129,
+        "last_30d": 129,
         "avg_views": 10,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -1052,15 +1052,15 @@
           "views": 620
         },
         "last_upload": {
-          "title": "When your coffee pours upward instead of down",
-          "video_id": "rgxAl-uIcwk",
-          "uploaded_at": "2026-04-07T02:43:50.962980+00:00"
+          "title": "Met my clone at the grocery store",
+          "video_id": "nk48iLKHqFE",
+          "uploaded_at": "2026-04-07T15:10:34.098265+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "When your coffee pours upward instead of down",
-          "video_id": "rgxAl-uIcwk",
-          "uploaded_at": "2026-04-07T02:43:50.962980+00:00"
+          "title": "Met my clone at the grocery store",
+          "video_id": "nk48iLKHqFE",
+          "uploaded_at": "2026-04-07T15:10:34.098265+00:00"
         }
       }
     }
