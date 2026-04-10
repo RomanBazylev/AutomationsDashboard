@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T18:03:08.725413+00:00",
+  "updated_at": "2026-04-10T19:13:47.949644+00:00",
   "summary": {
     "total_videos_30d": 858,
     "total_views_estimate": 12139,
@@ -586,16 +586,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 24251589158,
+            "id": 24258881018,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-04-10T15:52:15Z",
-            "updated_at": "2026-04-10T16:00:25Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24251589158",
-            "run_number": 233
+            "conclusion": "cancelled",
+            "created_at": "2026-04-10T18:51:14Z",
+            "updated_at": "2026-04-10T19:11:32Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24258881018",
+            "run_number": 234
           },
-          "failure_streak": 5,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24258881018,
+              "status": "completed",
+              "conclusion": "cancelled",
+              "created_at": "2026-04-10T18:51:14Z",
+              "updated_at": "2026-04-10T19:11:32Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24258881018",
+              "run_number": 234
+            },
             {
               "id": 24251589158,
               "status": "completed",
@@ -631,15 +640,6 @@
               "updated_at": "2026-04-10T07:35:37Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24231713034",
               "run_number": 230
-            },
-            {
-              "id": 24227889890,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-10T05:24:03Z",
-              "updated_at": "2026-04-10T05:34:29Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24227889890",
-              "run_number": 229
             }
           ]
         },
@@ -737,16 +737,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 24251743689,
+            "id": 24259122750,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-04-10T15:55:50Z",
-            "updated_at": "2026-04-10T15:56:59Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24251743689",
-            "run_number": 259
+            "created_at": "2026-04-10T18:57:11Z",
+            "updated_at": "2026-04-10T18:58:06Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24259122750",
+            "run_number": 260
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 24259122750,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-04-10T18:57:11Z",
+              "updated_at": "2026-04-10T18:58:06Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24259122750",
+              "run_number": 260
+            },
             {
               "id": 24251743689,
               "status": "completed",
@@ -782,15 +791,6 @@
               "updated_at": "2026-04-10T07:46:06Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24232395223",
               "run_number": 256
-            },
-            {
-              "id": 24227970085,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-10T05:26:58Z",
-              "updated_at": "2026-04-10T05:28:05Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24227970085",
-              "run_number": 255
             }
           ]
         },
