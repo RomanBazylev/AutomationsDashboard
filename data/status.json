@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-13T13:59:09.008704+00:00",
+  "updated_at": "2026-04-13T15:25:39.182499+00:00",
   "summary": {
-    "total_videos_30d": 944,
-    "total_views_estimate": 12126,
+    "total_videos_30d": 948,
+    "total_views_estimate": 12154,
     "success_rate": 35.4,
     "total_runs_sampled": 65,
     "failed_channels": [
@@ -187,10 +187,10 @@
           "schedule": "every 4h",
           "latest": {
             "id": 24346590051,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "cancelled",
             "created_at": "2026-04-13T13:41:09Z",
-            "updated_at": "2026-04-13T13:41:15Z",
+            "updated_at": "2026-04-13T14:11:38Z",
             "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/24346590051",
             "run_number": 225
           },
@@ -198,10 +198,10 @@
           "recent_runs": [
             {
               "id": 24346590051,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "cancelled",
               "created_at": "2026-04-13T13:41:09Z",
-              "updated_at": "2026-04-13T13:41:15Z",
+              "updated_at": "2026-04-13T14:11:38Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/24346590051",
               "run_number": 225
             },
@@ -982,16 +982,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 24323369300,
+            "id": 24350824090,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-13T02:49:50Z",
-            "updated_at": "2026-04-13T03:01:12Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24323369300",
-            "run_number": 55
+            "created_at": "2026-04-13T15:07:04Z",
+            "updated_at": "2026-04-13T15:18:23Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24350824090",
+            "run_number": 56
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24350824090,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-13T15:07:04Z",
+              "updated_at": "2026-04-13T15:18:23Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24350824090",
+              "run_number": 56
+            },
             {
               "id": 24323369300,
               "status": "completed",
@@ -1027,22 +1036,13 @@
               "updated_at": "2026-04-11T14:37:54Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24284478931",
               "run_number": 52
-            },
-            {
-              "id": 24272557579,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-04-11T02:26:17Z",
-              "updated_at": "2026-04-11T02:34:52Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24272557579",
-              "run_number": 51
             }
           ]
         }
       },
       "video_stats": {
-        "total": 173,
-        "last_30d": 173,
+        "total": 177,
+        "last_30d": 177,
         "avg_views": 7,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -1052,15 +1052,15 @@
           "views": 620
         },
         "last_upload": {
-          "title": "The moon is rendering at 12 pixels tonight",
-          "video_id": "Jb5zhFLo2qw",
-          "uploaded_at": "2026-04-13T03:01:07.657077+00:00"
+          "title": "My hands went through my keyboard like a ghost",
+          "video_id": "4aBqrwQ1iGc",
+          "uploaded_at": "2026-04-13T15:18:19.732021+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "The moon is rendering at 12 pixels tonight",
-          "video_id": "Jb5zhFLo2qw",
-          "uploaded_at": "2026-04-13T03:01:07.657077+00:00"
+          "title": "My hands went through my keyboard like a ghost",
+          "video_id": "4aBqrwQ1iGc",
+          "uploaded_at": "2026-04-13T15:18:19.732021+00:00"
         }
       }
     }
