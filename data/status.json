@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-20T14:02:14.200412+00:00",
+  "updated_at": "2026-04-20T15:45:36.919924+00:00",
   "summary": {
-    "total_videos_30d": 1039,
+    "total_videos_30d": 860,
     "total_views_estimate": 75239,
     "success_rate": 66.7,
     "total_runs_sampled": 69,
@@ -912,7 +912,7 @@
       },
       "video_stats": {
         "total": 74,
-        "last_30d": 52,
+        "last_30d": 51,
         "avg_views": 356,
         "avg_likes": 5,
         "avg_comments": 0,
@@ -940,7 +940,7 @@
       "emoji": "🎣",
       "repo": "youtube-fishing-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-fishing-automation",
-      "youtube_url": "https://www.youtube.com/@rybak-Artsiom",
+      "youtube_url": "",
       "workflows": {
         "generate_fishing_short.yml": {
           "name": "Generate Fishing Short",
@@ -1005,22 +1005,14 @@
         }
       },
       "video_stats": {
-        "total": 200,
-        "last_30d": 178,
+        "total": 0,
+        "last_30d": 0,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
-        "last_upload": {
-          "title": "Рыбачим на рекордную форель #shorts",
-          "video_id": "Lut2mYis2js",
-          "uploaded_at": "2026-04-20T13:05:05.999578+00:00"
-        },
-        "last_short": {
-          "title": "Рыбачим на рекордную форель #shorts",
-          "video_id": "Lut2mYis2js",
-          "uploaded_at": "2026-04-20T13:05:05.999578+00:00"
-        },
+        "last_upload": null,
+        "last_short": null,
         "last_long": null
       }
     },
@@ -1036,16 +1028,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 24646132456,
+            "id": 24674079783,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-20T02:50:43Z",
-            "updated_at": "2026-04-20T03:01:41Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24646132456",
-            "run_number": 69
+            "created_at": "2026-04-20T15:06:55Z",
+            "updated_at": "2026-04-20T15:19:19Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24674079783",
+            "run_number": 70
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24674079783,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-20T15:06:55Z",
+              "updated_at": "2026-04-20T15:19:19Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24674079783",
+              "run_number": 70
+            },
             {
               "id": 24646132456,
               "status": "completed",
@@ -1081,15 +1082,6 @@
               "updated_at": "2026-04-18T14:43:51Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24606837501",
               "run_number": 66
-            },
-            {
-              "id": 24594972053,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-04-18T02:33:27Z",
-              "updated_at": "2026-04-18T02:42:28Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/24594972053",
-              "run_number": 65
             }
           ]
         }
@@ -1106,15 +1098,15 @@
           "views": 11
         },
         "last_upload": {
-          "title": "The sky had a loading bar for 20 seconds",
-          "video_id": "5oowcP8pFYY",
-          "uploaded_at": "2026-04-20T03:01:36.539827+00:00"
+          "title": "Autocorrect is finishing my sentences in real life",
+          "video_id": "FbQeWVWNmBM",
+          "uploaded_at": "2026-04-20T15:19:15.342016+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "The sky had a loading bar for 20 seconds",
-          "video_id": "5oowcP8pFYY",
-          "uploaded_at": "2026-04-20T03:01:36.539827+00:00"
+          "title": "Autocorrect is finishing my sentences in real life",
+          "video_id": "FbQeWVWNmBM",
+          "uploaded_at": "2026-04-20T15:19:15.342016+00:00"
         }
       }
     }
