@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-04-23T09:59:28.686320+00:00",
+  "updated_at": "2026-04-23T11:19:12.182543+00:00",
   "summary": {
-    "total_videos_30d": 1070,
-    "total_views_estimate": 100724,
+    "total_videos_30d": 1072,
+    "total_views_estimate": 100946,
     "success_rate": 64.3,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories"
+      "Reddit Stories",
+      "Smart Money"
     ],
     "warning_channels": []
   },
@@ -85,16 +86,25 @@
           "name": "Generate Long Video",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 24772979770,
+            "id": 24829908925,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-04-22T10:17:50Z",
-            "updated_at": "2026-04-22T10:19:23Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/24772979770",
-            "run_number": 44
+            "created_at": "2026-04-23T10:20:21Z",
+            "updated_at": "2026-04-23T10:21:54Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/24829908925",
+            "run_number": 45
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 24829908925,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-04-23T10:20:21Z",
+              "updated_at": "2026-04-23T10:21:54Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/24829908925",
+              "run_number": 45
+            },
             {
               "id": 24772979770,
               "status": "completed",
@@ -130,15 +140,6 @@
               "updated_at": "2026-04-19T09:45:58Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/24626167277",
               "run_number": 41
-            },
-            {
-              "id": 24602027617,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-18T09:45:10Z",
-              "updated_at": "2026-04-18T09:46:40Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/24602027617",
-              "run_number": 40
             }
           ]
         }
@@ -146,7 +147,7 @@
       "video_stats": {
         "total": 84,
         "last_30d": 41,
-        "avg_views": 602,
+        "avg_views": 598,
         "avg_likes": 17,
         "avg_comments": 1,
         "best_video": {
@@ -555,10 +556,10 @@
           "schedule": "daily 08:00",
           "latest": {
             "id": 24828507547,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "cancelled",
             "created_at": "2026-04-23T09:47:20Z",
-            "updated_at": "2026-04-23T09:47:24Z",
+            "updated_at": "2026-04-23T10:47:40Z",
             "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/24828507547",
             "run_number": 7
           },
@@ -566,10 +567,10 @@
           "recent_runs": [
             {
               "id": 24828507547,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "cancelled",
               "created_at": "2026-04-23T09:47:20Z",
-              "updated_at": "2026-04-23T09:47:24Z",
+              "updated_at": "2026-04-23T10:47:40Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/24828507547",
               "run_number": 7
             },
@@ -644,16 +645,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 24823550120,
+            "id": 24829911000,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-23T07:50:04Z",
-            "updated_at": "2026-04-23T08:04:31Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24823550120",
-            "run_number": 336
+            "created_at": "2026-04-23T10:20:24Z",
+            "updated_at": "2026-04-23T10:33:08Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24829911000",
+            "run_number": 337
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24829911000,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-23T10:20:24Z",
+              "updated_at": "2026-04-23T10:33:08Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24829911000",
+              "run_number": 337
+            },
             {
               "id": 24823550120,
               "status": "completed",
@@ -689,15 +699,6 @@
               "updated_at": "2026-04-22T22:01:32Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24804489924",
               "run_number": 333
-            },
-            {
-              "id": 24797509234,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-04-22T19:11:14Z",
-              "updated_at": "2026-04-22T19:22:03Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24797509234",
-              "run_number": 332
             }
           ]
         },
@@ -705,16 +706,25 @@
           "name": "Generate Money Long",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 24772985969,
+            "id": 24829910873,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-04-22T10:18:00Z",
-            "updated_at": "2026-04-22T10:22:56Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24772985969",
-            "run_number": 33
+            "conclusion": "failure",
+            "created_at": "2026-04-23T10:20:24Z",
+            "updated_at": "2026-04-23T10:25:02Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24829910873",
+            "run_number": 34
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 24829910873,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-04-23T10:20:24Z",
+              "updated_at": "2026-04-23T10:25:02Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24829910873",
+              "run_number": 34
+            },
             {
               "id": 24772985969,
               "status": "completed",
@@ -750,23 +760,14 @@
               "updated_at": "2026-04-19T09:49:54Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24626187561",
               "run_number": 30
-            },
-            {
-              "id": 24602037639,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-04-18T09:45:47Z",
-              "updated_at": "2026-04-18T09:50:04Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/24602037639",
-              "run_number": 29
             }
           ]
         }
       },
       "video_stats": {
-        "total": 82,
-        "last_30d": 46,
-        "avg_views": 162,
+        "total": 83,
+        "last_30d": 47,
+        "avg_views": 161,
         "avg_likes": 2,
         "avg_comments": 0,
         "best_video": {
@@ -775,14 +776,14 @@
           "views": 948
         },
         "last_upload": {
-          "title": "Debt Payoff Secrets 🚫💸 #shorts #money",
-          "video_id": "dZ8tkFbFTXE",
-          "uploaded_at": "2026-04-23T08:04:27.418873+00:00"
+          "title": "The 401k Mistake Costing You $300K 😱 #shorts",
+          "video_id": "evuGWXv9xKs",
+          "uploaded_at": "2026-04-23T10:33:05.175775+00:00"
         },
         "last_short": {
-          "title": "Debt Payoff Secrets 🚫💸 #shorts #money",
-          "video_id": "dZ8tkFbFTXE",
-          "uploaded_at": "2026-04-23T08:04:27.418873+00:00"
+          "title": "The 401k Mistake Costing You $300K 😱 #shorts",
+          "video_id": "evuGWXv9xKs",
+          "uploaded_at": "2026-04-23T10:33:05.175775+00:00"
         },
         "last_long": null
       }
@@ -799,16 +800,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 24823859653,
+            "id": 24829974580,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-04-23T07:57:56Z",
-            "updated_at": "2026-04-23T08:00:28Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24823859653",
-            "run_number": 361
+            "created_at": "2026-04-23T10:22:00Z",
+            "updated_at": "2026-04-23T10:24:30Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24829974580",
+            "run_number": 362
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 24829974580,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-04-23T10:22:00Z",
+              "updated_at": "2026-04-23T10:24:30Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24829974580",
+              "run_number": 362
+            },
             {
               "id": 24823859653,
               "status": "completed",
@@ -844,15 +854,6 @@
               "updated_at": "2026-04-22T21:56:00Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24804605491",
               "run_number": 358
-            },
-            {
-              "id": 24797756446,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-04-22T19:16:41Z",
-              "updated_at": "2026-04-22T19:46:32Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/24797756446",
-              "run_number": 357
             }
           ]
         },
@@ -919,10 +920,10 @@
         }
       },
       "video_stats": {
-        "total": 96,
-        "last_30d": 59,
-        "avg_views": 382,
-        "avg_likes": 5,
+        "total": 97,
+        "last_30d": 60,
+        "avg_views": 383,
+        "avg_likes": 6,
         "avg_comments": 0,
         "best_video": {
           "title": "7 Brutal Truths Weak Men Avoid",
@@ -931,14 +932,14 @@
         },
         "last_upload": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "_IemTNXKGEM",
-          "uploaded_at": "2026-04-23T07:59:57.004900+00:00"
+          "video_id": "EQonPm7r6BA",
+          "uploaded_at": "2026-04-23T10:24:00.153192+00:00"
         },
         "last_short": null,
         "last_long": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "_IemTNXKGEM",
-          "uploaded_at": "2026-04-23T07:59:57.004900+00:00"
+          "video_id": "EQonPm7r6BA",
+          "uploaded_at": "2026-04-23T10:24:00.153192+00:00"
         }
       }
     },
