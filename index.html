@@ -298,6 +298,119 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 .footer a { color: var(--accent); text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
 
+/* ── Run button (per workflow row) ── */
+.btn-run {
+  background: none;
+  border: 1px solid var(--green);
+  color: var(--green);
+  font-size: 0.7rem;
+  padding: 2px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+.btn-run:hover { background: var(--green); color: #fff; }
+
+/* ── Run workflow modal ── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+.modal-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+  width: min(440px, 92vw);
+  box-shadow: 0 8px 32px rgba(0,0,0,.45);
+}
+.modal-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.modal-context {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  background: var(--stat-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+.modal-context strong { color: var(--text); }
+.modal-context code { font-family: monospace; font-size: 0.82rem; }
+.modal-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.modal-input {
+  width: 100%;
+  padding: 8px 10px;
+  background: var(--stat-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: monospace;
+  margin-bottom: 6px;
+}
+.modal-input:focus { outline: none; border-color: var(--accent); }
+.modal-hint {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+.modal-hint a { color: var(--accent); }
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.btn-modal-cancel {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 7px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: border-color 0.15s;
+}
+.btn-modal-cancel:hover { border-color: var(--text-muted); }
+.btn-modal-run {
+  background: var(--green);
+  border: 1px solid var(--green);
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+.btn-modal-run:hover { opacity: 0.85; }
+.btn-modal-run:disabled { opacity: 0.5; cursor: not-allowed; }
+.modal-feedback {
+  font-size: 0.82rem;
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  display: none;
+}
+.modal-feedback.success { background: var(--health-ok-bg); color: var(--green); display: block; }
+.modal-feedback.error { background: var(--health-fail-bg); color: var(--red); display: block; }
+
 /* ── Responsive ── */
 @media (max-width: 500px) {
   .channels { grid-template-columns: 1fr; }
@@ -328,6 +441,26 @@ h1 { font-size: 1.6rem; margin-bottom: 4px; }
 
 <div class="footer">
   Data refreshed every ~15 min by <a href="https://github.com/RomanBazylev/AutomationsDashboard" target="_blank" rel="noopener">GitHub Actions</a>
+</div>
+
+<!-- ── Run Workflow Modal ── -->
+<div class="modal-overlay" id="runModal" onclick="handleOverlayClick(event)">
+  <div class="modal-box">
+    <div class="modal-title">▶ Run Workflow</div>
+    <div class="modal-context" id="modalContext"></div>
+    <div class="modal-label">GitHub Personal Access Token</div>
+    <input class="modal-input" id="patInput" type="password" placeholder="ghp_xxxxxxxxxxxx" autocomplete="off" />
+    <div class="modal-hint">
+      Needs <code>workflow</code> scope &middot;
+      <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">Create token</a>
+      &middot; Stored locally in your browser
+    </div>
+    <div class="modal-actions">
+      <button class="btn-modal-cancel" onclick="closeRunModal()">Cancel</button>
+      <button class="btn-modal-run" id="runBtn" onclick="confirmRun()">▶ Run</button>
+    </div>
+    <div class="modal-feedback" id="modalFeedback"></div>
+  </div>
 </div>
 
 <script>
@@ -426,6 +559,7 @@ function renderSummary(summary) {
 }
 
 function renderChannel(ch) {
+  const repoName = (ch.repo_url || '').split('/').filter(Boolean).pop() || '';
   let wfHtml = '';
   for (const [file, wf] of Object.entries(ch.workflows)) {
     const latest = wf.latest;
@@ -457,6 +591,7 @@ function renderChannel(ch) {
         <div class="wf-right">
           <span class="wf-time">${ago}</span>
           <a class="logs-link" href="${escAttr(logUrl)}" target="_blank" rel="noopener">logs</a>
+          <button class="btn-run" data-repo="${escAttr(repoName)}" data-wf="${escAttr(file)}" data-ch="${escAttr(ch.name)}" data-wfname="${escAttr(wf.name)}" onclick="openRunModal(this)">▶</button>
         </div>
       </div>
       <div class="run-history">${dots}</div>
@@ -570,6 +705,105 @@ async function loadDashboard() {
 
 loadDashboard();
 setInterval(loadDashboard, REFRESH_MS);
+
+/* ── Run Workflow modal logic ── */
+let _runCtx = {};
+
+function openRunModal(btn) {
+  _runCtx = {
+    repo: btn.dataset.repo,
+    wfFile: btn.dataset.wf,
+    channelName: btn.dataset.ch,
+    wfName: btn.dataset.wfname,
+  };
+  const ctx = document.getElementById('modalContext');
+  ctx.innerHTML =
+    `Workflow: <strong>${escHtml(_runCtx.wfName)}</strong><br>` +
+    `Channel: <strong>${escHtml(_runCtx.channelName)}</strong><br>` +
+    `Repo: <code>${escHtml(_runCtx.repo)}</code> &middot; branch: <strong>main</strong>`;
+
+  const patInput = document.getElementById('patInput');
+  patInput.value = localStorage.getItem('gh_pat') || '';
+
+  const feedback = document.getElementById('modalFeedback');
+  feedback.className = 'modal-feedback';
+  feedback.textContent = '';
+
+  const runBtn = document.getElementById('runBtn');
+  runBtn.disabled = false;
+  runBtn.textContent = '▶ Run';
+
+  document.getElementById('runModal').classList.add('active');
+  setTimeout(() => patInput.focus(), 50);
+}
+
+function closeRunModal() {
+  document.getElementById('runModal').classList.remove('active');
+}
+
+function handleOverlayClick(e) {
+  if (e.target === document.getElementById('runModal')) closeRunModal();
+}
+
+async function confirmRun() {
+  const token = document.getElementById('patInput').value.trim();
+  const feedback = document.getElementById('modalFeedback');
+  const runBtn = document.getElementById('runBtn');
+
+  if (!token) {
+    feedback.className = 'modal-feedback error';
+    feedback.textContent = '⚠️ Please enter a GitHub Personal Access Token.';
+    return;
+  }
+
+  localStorage.setItem('gh_pat', token);
+  runBtn.disabled = true;
+  runBtn.textContent = 'Running…';
+  feedback.className = 'modal-feedback';
+  feedback.textContent = '';
+
+  const { repo, wfFile } = _runCtx;
+  const url = `https://api.github.com/repos/RomanBazylev/${encodeURIComponent(repo)}/actions/workflows/${encodeURIComponent(wfFile)}/dispatches`;
+
+  try {
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28',
+      },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+
+    if (resp.status === 204) {
+      feedback.className = 'modal-feedback success';
+      feedback.textContent = '✅ Triggered! Check the Actions tab for progress.';
+      runBtn.textContent = '▶ Run';
+      setTimeout(closeRunModal, 2500);
+    } else {
+      let msg = `HTTP ${resp.status}`;
+      try { const d = await resp.json(); msg = d.message || msg; } catch {}
+      feedback.className = 'modal-feedback error';
+      feedback.textContent = `❌ ${msg}`;
+      runBtn.disabled = false;
+      runBtn.textContent = '▶ Run';
+    }
+  } catch (err) {
+    feedback.className = 'modal-feedback error';
+    feedback.textContent = `❌ Network error: ${err.message}`;
+    runBtn.disabled = false;
+    runBtn.textContent = '▶ Run';
+  }
+}
+
+document.addEventListener('keydown', e => {
+  const modal = document.getElementById('runModal');
+  if (!modal.classList.contains('active')) return;
+  if (e.key === 'Escape') closeRunModal();
+  if (e.key === 'Enter' && document.activeElement === document.getElementById('patInput')) confirmRun();
+});
 </script>
 </body>
 </html>
