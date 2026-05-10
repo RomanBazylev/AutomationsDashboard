@@ -1,14 +1,13 @@
 {
-  "updated_at": "2026-05-10T07:13:06.597297+00:00",
+  "updated_at": "2026-05-10T09:08:47.858916+00:00",
   "summary": {
-    "total_videos_30d": 1418,
-    "total_views_estimate": 178965,
-    "success_rate": 68.6,
+    "total_videos_30d": 1419,
+    "total_views_estimate": 178365,
+    "success_rate": 70.0,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Я в Польше"
+      "Reddit Stories"
     ],
     "warning_channels": []
   },
@@ -245,16 +244,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 25596423085,
+            "id": 25624419796,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-05-09T08:23:02Z",
-            "updated_at": "2026-05-09T08:42:58Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/25596423085",
-            "run_number": 59
+            "created_at": "2026-05-10T08:47:51Z",
+            "updated_at": "2026-05-10T09:08:03Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/25624419796",
+            "run_number": 60
           },
-          "failure_streak": 2,
+          "failure_streak": 3,
           "recent_runs": [
+            {
+              "id": 25624419796,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-05-10T08:47:51Z",
+              "updated_at": "2026-05-10T09:08:03Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/25624419796",
+              "run_number": 60
+            },
             {
               "id": 25596423085,
               "status": "completed",
@@ -290,15 +298,6 @@
               "updated_at": "2026-05-06T09:34:31Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/25426621782",
               "run_number": 56
-            },
-            {
-              "id": 25367374547,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-05-05T09:03:03Z",
-              "updated_at": "2026-05-05T09:23:15Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/25367374547",
-              "run_number": 55
             }
           ]
         }
@@ -400,16 +399,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 25606444221,
+            "id": 25624425708,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-05-09T16:49:40Z",
-            "updated_at": "2026-05-09T16:55:10Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25606444221",
-            "run_number": 109
+            "conclusion": "success",
+            "created_at": "2026-05-10T08:48:10Z",
+            "updated_at": "2026-05-10T08:53:15Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25624425708",
+            "run_number": 110
           },
-          "failure_streak": 5,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 25624425708,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-10T08:48:10Z",
+              "updated_at": "2026-05-10T08:53:15Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25624425708",
+              "run_number": 110
+            },
             {
               "id": 25606444221,
               "status": "completed",
@@ -445,30 +453,21 @@
               "updated_at": "2026-05-08T08:28:04Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25545071640",
               "run_number": 106
-            },
-            {
-              "id": 25512365528,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-05-07T17:43:48Z",
-              "updated_at": "2026-05-07T17:46:39Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25512365528",
-              "run_number": 105
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 180,
+        "last_30d": 181,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Сладкий Торунь 🍰🇵🇱 #shorts",
-          "video_id": "kKtX6jY2ZFs",
-          "uploaded_at": "2026-05-10T06:37:25.279761+00:00"
+          "title": "Получение карты побыту в Польше 🇵🇱",
+          "video_id": "83Y9YQajI-0",
+          "uploaded_at": "2026-05-10T08:53:07.838089+00:00"
         },
         "last_short": {
           "title": "Сладкий Торунь 🍰🇵🇱 #shorts",
@@ -476,9 +475,9 @@
           "uploaded_at": "2026-05-10T06:37:25.279761+00:00"
         },
         "last_long": {
-          "title": "Дежурство в Польше 🇵🇱",
-          "video_id": "f3Sm7NHWQio",
-          "uploaded_at": "2026-05-07T09:34:40.282547+00:00"
+          "title": "Получение карты побыту в Польше 🇵🇱",
+          "video_id": "83Y9YQajI-0",
+          "uploaded_at": "2026-05-10T08:53:07.838089+00:00"
         }
       }
     },
@@ -800,16 +799,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 25618782892,
+            "id": 25623697126,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-10T03:30:24Z",
-            "updated_at": "2026-05-10T03:32:57Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/25618782892",
-            "run_number": 485
+            "created_at": "2026-05-10T08:09:50Z",
+            "updated_at": "2026-05-10T08:12:16Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/25623697126",
+            "run_number": 486
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 25623697126,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-10T08:09:50Z",
+              "updated_at": "2026-05-10T08:12:16Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/25623697126",
+              "run_number": 486
+            },
             {
               "id": 25618782892,
               "status": "completed",
@@ -845,15 +853,6 @@
               "updated_at": "2026-05-09T15:57:07Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/25605275651",
               "run_number": 482
-            },
-            {
-              "id": 25602162141,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-09T13:21:29Z",
-              "updated_at": "2026-05-09T13:24:20Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/25602162141",
-              "run_number": 481
             }
           ]
         },
@@ -921,8 +920,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 190,
-        "avg_views": 291,
+        "last_30d": 191,
+        "avg_views": 288,
         "avg_likes": 5,
         "avg_comments": 0,
         "best_video": {
@@ -932,14 +931,14 @@
         },
         "last_upload": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "-cXyamggTSQ",
-          "uploaded_at": "2026-05-10T03:32:28.028407+00:00"
+          "video_id": "_iv8BAhhzX8",
+          "uploaded_at": "2026-05-10T08:11:47.075335+00:00"
         },
         "last_short": null,
         "last_long": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "-cXyamggTSQ",
-          "uploaded_at": "2026-05-10T03:32:28.028407+00:00"
+          "video_id": "_iv8BAhhzX8",
+          "uploaded_at": "2026-05-10T08:11:47.075335+00:00"
         }
       }
     },
@@ -1015,7 +1014,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 177,
+        "last_30d": 176,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
