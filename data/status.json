@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-05-19T17:19:04.300744+00:00",
+  "updated_at": "2026-05-19T19:27:22.235272+00:00",
   "summary": {
-    "total_videos_30d": 1480,
-    "total_views_estimate": 168800,
+    "total_videos_30d": 1485,
+    "total_views_estimate": 169200,
     "success_rate": 70.0,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
+      "Я в Польше",
       "Smart Money"
     ],
     "warning_channels": []
@@ -25,16 +26,25 @@
           "name": "Run Bot",
           "schedule": "every 4h",
           "latest": {
-            "id": 26104389476,
+            "id": 26115416379,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T14:38:55Z",
-            "updated_at": "2026-05-19T14:47:41Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/26104389476",
-            "run_number": 399
+            "created_at": "2026-05-19T17:57:15Z",
+            "updated_at": "2026-05-19T18:07:32Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/26115416379",
+            "run_number": 400
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26115416379,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T17:57:15Z",
+              "updated_at": "2026-05-19T18:07:32Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/26115416379",
+              "run_number": 400
+            },
             {
               "id": 26104389476,
               "status": "completed",
@@ -70,15 +80,6 @@
               "updated_at": "2026-05-19T02:40:57Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/26072557921",
               "run_number": 396
-            },
-            {
-              "id": 26060311206,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-18T21:02:42Z",
-              "updated_at": "2026-05-18T21:12:42Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/26060311206",
-              "run_number": 395
             }
           ]
         },
@@ -146,8 +147,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
-        "avg_views": 569,
+        "last_30d": 180,
+        "avg_views": 571,
         "avg_likes": 12,
         "avg_comments": 0,
         "best_video": {
@@ -156,14 +157,14 @@
           "views": 1269
         },
         "last_upload": {
-          "title": "🕳️ The Emptiest Place in Space Is Terrifying #Shorts",
-          "video_id": "61RmUruhwRQ",
-          "uploaded_at": "2026-05-19T14:47:37.107180+00:00"
+          "title": "Black Hole Time Dilation 🕳️ #Shorts",
+          "video_id": "r9riek1LRGI",
+          "uploaded_at": "2026-05-19T18:07:27.836570+00:00"
         },
         "last_short": {
-          "title": "🕳️ The Emptiest Place in Space Is Terrifying #Shorts",
-          "video_id": "61RmUruhwRQ",
-          "uploaded_at": "2026-05-19T14:47:37.107180+00:00"
+          "title": "Black Hole Time Dilation 🕳️ #Shorts",
+          "video_id": "r9riek1LRGI",
+          "uploaded_at": "2026-05-19T18:07:27.836570+00:00"
         },
         "last_long": {
           "title": "CRISPR: Rewriting DNA 🧬",
@@ -184,16 +185,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 26107158377,
+            "id": 26115909754,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T15:25:41Z",
-            "updated_at": "2026-05-19T15:37:14Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26107158377",
-            "run_number": 440
+            "created_at": "2026-05-19T18:06:22Z",
+            "updated_at": "2026-05-19T18:18:57Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26115909754",
+            "run_number": 441
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26115909754,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T18:06:22Z",
+              "updated_at": "2026-05-19T18:18:57Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26115909754",
+              "run_number": 441
+            },
             {
               "id": 26107158377,
               "status": "completed",
@@ -229,15 +239,6 @@
               "updated_at": "2026-05-19T03:51:57Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26074715021",
               "run_number": 437
-            },
-            {
-              "id": 26060780647,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-18T21:12:46Z",
-              "updated_at": "2026-05-18T21:25:58Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26060780647",
-              "run_number": 436
             }
           ]
         },
@@ -305,20 +306,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 177,
+        "last_30d": 178,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "I Accidentally Sent My Boss a Rant About Him 💀 #shorts",
-          "video_id": "KFPOqcPewjs",
-          "uploaded_at": "2026-05-19T15:37:09.872006+00:00"
+          "title": "I Found My Best Friend's BF on a Dating App 📱 #shorts",
+          "video_id": "zAYeCI0PRcM",
+          "uploaded_at": "2026-05-19T18:18:50.998291+00:00"
         },
         "last_short": {
-          "title": "I Accidentally Sent My Boss a Rant About Him 💀 #shorts",
-          "video_id": "KFPOqcPewjs",
-          "uploaded_at": "2026-05-19T15:37:09.872006+00:00"
+          "title": "I Found My Best Friend's BF on a Dating App 📱 #shorts",
+          "video_id": "zAYeCI0PRcM",
+          "uploaded_at": "2026-05-19T18:18:50.998291+00:00"
         },
         "last_long": {
           "title": "5 Insane School Reunion Stories 🤯",
@@ -339,16 +340,25 @@
           "name": "Generate Poland Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 26104199459,
+            "id": 26115367475,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T14:35:31Z",
-            "updated_at": "2026-05-19T14:45:02Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26104199459",
-            "run_number": 435
+            "created_at": "2026-05-19T17:56:22Z",
+            "updated_at": "2026-05-19T18:14:58Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26115367475",
+            "run_number": 436
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26115367475,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T17:56:22Z",
+              "updated_at": "2026-05-19T18:14:58Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26115367475",
+              "run_number": 436
+            },
             {
               "id": 26104199459,
               "status": "completed",
@@ -384,15 +394,6 @@
               "updated_at": "2026-05-19T02:24:42Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26072028704",
               "run_number": 432
-            },
-            {
-              "id": 26060284625,
-              "status": "completed",
-              "conclusion": "cancelled",
-              "created_at": "2026-05-18T21:02:10Z",
-              "updated_at": "2026-05-18T21:22:31Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26060284625",
-              "run_number": 431
             }
           ]
         },
@@ -400,16 +401,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 26091640485,
+            "id": 26115631262,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-05-19T10:32:37Z",
-            "updated_at": "2026-05-19T10:44:28Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26091640485",
-            "run_number": 128
+            "conclusion": "failure",
+            "created_at": "2026-05-19T18:01:10Z",
+            "updated_at": "2026-05-19T18:06:27Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26115631262",
+            "run_number": 129
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 26115631262,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-05-19T18:01:10Z",
+              "updated_at": "2026-05-19T18:06:27Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26115631262",
+              "run_number": 129
+            },
             {
               "id": 26091640485,
               "status": "completed",
@@ -445,35 +455,26 @@
               "updated_at": "2026-05-17T16:58:13Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25996939144",
               "run_number": 125
-            },
-            {
-              "id": 25986473611,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-17T08:57:46Z",
-              "updated_at": "2026-05-17T09:02:36Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/25986473611",
-              "run_number": 124
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
+        "last_30d": 180,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Десерты Ольштына 🍰🇵🇱 #shorts",
-          "video_id": "pB2NKVDGczY",
-          "uploaded_at": "2026-05-19T14:44:56.083921+00:00"
+          "title": "Польская кухня — 5 блюд, от которых невозможно оторваться 🥟 #shorts",
+          "video_id": "oCdBd3GVZeY",
+          "uploaded_at": "2026-05-19T18:14:51.690675+00:00"
         },
         "last_short": {
-          "title": "Десерты Ольштына 🍰🇵🇱 #shorts",
-          "video_id": "pB2NKVDGczY",
-          "uploaded_at": "2026-05-19T14:44:56.083921+00:00"
+          "title": "Польская кухня — 5 блюд, от которых невозможно оторваться 🥟 #shorts",
+          "video_id": "oCdBd3GVZeY",
+          "uploaded_at": "2026-05-19T18:14:51.690675+00:00"
         },
         "last_long": {
           "title": "Осторожно мошенники в Польше 🇵🇱",
@@ -494,16 +495,25 @@
           "name": "Generate Salesforce Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 26103566036,
+            "id": 26115225583,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T14:24:31Z",
-            "updated_at": "2026-05-19T14:34:20Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/26103566036",
-            "run_number": 433
+            "created_at": "2026-05-19T17:53:48Z",
+            "updated_at": "2026-05-19T18:04:31Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/26115225583",
+            "run_number": 434
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26115225583,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T17:53:48Z",
+              "updated_at": "2026-05-19T18:04:31Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/26115225583",
+              "run_number": 434
+            },
             {
               "id": 26103566036,
               "status": "completed",
@@ -539,15 +549,6 @@
               "updated_at": "2026-05-19T02:02:56Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/26071388537",
               "run_number": 430
-            },
-            {
-              "id": 26060111094,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-18T20:58:39Z",
-              "updated_at": "2026-05-18T21:08:33Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/26060111094",
-              "run_number": 429
             }
           ]
         },
@@ -615,20 +616,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 171,
+        "last_30d": 172,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Boost Salesforce Automation 🚀 #shorts #salesforce",
-          "video_id": "Td_7duKuTmE",
-          "uploaded_at": "2026-05-19T14:34:14.674308+00:00"
+          "title": "Unlock Headless 360 🚀 #shorts #salesforce",
+          "video_id": "TBf13yJv2g8",
+          "uploaded_at": "2026-05-19T18:04:25.093464+00:00"
         },
         "last_short": {
-          "title": "Boost Salesforce Automation 🚀 #shorts #salesforce",
-          "video_id": "Td_7duKuTmE",
-          "uploaded_at": "2026-05-19T14:34:14.674308+00:00"
+          "title": "Unlock Headless 360 🚀 #shorts #salesforce",
+          "video_id": "TBf13yJv2g8",
+          "uploaded_at": "2026-05-19T18:04:25.093464+00:00"
         },
         "last_long": null
       }
@@ -645,16 +646,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 26105574748,
+            "id": 26114519507,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T14:58:48Z",
-            "updated_at": "2026-05-19T15:08:58Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/26105574748",
-            "run_number": 530
+            "created_at": "2026-05-19T17:40:10Z",
+            "updated_at": "2026-05-19T17:51:38Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/26114519507",
+            "run_number": 531
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26114519507,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T17:40:10Z",
+              "updated_at": "2026-05-19T17:51:38Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/26114519507",
+              "run_number": 531
+            },
             {
               "id": 26105574748,
               "status": "completed",
@@ -690,15 +700,6 @@
               "updated_at": "2026-05-18T22:12:07Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/26063013753",
               "run_number": 527
-            },
-            {
-              "id": 26056313209,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-18T19:42:36Z",
-              "updated_at": "2026-05-18T19:52:01Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/26056313209",
-              "run_number": 526
             }
           ]
         },
@@ -776,14 +777,14 @@
           "views": 267
         },
         "last_upload": {
-          "title": "💸 Boost 401k by 25% #shorts #money",
-          "video_id": "GTlbEZROJPU",
-          "uploaded_at": "2026-05-19T15:08:53.943318+00:00"
+          "title": "💸 Compound Interest Hack #shorts #money",
+          "video_id": "11JfjehHz7M",
+          "uploaded_at": "2026-05-19T17:51:32.792899+00:00"
         },
         "last_short": {
-          "title": "💸 Boost 401k by 25% #shorts #money",
-          "video_id": "GTlbEZROJPU",
-          "uploaded_at": "2026-05-19T15:08:53.943318+00:00"
+          "title": "💸 Compound Interest Hack #shorts #money",
+          "video_id": "11JfjehHz7M",
+          "uploaded_at": "2026-05-19T17:51:32.792899+00:00"
         },
         "last_long": null
       }
@@ -955,16 +956,25 @@
           "name": "Generate Fishing Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 26103514670,
+            "id": 26115224581,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-19T14:23:41Z",
-            "updated_at": "2026-05-19T14:32:28Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/26103514670",
-            "run_number": 446
+            "created_at": "2026-05-19T17:53:47Z",
+            "updated_at": "2026-05-19T18:03:00Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/26115224581",
+            "run_number": 447
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26115224581,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-19T17:53:47Z",
+              "updated_at": "2026-05-19T18:03:00Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/26115224581",
+              "run_number": 447
+            },
             {
               "id": 26103514670,
               "status": "completed",
@@ -1000,35 +1010,26 @@
               "updated_at": "2026-05-19T02:01:25Z",
               "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/26071362925",
               "run_number": 443
-            },
-            {
-              "id": 26060084705,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-18T20:58:05Z",
-              "updated_at": "2026-05-18T21:05:36Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/26060084705",
-              "run_number": 442
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 174,
+        "last_30d": 175,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Секретная наживка из манки #shorts",
-          "video_id": "-0aHxQeFSEA",
-          "uploaded_at": "2026-05-19T14:32:24.478366+00:00"
+          "title": "Рыбачьте как профи #shorts 🎣",
+          "video_id": "IO1G-IsxtIU",
+          "uploaded_at": "2026-05-19T18:02:55.921137+00:00"
         },
         "last_short": {
-          "title": "Секретная наживка из манки #shorts",
-          "video_id": "-0aHxQeFSEA",
-          "uploaded_at": "2026-05-19T14:32:24.478366+00:00"
+          "title": "Рыбачьте как профи #shorts 🎣",
+          "video_id": "IO1G-IsxtIU",
+          "uploaded_at": "2026-05-19T18:02:55.921137+00:00"
         },
         "last_long": null
       }
