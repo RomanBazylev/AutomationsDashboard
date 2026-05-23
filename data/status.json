@@ -1,14 +1,12 @@
 {
-  "updated_at": "2026-05-23T07:44:25.606379+00:00",
+  "updated_at": "2026-05-23T09:28:46.123455+00:00",
   "summary": {
-    "total_videos_30d": 1485,
+    "total_videos_30d": 1482,
     "total_views_estimate": 155800,
-    "success_rate": 68.6,
+    "success_rate": 71.4,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Я в Польше",
       "Smart Money"
     ],
     "warning_channels": []
@@ -147,7 +145,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 180,
+        "last_30d": 179,
         "avg_views": 527,
         "avg_likes": 10,
         "avg_comments": 0,
@@ -246,16 +244,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 26281910054,
+            "id": 26328646965,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-05-22T10:14:05Z",
-            "updated_at": "2026-05-22T10:34:05Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26281910054",
-            "run_number": 72
+            "conclusion": "success",
+            "created_at": "2026-05-23T08:56:11Z",
+            "updated_at": "2026-05-23T09:04:36Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26328646965",
+            "run_number": 73
           },
-          "failure_streak": 2,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26328646965,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-23T08:56:11Z",
+              "updated_at": "2026-05-23T09:04:36Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26328646965",
+              "run_number": 73
+            },
             {
               "id": 26281910054,
               "status": "completed",
@@ -291,30 +298,21 @@
               "updated_at": "2026-05-19T10:50:45Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26091550546",
               "run_number": 69
-            },
-            {
-              "id": 26029167192,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-05-18T10:55:32Z",
-              "updated_at": "2026-05-18T11:15:19Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/26029167192",
-              "run_number": 68
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
+        "last_30d": 180,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
-          "video_id": "fJWARZXYW0o",
-          "uploaded_at": "2026-05-23T06:44:42.486332+00:00"
+          "title": "Online Dating Horrors 🚨",
+          "video_id": "ZeSrWkwq_GQ",
+          "uploaded_at": "2026-05-23T09:04:31.193791+00:00"
         },
         "last_short": {
           "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
@@ -322,9 +320,9 @@
           "uploaded_at": "2026-05-23T06:44:42.486332+00:00"
         },
         "last_long": {
-          "title": "Small Town Scandals 🚨",
-          "video_id": "pXz8dNkXhN4",
-          "uploaded_at": "2026-05-20T10:25:39.235605+00:00"
+          "title": "Online Dating Horrors 🚨",
+          "video_id": "ZeSrWkwq_GQ",
+          "uploaded_at": "2026-05-23T09:04:31.193791+00:00"
         }
       }
     },
@@ -401,16 +399,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 26303263427,
+            "id": 26328663678,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-05-22T17:48:01Z",
-            "updated_at": "2026-05-22T17:53:24Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26303263427",
-            "run_number": 135
+            "conclusion": "success",
+            "created_at": "2026-05-23T08:57:03Z",
+            "updated_at": "2026-05-23T09:09:16Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26328663678",
+            "run_number": 136
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26328663678,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-23T08:57:03Z",
+              "updated_at": "2026-05-23T09:09:16Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26328663678",
+              "run_number": 136
+            },
             {
               "id": 26303263427,
               "status": "completed",
@@ -446,15 +453,6 @@
               "updated_at": "2026-05-21T10:39:45Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26220603020",
               "run_number": 132
-            },
-            {
-              "id": 26181168464,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-05-20T18:12:47Z",
-              "updated_at": "2026-05-20T18:22:40Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/26181168464",
-              "run_number": 131
             }
           ]
         }
@@ -467,9 +465,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Уличная еда в Гданьске 🇵🇱 #shorts",
-          "video_id": "kJTAFw6H58g",
-          "uploaded_at": "2026-05-23T06:34:50.014004+00:00"
+          "title": "Менеджер счастья в Польше 🇵🇱",
+          "video_id": "NTOQ16Cq1jo",
+          "uploaded_at": "2026-05-23T09:09:08.415974+00:00"
         },
         "last_short": {
           "title": "Уличная еда в Гданьске 🇵🇱 #shorts",
@@ -477,9 +475,9 @@
           "uploaded_at": "2026-05-23T06:34:50.014004+00:00"
         },
         "last_long": {
-          "title": "Стоимость проезда в Польше 🇵🇱",
-          "video_id": "eExddrGoQJ4",
-          "uploaded_at": "2026-05-22T10:21:45.288393+00:00"
+          "title": "Менеджер счастья в Польше 🇵🇱",
+          "video_id": "NTOQ16Cq1jo",
+          "uploaded_at": "2026-05-23T09:09:08.415974+00:00"
         }
       }
     },
@@ -616,7 +614,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 172,
+        "last_30d": 171,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -767,7 +765,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 200,
+        "last_30d": 199,
         "avg_views": 46,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -801,16 +799,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 26322282050,
+            "id": 26327982362,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-05-23T03:28:11Z",
-            "updated_at": "2026-05-23T03:30:17Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/26322282050",
-            "run_number": 566
+            "created_at": "2026-05-23T08:21:39Z",
+            "updated_at": "2026-05-23T08:24:00Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/26327982362",
+            "run_number": 567
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 26327982362,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-05-23T08:21:39Z",
+              "updated_at": "2026-05-23T08:24:00Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/26327982362",
+              "run_number": 567
+            },
             {
               "id": 26322282050,
               "status": "completed",
@@ -846,15 +853,6 @@
               "updated_at": "2026-05-22T17:13:46Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/26301508462",
               "run_number": 563
-            },
-            {
-              "id": 26294376711,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-05-22T14:42:20Z",
-              "updated_at": "2026-05-22T14:45:07Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/26294376711",
-              "run_number": 562
             }
           ]
         },
@@ -933,14 +931,14 @@
         },
         "last_upload": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "YufRB63GsY0",
-          "uploaded_at": "2026-05-23T03:29:48.033208+00:00"
+          "video_id": "pfADU6qTLE4",
+          "uploaded_at": "2026-05-23T08:23:31.133952+00:00"
         },
         "last_short": null,
         "last_long": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "YufRB63GsY0",
-          "uploaded_at": "2026-05-23T03:29:48.033208+00:00"
+          "video_id": "pfADU6qTLE4",
+          "uploaded_at": "2026-05-23T08:23:31.133952+00:00"
         }
       }
     },
@@ -1016,7 +1014,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 175,
+        "last_30d": 174,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
