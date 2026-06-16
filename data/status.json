@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-06-16T11:36:16.568166+00:00",
+  "updated_at": "2026-06-16T16:13:24.162300+00:00",
   "summary": {
-    "total_videos_30d": 1354,
-    "total_views_estimate": 136600,
+    "total_videos_30d": 1348,
+    "total_views_estimate": 136400,
     "success_rate": 67.1,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
-      "Я в Польше"
+      "Я в Польше",
+      "Smart Money"
     ],
     "warning_channels": []
   },
@@ -86,16 +87,25 @@
           "name": "Generate Long Video",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 27556197241,
+            "id": 27620923201,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-06-15T15:12:38Z",
-            "updated_at": "2026-06-15T15:14:26Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/27556197241",
-            "run_number": 97
+            "created_at": "2026-06-16T13:26:36Z",
+            "updated_at": "2026-06-16T13:27:56Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/27620923201",
+            "run_number": 98
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 27620923201,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-06-16T13:26:36Z",
+              "updated_at": "2026-06-16T13:27:56Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/27620923201",
+              "run_number": 98
+            },
             {
               "id": 27556197241,
               "status": "completed",
@@ -131,23 +141,14 @@
               "updated_at": "2026-06-12T12:18:14Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/27415094358",
               "run_number": 94
-            },
-            {
-              "id": 27347605690,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-11T12:43:47Z",
-              "updated_at": "2026-06-11T12:45:18Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/27347605690",
-              "run_number": 93
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 162,
-        "avg_views": 479,
+        "last_30d": 161,
+        "avg_views": 478,
         "avg_likes": 12,
         "avg_comments": 0,
         "best_video": {
@@ -180,16 +181,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 27593786617,
+            "id": 27618967728,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-06-16T04:16:40Z",
-            "updated_at": "2026-06-16T04:27:47Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27593786617",
-            "run_number": 583
+            "created_at": "2026-06-16T12:53:55Z",
+            "updated_at": "2026-06-16T13:06:57Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27618967728",
+            "run_number": 584
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 27618967728,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-06-16T12:53:55Z",
+              "updated_at": "2026-06-16T13:06:57Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27618967728",
+              "run_number": 584
+            },
             {
               "id": 27593786617,
               "status": "completed",
@@ -225,15 +235,6 @@
               "updated_at": "2026-06-15T14:09:18Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27551316153",
               "run_number": 580
-            },
-            {
-              "id": 27523862362,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-06-15T04:23:08Z",
-              "updated_at": "2026-06-15T04:32:51Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27523862362",
-              "run_number": 579
             }
           ]
         },
@@ -241,16 +242,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 27547714414,
+            "id": 27616006402,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-06-15T12:55:36Z",
-            "updated_at": "2026-06-15T13:11:33Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27547714414",
-            "run_number": 96
+            "created_at": "2026-06-16T12:01:17Z",
+            "updated_at": "2026-06-16T12:09:05Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27616006402",
+            "run_number": 97
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 27616006402,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-06-16T12:01:17Z",
+              "updated_at": "2026-06-16T12:09:05Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27616006402",
+              "run_number": 97
+            },
             {
               "id": 27547714414,
               "status": "completed",
@@ -286,35 +296,26 @@
               "updated_at": "2026-06-12T11:15:40Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27411309785",
               "run_number": 93
-            },
-            {
-              "id": 27342970822,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-11T11:16:13Z",
-              "updated_at": "2026-06-11T11:36:32Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27342970822",
-              "run_number": 92
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 157,
+        "last_30d": 158,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "My Barber's 20-Year Secret Made the Whole Shop Cry ✂️ #shorts",
-          "video_id": "c77wnOWkrqA",
-          "uploaded_at": "2026-06-16T04:27:43.630396+00:00"
+          "title": "The Hospital Said I Had 6 Months. They Were Wrong 🏥 #shorts",
+          "video_id": "8GODx1inHH4",
+          "uploaded_at": "2026-06-16T13:06:51.233982+00:00"
         },
         "last_short": {
-          "title": "My Barber's 20-Year Secret Made the Whole Shop Cry ✂️ #shorts",
-          "video_id": "c77wnOWkrqA",
-          "uploaded_at": "2026-06-16T04:27:43.630396+00:00"
+          "title": "The Hospital Said I Had 6 Months. They Were Wrong 🏥 #shorts",
+          "video_id": "8GODx1inHH4",
+          "uploaded_at": "2026-06-16T13:06:51.233982+00:00"
         },
         "last_long": {
           "title": "5 Insane Secrets Overheard 🤯",
@@ -396,16 +397,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 27571772164,
+            "id": 27616133714,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-06-15T19:43:14Z",
-            "updated_at": "2026-06-15T19:53:06Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/27571772164",
-            "run_number": 182
+            "created_at": "2026-06-16T12:03:36Z",
+            "updated_at": "2026-06-16T12:06:21Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/27616133714",
+            "run_number": 183
           },
-          "failure_streak": 1,
+          "failure_streak": 2,
           "recent_runs": [
+            {
+              "id": 27616133714,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-06-16T12:03:36Z",
+              "updated_at": "2026-06-16T12:06:21Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/27616133714",
+              "run_number": 183
+            },
             {
               "id": 27571772164,
               "status": "completed",
@@ -441,22 +451,13 @@
               "updated_at": "2026-06-14T10:21:39Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/27495775884",
               "run_number": 179
-            },
-            {
-              "id": 27473619032,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-13T17:17:57Z",
-              "updated_at": "2026-06-13T17:23:19Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/27473619032",
-              "run_number": 178
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 174,
+        "last_30d": 173,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -551,16 +552,25 @@
           "name": "Generate Salesforce Long",
           "schedule": "daily 08:00",
           "latest": {
-            "id": 27553185457,
+            "id": 27619105512,
             "status": "completed",
             "conclusion": "cancelled",
-            "created_at": "2026-06-15T14:25:26Z",
-            "updated_at": "2026-06-15T15:25:48Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/27553185457",
-            "run_number": 59
+            "created_at": "2026-06-16T12:56:15Z",
+            "updated_at": "2026-06-16T13:56:38Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/27619105512",
+            "run_number": 60
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 27619105512,
+              "status": "completed",
+              "conclusion": "cancelled",
+              "created_at": "2026-06-16T12:56:15Z",
+              "updated_at": "2026-06-16T13:56:38Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/27619105512",
+              "run_number": 60
+            },
             {
               "id": 27553185457,
               "status": "completed",
@@ -596,22 +606,13 @@
               "updated_at": "2026-06-12T12:45:44Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/27413611124",
               "run_number": 56
-            },
-            {
-              "id": 27345838490,
-              "status": "completed",
-              "conclusion": "cancelled",
-              "created_at": "2026-06-11T12:11:42Z",
-              "updated_at": "2026-06-11T13:12:03Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/27345838490",
-              "run_number": 55
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 164,
+        "last_30d": 163,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -702,16 +703,25 @@
           "name": "Generate Money Long",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 27556201224,
+            "id": 27620927481,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-06-15T15:12:42Z",
-            "updated_at": "2026-06-15T15:17:59Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/27556201224",
-            "run_number": 86
+            "conclusion": "failure",
+            "created_at": "2026-06-16T13:26:40Z",
+            "updated_at": "2026-06-16T13:34:47Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/27620927481",
+            "run_number": 87
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 27620927481,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-06-16T13:26:40Z",
+              "updated_at": "2026-06-16T13:34:47Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/27620927481",
+              "run_number": 87
+            },
             {
               "id": 27556201224,
               "status": "completed",
@@ -747,22 +757,13 @@
               "updated_at": "2026-06-12T12:24:44Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/27415094476",
               "run_number": 83
-            },
-            {
-              "id": 27347625625,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-11T12:44:08Z",
-              "updated_at": "2026-06-11T12:51:46Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/27347625625",
-              "run_number": 82
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 154,
+        "last_30d": 153,
         "avg_views": 25,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -921,7 +922,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
+        "last_30d": 177,
         "avg_views": 179,
         "avg_likes": 2,
         "avg_comments": 0,
@@ -1015,7 +1016,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 164,
+        "last_30d": 163,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
