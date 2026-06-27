@@ -1,14 +1,12 @@
 {
-  "updated_at": "2026-06-27T07:40:13.754116+00:00",
+  "updated_at": "2026-06-27T09:52:13.899247+00:00",
   "summary": {
-    "total_videos_30d": 1327,
-    "total_views_estimate": 133000,
-    "success_rate": 70.0,
+    "total_videos_30d": 1325,
+    "total_views_estimate": 133400,
+    "success_rate": 72.9,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Я в Польше",
       "Salesforce Tips"
     ],
     "warning_channels": []
@@ -147,7 +145,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 158,
+        "last_30d": 157,
         "avg_views": 481,
         "avg_likes": 14,
         "avg_comments": 0,
@@ -246,16 +244,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 28231655320,
+            "id": 28285042678,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-06-26T10:12:17Z",
-            "updated_at": "2026-06-26T10:32:02Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/28231655320",
-            "run_number": 107
+            "conclusion": "success",
+            "created_at": "2026-06-27T09:21:17Z",
+            "updated_at": "2026-06-27T09:29:03Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/28285042678",
+            "run_number": 108
           },
-          "failure_streak": 5,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 28285042678,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-06-27T09:21:17Z",
+              "updated_at": "2026-06-27T09:29:03Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/28285042678",
+              "run_number": 108
+            },
             {
               "id": 28231655320,
               "status": "completed",
@@ -291,15 +298,6 @@
               "updated_at": "2026-06-23T10:46:47Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/28019605907",
               "run_number": 104
-            },
-            {
-              "id": 27953383624,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-22T12:41:22Z",
-              "updated_at": "2026-06-22T12:53:16Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/27953383624",
-              "run_number": 103
             }
           ]
         }
@@ -312,9 +310,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Grandma's Locked Room Held a 50-Year Secret 🎨 #shorts",
-          "video_id": "lGPsrRM8MQ4",
-          "uploaded_at": "2026-06-27T07:04:29.552539+00:00"
+          "title": "Neighbor Wars 🚫",
+          "video_id": "5Izt4PtdfcE",
+          "uploaded_at": "2026-06-27T09:28:59.302838+00:00"
         },
         "last_short": {
           "title": "Grandma's Locked Room Held a 50-Year Secret 🎨 #shorts",
@@ -322,9 +320,9 @@
           "uploaded_at": "2026-06-27T07:04:29.552539+00:00"
         },
         "last_long": {
-          "title": "5 Insane Secrets Overheard 🤯",
-          "video_id": "8-GhD8w4Dsc",
-          "uploaded_at": "2026-06-08T11:55:37.914469+00:00"
+          "title": "Neighbor Wars 🚫",
+          "video_id": "5Izt4PtdfcE",
+          "uploaded_at": "2026-06-27T09:28:59.302838+00:00"
         }
       }
     },
@@ -401,16 +399,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 28255166257,
+            "id": 28285074352,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-06-26T17:42:59Z",
-            "updated_at": "2026-06-26T17:48:30Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/28255166257",
-            "run_number": 204
+            "conclusion": "success",
+            "created_at": "2026-06-27T09:22:43Z",
+            "updated_at": "2026-06-27T09:33:07Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/28285074352",
+            "run_number": 205
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 28285074352,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-06-27T09:22:43Z",
+              "updated_at": "2026-06-27T09:33:07Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/28285074352",
+              "run_number": 205
+            },
             {
               "id": 28255166257,
               "status": "completed",
@@ -446,15 +453,6 @@
               "updated_at": "2026-06-25T10:19:15Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/28162884275",
               "run_number": 201
-            },
-            {
-              "id": 28118415510,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-06-24T17:50:06Z",
-              "updated_at": "2026-06-24T17:55:34Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/28118415510",
-              "run_number": 200
             }
           ]
         }
@@ -467,9 +465,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Торунь - город Коперника 🇵🇱 #shorts",
-          "video_id": "hGAijpqgIKo",
-          "uploaded_at": "2026-06-27T06:55:52.700621+00:00"
+          "title": "ЖКХ в Польше 🇵🇱",
+          "video_id": "ApXBGf79xfw",
+          "uploaded_at": "2026-06-27T09:33:01.057384+00:00"
         },
         "last_short": {
           "title": "Торунь - город Коперника 🇵🇱 #shorts",
@@ -477,9 +475,9 @@
           "uploaded_at": "2026-06-27T06:55:52.700621+00:00"
         },
         "last_long": {
-          "title": "Работа в Польше 🇵🇱",
-          "video_id": "fZzHWJrQUjE",
-          "uploaded_at": "2026-06-26T10:19:11.112341+00:00"
+          "title": "ЖКХ в Польше 🇵🇱",
+          "video_id": "ApXBGf79xfw",
+          "uploaded_at": "2026-06-27T09:33:01.057384+00:00"
         }
       }
     },
@@ -616,7 +614,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 157,
+        "last_30d": 156,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -805,16 +803,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 28277444525,
+            "id": 28284087720,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-06-27T03:36:40Z",
-            "updated_at": "2026-06-27T03:38:56Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/28277444525",
-            "run_number": 760
+            "created_at": "2026-06-27T08:37:51Z",
+            "updated_at": "2026-06-27T08:40:36Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/28284087720",
+            "run_number": 761
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 28284087720,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-06-27T08:37:51Z",
+              "updated_at": "2026-06-27T08:40:36Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/28284087720",
+              "run_number": 761
+            },
             {
               "id": 28277444525,
               "status": "completed",
@@ -850,15 +857,6 @@
               "updated_at": "2026-06-26T17:02:59Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/28252944787",
               "run_number": 757
-            },
-            {
-              "id": 28244425489,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-06-26T14:27:20Z",
-              "updated_at": "2026-06-26T14:29:47Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/28244425489",
-              "run_number": 756
             }
           ]
         },
@@ -926,8 +924,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 176,
-        "avg_views": 170,
+        "last_30d": 177,
+        "avg_views": 172,
         "avg_likes": 2,
         "avg_comments": 0,
         "best_video": {
@@ -937,14 +935,14 @@
         },
         "last_upload": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "YHiLU9C_hFc",
-          "uploaded_at": "2026-06-27T03:38:27.339745+00:00"
+          "video_id": "kISpQ96iNp0",
+          "uploaded_at": "2026-06-27T08:40:05.534317+00:00"
         },
         "last_short": null,
         "last_long": {
           "title": "7 Brutal Truths Weak Men Avoid",
-          "video_id": "YHiLU9C_hFc",
-          "uploaded_at": "2026-06-27T03:38:27.339745+00:00"
+          "video_id": "kISpQ96iNp0",
+          "uploaded_at": "2026-06-27T08:40:05.534317+00:00"
         }
       }
     },
@@ -1020,7 +1018,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 156,
+        "last_30d": 155,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
