@@ -1,14 +1,13 @@
 {
-  "updated_at": "2026-07-09T11:18:03.227960+00:00",
+  "updated_at": "2026-07-09T14:00:01.031336+00:00",
   "summary": {
     "total_videos_30d": 1369,
-    "total_views_estimate": 139200,
-    "success_rate": 78.6,
+    "total_views_estimate": 138800,
+    "success_rate": 80.0,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Smart Money"
+      "Reddit Stories"
     ],
     "warning_channels": []
   },
@@ -86,16 +85,25 @@
           "name": "Generate Long Video",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 28937642959,
+            "id": 29016387000,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-07-08T11:02:01Z",
-            "updated_at": "2026-07-08T11:03:39Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/28937642959",
-            "run_number": 120
+            "created_at": "2026-07-09T11:54:52Z",
+            "updated_at": "2026-07-09T11:56:27Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29016387000",
+            "run_number": 121
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 29016387000,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-07-09T11:54:52Z",
+              "updated_at": "2026-07-09T11:56:27Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29016387000",
+              "run_number": 121
+            },
             {
               "id": 28937642959,
               "status": "completed",
@@ -131,15 +139,6 @@
               "updated_at": "2026-07-05T11:03:34Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/28738563802",
               "run_number": 117
-            },
-            {
-              "id": 28703886863,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-07-04T10:52:24Z",
-              "updated_at": "2026-07-04T10:53:51Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/28703886863",
-              "run_number": 116
             }
           ]
         }
@@ -147,7 +146,7 @@
       "video_stats": {
         "total": 200,
         "last_30d": 164,
-        "avg_views": 479,
+        "avg_views": 477,
         "avg_likes": 14,
         "avg_comments": 0,
         "best_video": {
@@ -305,7 +304,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 164,
+        "last_30d": 163,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -649,16 +648,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 28999367609,
+            "id": 29016428463,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-09T06:41:58Z",
-            "updated_at": "2026-07-09T06:49:44Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28999367609",
-            "run_number": 830
+            "created_at": "2026-07-09T11:55:38Z",
+            "updated_at": "2026-07-09T12:08:22Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29016428463",
+            "run_number": 831
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29016428463,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-09T11:55:38Z",
+              "updated_at": "2026-07-09T12:08:22Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29016428463",
+              "run_number": 831
+            },
             {
               "id": 28999367609,
               "status": "completed",
@@ -694,15 +702,6 @@
               "updated_at": "2026-07-08T19:36:23Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28969488253",
               "run_number": 827
-            },
-            {
-              "id": 28958738226,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-08T16:28:24Z",
-              "updated_at": "2026-07-08T16:42:05Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28958738226",
-              "run_number": 826
             }
           ]
         },
@@ -710,16 +709,25 @@
           "name": "Generate Money Long",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 28937643832,
+            "id": 29016391917,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-07-08T11:02:02Z",
-            "updated_at": "2026-07-08T11:09:28Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28937643832",
-            "run_number": 109
+            "conclusion": "success",
+            "created_at": "2026-07-09T11:54:58Z",
+            "updated_at": "2026-07-09T12:02:26Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29016391917",
+            "run_number": 110
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29016391917,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-09T11:54:58Z",
+              "updated_at": "2026-07-09T12:02:26Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29016391917",
+              "run_number": 110
+            },
             {
               "id": 28937643832,
               "status": "completed",
@@ -755,22 +763,13 @@
               "updated_at": "2026-07-05T11:09:11Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28738569014",
               "run_number": 106
-            },
-            {
-              "id": 28703889288,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-07-04T10:52:30Z",
-              "updated_at": "2026-07-04T11:02:26Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/28703889288",
-              "run_number": 105
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 157,
+        "last_30d": 158,
         "avg_views": 5,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -780,14 +779,14 @@
           "views": 124
         },
         "last_upload": {
-          "title": "🚀 Compound Interest Hack #shorts #money",
-          "video_id": "EQjiVJs_Lu8",
-          "uploaded_at": "2026-07-09T06:49:40.434975+00:00"
+          "title": "Shatter Debt 🚫💸 #shorts #money",
+          "video_id": "fx3AjHiHjHc",
+          "uploaded_at": "2026-07-09T12:08:15.995320+00:00"
         },
         "last_short": {
-          "title": "🚀 Compound Interest Hack #shorts #money",
-          "video_id": "EQjiVJs_Lu8",
-          "uploaded_at": "2026-07-09T06:49:40.434975+00:00"
+          "title": "Shatter Debt 🚫💸 #shorts #money",
+          "video_id": "fx3AjHiHjHc",
+          "uploaded_at": "2026-07-09T12:08:15.995320+00:00"
         },
         "last_long": {
           "title": "Debt Secrets 🤐",
