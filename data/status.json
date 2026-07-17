@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-17T18:35:58.561657+00:00",
+  "updated_at": "2026-07-17T19:49:30.008162+00:00",
   "summary": {
-    "total_videos_30d": 1438,
-    "total_views_estimate": 141800,
+    "total_videos_30d": 1439,
+    "total_views_estimate": 142000,
     "success_rate": 67.1,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
       "Я в Польше",
-      "Salesforce Tips",
-      "Smart Money"
+      "Salesforce Tips"
     ],
     "warning_channels": []
   },
@@ -651,16 +650,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 29595342641,
+            "id": 29606168953,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-07-17T16:13:53Z",
-            "updated_at": "2026-07-17T16:15:22Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29595342641",
-            "run_number": 894
+            "conclusion": "success",
+            "created_at": "2026-07-17T19:04:09Z",
+            "updated_at": "2026-07-17T19:13:54Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29606168953",
+            "run_number": 895
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29606168953,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-17T19:04:09Z",
+              "updated_at": "2026-07-17T19:13:54Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29606168953",
+              "run_number": 895
+            },
             {
               "id": 29595342641,
               "status": "completed",
@@ -696,15 +704,6 @@
               "updated_at": "2026-07-17T08:18:59Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29565298650",
               "run_number": 891
-            },
-            {
-              "id": 29557952631,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-17T05:40:55Z",
-              "updated_at": "2026-07-17T05:51:12Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29557952631",
-              "run_number": 890
             }
           ]
         },
@@ -772,7 +771,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 171,
+        "last_30d": 172,
         "avg_views": 4,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -782,14 +781,14 @@
           "views": 29
         },
         "last_upload": {
-          "title": "💸 401k Mistake Costs $275k #shorts #money",
-          "video_id": "Qxqtbh6krJ0",
-          "uploaded_at": "2026-07-17T13:36:12.205115+00:00"
+          "title": "🚨 Boost Savings 500% #shorts #money",
+          "video_id": "_hRH1ZbmRMM",
+          "uploaded_at": "2026-07-17T19:13:50.848482+00:00"
         },
         "last_short": {
-          "title": "💸 401k Mistake Costs $275k #shorts #money",
-          "video_id": "Qxqtbh6krJ0",
-          "uploaded_at": "2026-07-17T13:36:12.205115+00:00"
+          "title": "🚨 Boost Savings 500% #shorts #money",
+          "video_id": "_hRH1ZbmRMM",
+          "uploaded_at": "2026-07-17T19:13:50.848482+00:00"
         },
         "last_long": {
           "title": "💸 Side Hustle Income",
@@ -810,16 +809,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 29595475739,
+            "id": 29606639921,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-17T16:15:53Z",
-            "updated_at": "2026-07-17T16:18:36Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29595475739",
-            "run_number": 897
+            "created_at": "2026-07-17T19:11:52Z",
+            "updated_at": "2026-07-17T19:14:47Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29606639921",
+            "run_number": 898
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29606639921,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-17T19:11:52Z",
+              "updated_at": "2026-07-17T19:14:47Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29606639921",
+              "run_number": 898
+            },
             {
               "id": 29595475739,
               "status": "completed",
@@ -855,15 +863,6 @@
               "updated_at": "2026-07-17T08:14:11Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29565558298",
               "run_number": 894
-            },
-            {
-              "id": 29558051571,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-17T05:43:08Z",
-              "updated_at": "2026-07-17T05:45:25Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29558051571",
-              "run_number": 893
             }
           ]
         },
@@ -932,7 +931,7 @@
       "video_stats": {
         "total": 200,
         "last_30d": 200,
-        "avg_views": 220,
+        "avg_views": 221,
         "avg_likes": 3,
         "avg_comments": 0,
         "best_video": {
@@ -941,15 +940,15 @@
           "views": 1057
         },
         "last_upload": {
-          "title": "The truth about discipline nobody wants to hear.",
-          "video_id": "sXqcxbI8HvA",
-          "uploaded_at": "2026-07-17T16:18:05.292779+00:00"
+          "title": "This is why you are always tired.",
+          "video_id": "xc7tdNeBQLI",
+          "uploaded_at": "2026-07-17T19:14:16.045142+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "The truth about discipline nobody wants to hear.",
-          "video_id": "sXqcxbI8HvA",
-          "uploaded_at": "2026-07-17T16:18:05.292779+00:00"
+          "title": "This is why you are always tired.",
+          "video_id": "xc7tdNeBQLI",
+          "uploaded_at": "2026-07-17T19:14:16.045142+00:00"
         }
       }
     },
