@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-19T19:56:00.423134+00:00",
+  "updated_at": "2026-07-19T21:01:52.915217+00:00",
   "summary": {
-    "total_videos_30d": 1461,
-    "total_views_estimate": 142600,
-    "success_rate": 67.1,
+    "total_videos_30d": 1464,
+    "total_views_estimate": 142400,
+    "success_rate": 65.7,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
       "Я в Польше",
-      "Salesforce Tips",
-      "Рыбалка"
+      "Salesforce Tips"
     ],
     "warning_channels": []
   },
@@ -27,16 +26,25 @@
           "name": "Run Bot",
           "schedule": "every 4h",
           "latest": {
-            "id": 29695502783,
+            "id": 29702871306,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-19T16:45:57Z",
-            "updated_at": "2026-07-19T16:54:57Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29695502783",
-            "run_number": 740
+            "created_at": "2026-07-19T20:37:39Z",
+            "updated_at": "2026-07-19T20:49:04Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29702871306",
+            "run_number": 741
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29702871306,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T20:37:39Z",
+              "updated_at": "2026-07-19T20:49:04Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29702871306",
+              "run_number": 741
+            },
             {
               "id": 29695502783,
               "status": "completed",
@@ -72,15 +80,6 @@
               "updated_at": "2026-07-19T06:32:44Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29676354826",
               "run_number": 737
-            },
-            {
-              "id": 29669208457,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T01:50:00Z",
-              "updated_at": "2026-07-19T01:59:01Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/29669208457",
-              "run_number": 736
             }
           ]
         },
@@ -148,8 +147,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 175,
-        "avg_views": 484,
+        "last_30d": 176,
+        "avg_views": 483,
         "avg_likes": 13,
         "avg_comments": 0,
         "best_video": {
@@ -158,14 +157,14 @@
           "views": 1263
         },
         "last_upload": {
-          "title": "🌊 36,000 Feet Deep — What Lives Down There? #Shorts",
-          "video_id": "F7p3XjKvo40",
-          "uploaded_at": "2026-07-19T16:54:53.155021+00:00"
+          "title": "The Mary Celeste Lie 🚣‍♀️ #Shorts",
+          "video_id": "sKFToO-RcGc",
+          "uploaded_at": "2026-07-19T20:48:58.389277+00:00"
         },
         "last_short": {
-          "title": "🌊 36,000 Feet Deep — What Lives Down There? #Shorts",
-          "video_id": "F7p3XjKvo40",
-          "uploaded_at": "2026-07-19T16:54:53.155021+00:00"
+          "title": "The Mary Celeste Lie 🚣‍♀️ #Shorts",
+          "video_id": "sKFToO-RcGc",
+          "uploaded_at": "2026-07-19T20:48:58.389277+00:00"
         },
         "last_long": {
           "title": "DB Cooper: The Hijacker 🛫",
@@ -186,16 +185,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 29695894933,
-            "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-07-19T16:58:04Z",
-            "updated_at": "2026-07-19T17:11:05Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/29695894933",
-            "run_number": 771
+            "id": 29703261416,
+            "status": "in_progress",
+            "conclusion": null,
+            "created_at": "2026-07-19T20:50:29Z",
+            "updated_at": "2026-07-19T20:50:33Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/29703261416",
+            "run_number": 772
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29703261416,
+              "status": "in_progress",
+              "conclusion": null,
+              "created_at": "2026-07-19T20:50:29Z",
+              "updated_at": "2026-07-19T20:50:33Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/29703261416",
+              "run_number": 772
+            },
             {
               "id": 29695894933,
               "status": "completed",
@@ -231,15 +239,6 @@
               "updated_at": "2026-07-19T06:40:56Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/29676536359",
               "run_number": 768
-            },
-            {
-              "id": 29670730667,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T02:47:12Z",
-              "updated_at": "2026-07-19T02:57:40Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/29670730667",
-              "run_number": 767
             }
           ]
         },
@@ -341,16 +340,25 @@
           "name": "Generate Poland Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 29695420068,
+            "id": 29702859198,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-19T16:43:28Z",
-            "updated_at": "2026-07-19T16:51:54Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/29695420068",
-            "run_number": 777
+            "created_at": "2026-07-19T20:37:15Z",
+            "updated_at": "2026-07-19T20:45:12Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/29702859198",
+            "run_number": 778
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29702859198,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T20:37:15Z",
+              "updated_at": "2026-07-19T20:45:12Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/29702859198",
+              "run_number": 778
+            },
             {
               "id": 29695420068,
               "status": "completed",
@@ -386,15 +394,6 @@
               "updated_at": "2026-07-19T06:34:40Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/29676322903",
               "run_number": 774
-            },
-            {
-              "id": 29669040832,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T01:43:27Z",
-              "updated_at": "2026-07-19T01:52:17Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/29669040832",
-              "run_number": 773
             }
           ]
         },
@@ -462,20 +461,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 188,
+        "last_30d": 189,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Польша: 5 минут истории 🇵🇱 #shorts",
-          "video_id": "OX4fzmoNGOs",
-          "uploaded_at": "2026-07-19T16:51:47.728480+00:00"
+          "title": "Суперстиция в Сопоте 🇵🇱 #shorts",
+          "video_id": "ZsBc4sVQRyA",
+          "uploaded_at": "2026-07-19T20:45:06.068564+00:00"
         },
         "last_short": {
-          "title": "Польша: 5 минут истории 🇵🇱 #shorts",
-          "video_id": "OX4fzmoNGOs",
-          "uploaded_at": "2026-07-19T16:51:47.728480+00:00"
+          "title": "Суперстиция в Сопоте 🇵🇱 #shorts",
+          "video_id": "ZsBc4sVQRyA",
+          "uploaded_at": "2026-07-19T20:45:06.068564+00:00"
         },
         "last_long": {
           "title": "Переход на трудовой договор в Польше 🇵🇱",
@@ -496,16 +495,25 @@
           "name": "Generate Salesforce Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 29695292781,
+            "id": 29702771574,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-19T16:39:36Z",
-            "updated_at": "2026-07-19T16:47:27Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/29695292781",
-            "run_number": 776
+            "created_at": "2026-07-19T20:34:21Z",
+            "updated_at": "2026-07-19T20:44:00Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/29702771574",
+            "run_number": 777
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29702771574,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T20:34:21Z",
+              "updated_at": "2026-07-19T20:44:00Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/29702771574",
+              "run_number": 777
+            },
             {
               "id": 29695292781,
               "status": "completed",
@@ -541,15 +549,6 @@
               "updated_at": "2026-07-19T06:27:25Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/29676251018",
               "run_number": 773
-            },
-            {
-              "id": 29668269889,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T01:14:34Z",
-              "updated_at": "2026-07-19T01:22:51Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/29668269889",
-              "run_number": 772
             }
           ]
         },
@@ -617,20 +616,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 176,
+        "last_30d": 177,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "🚀 Boost Customer Satisfaction by 21.2% with AI #shorts #salesforce",
-          "video_id": "LhBCLA_T9Ds",
-          "uploaded_at": "2026-07-19T16:47:22.585854+00:00"
+          "title": "💻 27% Demand Surge for Salesforce Architects in 2026! #shorts #salesforce",
+          "video_id": "ciaRqSZq_-k",
+          "uploaded_at": "2026-07-19T20:43:56.094517+00:00"
         },
         "last_short": {
-          "title": "🚀 Boost Customer Satisfaction by 21.2% with AI #shorts #salesforce",
-          "video_id": "LhBCLA_T9Ds",
-          "uploaded_at": "2026-07-19T16:47:22.585854+00:00"
+          "title": "💻 27% Demand Surge for Salesforce Architects in 2026! #shorts #salesforce",
+          "video_id": "ciaRqSZq_-k",
+          "uploaded_at": "2026-07-19T20:43:56.094517+00:00"
         },
         "last_long": {
           "title": "Mastering Salesforce Flow 🚀💻",
@@ -772,7 +771,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
+        "last_30d": 178,
         "avg_views": 4,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -965,16 +964,25 @@
           "name": "Generate Fishing Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 29695288185,
+            "id": 29702767523,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-07-19T16:39:27Z",
-            "updated_at": "2026-07-19T16:40:36Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/29695288185",
-            "run_number": 789
+            "conclusion": "success",
+            "created_at": "2026-07-19T20:34:13Z",
+            "updated_at": "2026-07-19T20:41:13Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/29702767523",
+            "run_number": 790
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29702767523,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T20:34:13Z",
+              "updated_at": "2026-07-19T20:41:13Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/29702767523",
+              "run_number": 790
+            },
             {
               "id": 29695288185,
               "status": "completed",
@@ -1010,35 +1018,26 @@
               "updated_at": "2026-07-19T06:26:37Z",
               "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/29676238660",
               "run_number": 786
-            },
-            {
-              "id": 29668238110,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T01:13:09Z",
-              "updated_at": "2026-07-19T01:21:14Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-fishing-automation/actions/runs/29668238110",
-              "run_number": 785
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 165,
+        "last_30d": 166,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Лещ в весне #shorts 🎣",
-          "video_id": "cbgjGNAf_BY",
-          "uploaded_at": "2026-07-19T12:49:44.065635+00:00"
+          "title": "Рыба-удильщик: жуткий хищник океана 🐟 #shorts",
+          "video_id": "CWXB7zXqUrY",
+          "uploaded_at": "2026-07-19T20:41:07.065149+00:00"
         },
         "last_short": {
-          "title": "Лещ в весне #shorts 🎣",
-          "video_id": "cbgjGNAf_BY",
-          "uploaded_at": "2026-07-19T12:49:44.065635+00:00"
+          "title": "Рыба-удильщик: жуткий хищник океана 🐟 #shorts",
+          "video_id": "CWXB7zXqUrY",
+          "uploaded_at": "2026-07-19T20:41:07.065149+00:00"
         },
         "last_long": null
       }
