@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-07-19T15:26:38.882686+00:00",
+  "updated_at": "2026-07-19T16:28:39.369516+00:00",
   "summary": {
-    "total_videos_30d": 1460,
-    "total_views_estimate": 143000,
+    "total_videos_30d": 1461,
+    "total_views_estimate": 142800,
     "success_rate": 68.6,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
       "Я в Польше",
-      "Salesforce Tips",
-      "Smart Money"
+      "Salesforce Tips"
     ],
     "warning_channels": []
   },
@@ -651,16 +650,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 29688470521,
+            "id": 29693825090,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-07-19T13:13:26Z",
-            "updated_at": "2026-07-19T13:14:08Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29688470521",
-            "run_number": 909
+            "conclusion": "success",
+            "created_at": "2026-07-19T15:55:41Z",
+            "updated_at": "2026-07-19T16:05:35Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29693825090",
+            "run_number": 910
           },
-          "failure_streak": 2,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29693825090,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T15:55:41Z",
+              "updated_at": "2026-07-19T16:05:35Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29693825090",
+              "run_number": 910
+            },
             {
               "id": 29688470521,
               "status": "completed",
@@ -696,15 +704,6 @@
               "updated_at": "2026-07-19T06:01:02Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29675459295",
               "run_number": 906
-            },
-            {
-              "id": 29670359069,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T02:32:39Z",
-              "updated_at": "2026-07-19T02:43:51Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/29670359069",
-              "run_number": 905
             }
           ]
         },
@@ -772,7 +771,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 177,
+        "last_30d": 178,
         "avg_views": 4,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -782,14 +781,14 @@
           "views": 29
         },
         "last_upload": {
-          "title": "Side Hustle 🤑",
-          "video_id": "tDhqGYYrpQ4",
-          "uploaded_at": "2026-07-19T10:30:41.208235+00:00"
+          "title": "🚨 3x Your Emergency Fund #shorts #money",
+          "video_id": "ulw4bJeR7hs",
+          "uploaded_at": "2026-07-19T16:05:28.586944+00:00"
         },
         "last_short": {
-          "title": "Ditch Renting 🚫 #shorts #money",
-          "video_id": "rVhmLYjVMqg",
-          "uploaded_at": "2026-07-19T08:27:22.189219+00:00"
+          "title": "🚨 3x Your Emergency Fund #shorts #money",
+          "video_id": "ulw4bJeR7hs",
+          "uploaded_at": "2026-07-19T16:05:28.586944+00:00"
         },
         "last_long": {
           "title": "Side Hustle 🤑",
@@ -810,16 +809,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 29688667974,
+            "id": 29693909240,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-07-19T13:19:52Z",
-            "updated_at": "2026-07-19T13:22:20Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29688667974",
-            "run_number": 912
+            "created_at": "2026-07-19T15:58:18Z",
+            "updated_at": "2026-07-19T16:00:49Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29693909240",
+            "run_number": 913
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 29693909240,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-07-19T15:58:18Z",
+              "updated_at": "2026-07-19T16:00:49Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29693909240",
+              "run_number": 913
+            },
             {
               "id": 29688667974,
               "status": "completed",
@@ -855,15 +863,6 @@
               "updated_at": "2026-07-19T05:57:02Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29675577359",
               "run_number": 909
-            },
-            {
-              "id": 29670837193,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-19T02:51:18Z",
-              "updated_at": "2026-07-19T02:53:58Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/29670837193",
-              "run_number": 908
             }
           ]
         },
@@ -932,7 +931,7 @@
       "video_stats": {
         "total": 200,
         "last_30d": 200,
-        "avg_views": 228,
+        "avg_views": 227,
         "avg_likes": 3,
         "avg_comments": 0,
         "best_video": {
@@ -941,15 +940,15 @@
           "views": 1057
         },
         "last_upload": {
-          "title": "Your morning routine is either building you or breaking you.",
-          "video_id": "K3K1GO5126k",
-          "uploaded_at": "2026-07-19T13:21:48.923224+00:00"
+          "title": "The truth about discipline nobody wants to hear.",
+          "video_id": "vaWlJ6Fk8r0",
+          "uploaded_at": "2026-07-19T16:00:19.281168+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Your morning routine is either building you or breaking you.",
-          "video_id": "K3K1GO5126k",
-          "uploaded_at": "2026-07-19T13:21:48.923224+00:00"
+          "title": "The truth about discipline nobody wants to hear.",
+          "video_id": "vaWlJ6Fk8r0",
+          "uploaded_at": "2026-07-19T16:00:19.281168+00:00"
         }
       }
     },
