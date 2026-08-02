@@ -1,14 +1,12 @@
 {
-  "updated_at": "2026-08-02T06:46:21.136223+00:00",
+  "updated_at": "2026-08-02T09:14:20.243749+00:00",
   "summary": {
-    "total_videos_30d": 1511,
-    "total_views_estimate": 121800,
+    "total_videos_30d": 1508,
+    "total_views_estimate": 121600,
     "success_rate": 71.4,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Я в Польше",
       "Salesforce Tips",
       "Smart Money"
     ],
@@ -148,7 +146,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 183,
+        "last_30d": 182,
         "avg_views": 439,
         "avg_likes": 11,
         "avg_comments": 0,
@@ -247,16 +245,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 30692831750,
-            "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-01T08:58:55Z",
-            "updated_at": "2026-08-01T09:18:48Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30692831750",
-            "run_number": 143
+            "id": 30741005314,
+            "status": "in_progress",
+            "conclusion": null,
+            "created_at": "2026-08-02T09:03:38Z",
+            "updated_at": "2026-08-02T09:03:42Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30741005314",
+            "run_number": 144
           },
-          "failure_streak": 3,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 30741005314,
+              "status": "in_progress",
+              "conclusion": null,
+              "created_at": "2026-08-02T09:03:38Z",
+              "updated_at": "2026-08-02T09:03:42Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30741005314",
+              "run_number": 144
+            },
             {
               "id": 30692831750,
               "status": "completed",
@@ -292,22 +299,13 @@
               "updated_at": "2026-07-29T09:39:06Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30439951390",
               "run_number": 140
-            },
-            {
-              "id": 30346791396,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-07-28T09:29:22Z",
-              "updated_at": "2026-07-28T09:42:38Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30346791396",
-              "run_number": 139
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 186,
+        "last_30d": 185,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -402,16 +400,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 30709158431,
+            "id": 30741017387,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-01T16:54:17Z",
-            "updated_at": "2026-08-01T16:59:34Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/30709158431",
-            "run_number": 276
+            "conclusion": "success",
+            "created_at": "2026-08-02T09:03:59Z",
+            "updated_at": "2026-08-02T09:10:16Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/30741017387",
+            "run_number": 277
           },
-          "failure_streak": 3,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 30741017387,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-02T09:03:59Z",
+              "updated_at": "2026-08-02T09:10:16Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/30741017387",
+              "run_number": 277
+            },
             {
               "id": 30709158431,
               "status": "completed",
@@ -447,15 +454,6 @@
               "updated_at": "2026-07-31T09:43:30Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/30620549144",
               "run_number": 273
-            },
-            {
-              "id": 30565561985,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-07-30T17:20:50Z",
-              "updated_at": "2026-07-30T17:26:12Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/30565561985",
-              "run_number": 272
             }
           ]
         }
@@ -468,9 +466,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Сопот - деревянный мол в Щецине 🇵🇱 #shorts",
-          "video_id": "HyNovycpoiM",
-          "uploaded_at": "2026-08-02T06:35:46.832108+00:00"
+          "title": "ПИТ-0 для пенсионеров 🇵🇱",
+          "video_id": "MOX2gDPgS5Q",
+          "uploaded_at": "2026-08-02T09:10:07.160279+00:00"
         },
         "last_short": {
           "title": "Сопот - деревянный мол в Щецине 🇵🇱 #shorts",
@@ -478,9 +476,9 @@
           "uploaded_at": "2026-08-02T06:35:46.832108+00:00"
         },
         "last_long": {
-          "title": "Дополнительный налоговый вычет в Польше 🇵🇱",
-          "video_id": "qanB_e0t_nc",
-          "uploaded_at": "2026-07-31T09:43:20.489133+00:00"
+          "title": "ПИТ-0 для пенсионеров 🇵🇱",
+          "video_id": "MOX2gDPgS5Q",
+          "uploaded_at": "2026-08-02T09:10:07.160279+00:00"
         }
       }
     },
@@ -617,7 +615,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 179,
+        "last_30d": 178,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -651,16 +649,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 30734964412,
+            "id": 30739637086,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-08-02T05:55:20Z",
-            "updated_at": "2026-08-02T06:08:47Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30734964412",
-            "run_number": 1013
+            "created_at": "2026-08-02T08:22:01Z",
+            "updated_at": "2026-08-02T08:31:06Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30739637086",
+            "run_number": 1014
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 30739637086,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-02T08:22:01Z",
+              "updated_at": "2026-08-02T08:31:06Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30739637086",
+              "run_number": 1014
+            },
             {
               "id": 30734964412,
               "status": "completed",
@@ -696,15 +703,6 @@
               "updated_at": "2026-08-01T19:15:40Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30713978080",
               "run_number": 1010
-            },
-            {
-              "id": 30707109554,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-01T15:58:47Z",
-              "updated_at": "2026-08-01T16:10:15Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30707109554",
-              "run_number": 1009
             }
           ]
         },
@@ -772,8 +770,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 195,
-        "avg_views": 6,
+        "last_30d": 196,
+        "avg_views": 5,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
@@ -782,14 +780,14 @@
           "views": 52
         },
         "last_upload": {
-          "title": "🚨 50% of Students Overspend #shorts #money",
-          "video_id": "zAp7KwS7WQA",
-          "uploaded_at": "2026-08-02T06:08:44.025427+00:00"
+          "title": "💸 Boost Freelance Pricing #shorts #money",
+          "video_id": "VUjzCCX_f4I",
+          "uploaded_at": "2026-08-02T08:31:01.586647+00:00"
         },
         "last_short": {
-          "title": "🚨 50% of Students Overspend #shorts #money",
-          "video_id": "zAp7KwS7WQA",
-          "uploaded_at": "2026-08-02T06:08:44.025427+00:00"
+          "title": "💸 Boost Freelance Pricing #shorts #money",
+          "video_id": "VUjzCCX_f4I",
+          "uploaded_at": "2026-08-02T08:31:01.586647+00:00"
         },
         "last_long": {
           "title": "💸 Student Loan Payoff",
@@ -1025,7 +1023,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 175,
+        "last_30d": 174,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
