@@ -1,14 +1,12 @@
 {
-  "updated_at": "2026-08-08T07:07:01.173799+00:00",
+  "updated_at": "2026-08-08T08:00:47.449765+00:00",
   "summary": {
-    "total_videos_30d": 1504,
+    "total_videos_30d": 1501,
     "total_views_estimate": 109200,
-    "success_rate": 72.9,
+    "success_rate": 74.3,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
-      "Я в Польше",
       "Salesforce Tips",
       "Smart Money"
     ],
@@ -148,7 +146,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 182,
+        "last_30d": 181,
         "avg_views": 413,
         "avg_likes": 11,
         "avg_comments": 0,
@@ -247,16 +245,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 31160202924,
+            "id": 31246637563,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-07T08:04:33Z",
-            "updated_at": "2026-08-07T08:12:33Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31160202924",
-            "run_number": 149
+            "conclusion": "success",
+            "created_at": "2026-08-08T07:39:03Z",
+            "updated_at": "2026-08-08T07:48:32Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31246637563",
+            "run_number": 150
           },
-          "failure_streak": 4,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31246637563,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-08T07:39:03Z",
+              "updated_at": "2026-08-08T07:48:32Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31246637563",
+              "run_number": 150
+            },
             {
               "id": 31160202924,
               "status": "completed",
@@ -292,15 +299,6 @@
               "updated_at": "2026-08-04T09:52:05Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30896712559",
               "run_number": 146
-            },
-            {
-              "id": 30805873879,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-03T10:30:54Z",
-              "updated_at": "2026-08-03T10:39:15Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/30805873879",
-              "run_number": 145
             }
           ]
         }
@@ -313,9 +311,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "My Barber's 20-Year Secret Made the Whole Shop Cry ✂️ #shorts",
-          "video_id": "jSb5LUh_pUE",
-          "uploaded_at": "2026-08-08T05:08:59.732953+00:00"
+          "title": "4 Insane Secrets 🤫",
+          "video_id": "1bnsBaOWn-M",
+          "uploaded_at": "2026-08-08T07:48:27.294418+00:00"
         },
         "last_short": {
           "title": "My Barber's 20-Year Secret Made the Whole Shop Cry ✂️ #shorts",
@@ -323,9 +321,9 @@
           "uploaded_at": "2026-08-08T05:08:59.732953+00:00"
         },
         "last_long": {
-          "title": "Betrayal Stories 🤯",
-          "video_id": "zu70_jk8Kho",
-          "uploaded_at": "2026-08-03T10:39:11.262687+00:00"
+          "title": "4 Insane Secrets 🤫",
+          "video_id": "1bnsBaOWn-M",
+          "uploaded_at": "2026-08-08T07:48:27.294418+00:00"
         }
       }
     },
@@ -402,16 +400,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 31199322698,
+            "id": 31246686337,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-07T16:48:21Z",
-            "updated_at": "2026-08-07T16:53:50Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/31199322698",
-            "run_number": 288
+            "conclusion": "success",
+            "created_at": "2026-08-08T07:40:18Z",
+            "updated_at": "2026-08-08T07:49:53Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/31246686337",
+            "run_number": 289
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31246686337,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-08T07:40:18Z",
+              "updated_at": "2026-08-08T07:49:53Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/31246686337",
+              "run_number": 289
+            },
             {
               "id": 31199322698,
               "status": "completed",
@@ -447,15 +454,6 @@
               "updated_at": "2026-08-06T09:39:32Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/31089636113",
               "run_number": 285
-            },
-            {
-              "id": 31029844345,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-08-05T17:24:06Z",
-              "updated_at": "2026-08-05T17:29:31Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/31029844345",
-              "run_number": 284
             }
           ]
         }
@@ -468,9 +466,9 @@
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "Польские суеверия 🇵🇱 #shorts",
-          "video_id": "09_afVoyxPU",
-          "uploaded_at": "2026-08-08T04:57:56.754237+00:00"
+          "title": "Майские праздники в Польше 🇵🇱",
+          "video_id": "y9nVyKzPkqw",
+          "uploaded_at": "2026-08-08T07:49:46.700453+00:00"
         },
         "last_short": {
           "title": "Польские суеверия 🇵🇱 #shorts",
@@ -478,9 +476,9 @@
           "uploaded_at": "2026-08-08T04:57:56.754237+00:00"
         },
         "last_long": {
-          "title": "Фриланс в Польше 🇵🇱",
-          "video_id": "f8VTwuV5smk",
-          "uploaded_at": "2026-08-07T08:18:20.465730+00:00"
+          "title": "Майские праздники в Польше 🇵🇱",
+          "video_id": "y9nVyKzPkqw",
+          "uploaded_at": "2026-08-08T07:49:46.700453+00:00"
         }
       }
     },
@@ -617,7 +615,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 178,
+        "last_30d": 177,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -1025,7 +1023,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 174,
+        "last_30d": 173,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
