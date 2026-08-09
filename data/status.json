@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-09T09:18:53.101575+00:00",
+  "updated_at": "2026-08-09T10:05:48.226517+00:00",
   "summary": {
-    "total_videos_30d": 1507,
-    "total_views_estimate": 109800,
-    "success_rate": 75.7,
+    "total_videos_30d": 1508,
+    "total_views_estimate": 110400,
+    "success_rate": 74.3,
     "total_runs_sampled": 70,
     "failed_channels": [
-      "Omni Mystery",
       "Я в Польше",
-      "Salesforce Tips"
+      "Salesforce Tips",
+      "Smart Money"
     ],
     "warning_channels": []
   },
@@ -86,16 +86,25 @@
           "name": "Generate Long Video",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 31250866531,
+            "id": 31306307172,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-08T09:34:14Z",
-            "updated_at": "2026-08-08T09:35:43Z",
-            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/31250866531",
-            "run_number": 151
+            "conclusion": "success",
+            "created_at": "2026-08-09T09:36:11Z",
+            "updated_at": "2026-08-09T09:42:43Z",
+            "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/31306307172",
+            "run_number": 152
           },
-          "failure_streak": 5,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31306307172,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-09T09:36:11Z",
+              "updated_at": "2026-08-09T09:42:43Z",
+              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/31306307172",
+              "run_number": 152
+            },
             {
               "id": 31250866531,
               "status": "completed",
@@ -131,23 +140,14 @@
               "updated_at": "2026-08-05T11:19:30Z",
               "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/31000902965",
               "run_number": 148
-            },
-            {
-              "id": 30904454466,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-08-04T11:21:09Z",
-              "updated_at": "2026-08-04T11:22:46Z",
-              "html_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine/actions/runs/30904454466",
-              "run_number": 147
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 182,
-        "avg_views": 416,
+        "last_30d": 183,
+        "avg_views": 419,
         "avg_likes": 12,
         "avg_comments": 0,
         "best_video": {
@@ -156,9 +156,9 @@
           "views": 2218
         },
         "last_upload": {
-          "title": "🛸 The Alien Object That Flew Through Our Solar System #Shorts",
-          "video_id": "bdDx9p9C4ys",
-          "uploaded_at": "2026-08-09T08:39:17.618312+00:00"
+          "title": "Supervolcano Yellowstone 🌋",
+          "video_id": "JvS21Uu_Sag",
+          "uploaded_at": "2026-08-09T09:42:39.776125+00:00"
         },
         "last_short": {
           "title": "🛸 The Alien Object That Flew Through Our Solar System #Shorts",
@@ -166,9 +166,9 @@
           "uploaded_at": "2026-08-09T08:39:17.618312+00:00"
         },
         "last_long": {
-          "title": "Uncovering Gobekli Tepe 🏯",
-          "video_id": "9hdf1kkrQCU",
-          "uploaded_at": "2026-08-03T12:25:23.040776+00:00"
+          "title": "Supervolcano Yellowstone 🌋",
+          "video_id": "JvS21Uu_Sag",
+          "uploaded_at": "2026-08-09T09:42:39.776125+00:00"
         }
       }
     },
@@ -649,16 +649,25 @@
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 31299863567,
+            "id": 31306315160,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-08-09T06:52:46Z",
-            "updated_at": "2026-08-09T07:03:09Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31299863567",
-            "run_number": 1067
+            "conclusion": "failure",
+            "created_at": "2026-08-09T09:36:23Z",
+            "updated_at": "2026-08-09T09:37:43Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31306315160",
+            "run_number": 1068
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 31306315160,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-09T09:36:23Z",
+              "updated_at": "2026-08-09T09:37:43Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31306315160",
+              "run_number": 1068
+            },
             {
               "id": 31299863567,
               "status": "completed",
@@ -694,15 +703,6 @@
               "updated_at": "2026-08-08T21:38:06Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31279341929",
               "run_number": 1064
-            },
-            {
-              "id": 31272246055,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-08T18:34:03Z",
-              "updated_at": "2026-08-08T18:43:44Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31272246055",
-              "run_number": 1063
             }
           ]
         },
@@ -710,16 +710,25 @@
           "name": "Generate Money Long",
           "schedule": "daily 09:00",
           "latest": {
-            "id": 31250872628,
+            "id": 31306310492,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-08-08T09:34:23Z",
-            "updated_at": "2026-08-08T09:41:11Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31250872628",
-            "run_number": 140
+            "conclusion": "failure",
+            "created_at": "2026-08-09T09:36:16Z",
+            "updated_at": "2026-08-09T09:44:34Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31306310492",
+            "run_number": 141
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 31306310492,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-09T09:36:16Z",
+              "updated_at": "2026-08-09T09:44:34Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31306310492",
+              "run_number": 141
+            },
             {
               "id": 31250872628,
               "status": "completed",
@@ -755,15 +764,6 @@
               "updated_at": "2026-08-05T11:26:35Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31000943187",
               "run_number": 137
-            },
-            {
-              "id": 30904458593,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-04T11:21:13Z",
-              "updated_at": "2026-08-04T11:30:56Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/30904458593",
-              "run_number": 136
             }
           ]
         }
@@ -808,16 +808,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 31300049861,
+            "id": 31306460915,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-08-09T06:57:47Z",
-            "updated_at": "2026-08-09T07:00:26Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31300049861",
-            "run_number": 1067
+            "created_at": "2026-08-09T09:40:11Z",
+            "updated_at": "2026-08-09T09:42:48Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31306460915",
+            "run_number": 1068
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31306460915,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-09T09:40:11Z",
+              "updated_at": "2026-08-09T09:42:48Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31306460915",
+              "run_number": 1068
+            },
             {
               "id": 31300049861,
               "status": "completed",
@@ -853,15 +862,6 @@
               "updated_at": "2026-08-08T21:32:57Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31279485829",
               "run_number": 1064
-            },
-            {
-              "id": 31272423096,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-08T18:38:25Z",
-              "updated_at": "2026-08-08T18:40:57Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31272423096",
-              "run_number": 1063
             }
           ]
         },
@@ -939,15 +939,15 @@
           "views": 1338
         },
         "last_upload": {
-          "title": "Why average men stay average forever.",
-          "video_id": "FBODzq_Px6k",
-          "uploaded_at": "2026-08-09T06:59:54.055699+00:00"
+          "title": "The dark truth about comfort zones.",
+          "video_id": "fN9QB1iQc9c",
+          "uploaded_at": "2026-08-09T09:42:16.567358+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Why average men stay average forever.",
-          "video_id": "FBODzq_Px6k",
-          "uploaded_at": "2026-08-09T06:59:54.055699+00:00"
+          "title": "The dark truth about comfort zones.",
+          "video_id": "fN9QB1iQc9c",
+          "uploaded_at": "2026-08-09T09:42:16.567358+00:00"
         }
       }
     },
