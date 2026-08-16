@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-08-16T08:37:14.671310+00:00",
+  "updated_at": "2026-08-16T09:05:37.997885+00:00",
   "summary": {
-    "total_videos_30d": 1509,
+    "total_videos_30d": 1510,
     "total_views_estimate": 104200,
-    "success_rate": 70.0,
+    "success_rate": 71.4,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
-      "Я в Польше"
+      "Я в Польше",
+      "Salesforce Tips"
     ],
     "warning_channels": []
   },
@@ -185,10 +186,10 @@
           "schedule": "every 4h",
           "latest": {
             "id": 31936575404,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "success",
             "created_at": "2026-08-16T08:29:16Z",
-            "updated_at": "2026-08-16T08:29:25Z",
+            "updated_at": "2026-08-16T08:39:05Z",
             "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31936575404",
             "run_number": 936
           },
@@ -196,10 +197,10 @@
           "recent_runs": [
             {
               "id": 31936575404,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "success",
               "created_at": "2026-08-16T08:29:16Z",
-              "updated_at": "2026-08-16T08:29:25Z",
+              "updated_at": "2026-08-16T08:39:05Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31936575404",
               "run_number": 936
             },
@@ -305,20 +306,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 186,
+        "last_30d": 187,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "She Found Her Husband's Secret Phone... What She Did Next 😱 #shorts",
-          "video_id": "apZwYCsBjmo",
-          "uploaded_at": "2026-08-16T04:46:58.595907+00:00"
+          "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
+          "video_id": "qQvUbOpiSWY",
+          "uploaded_at": "2026-08-16T08:38:59.325414+00:00"
         },
         "last_short": {
-          "title": "She Found Her Husband's Secret Phone... What She Did Next 😱 #shorts",
-          "video_id": "apZwYCsBjmo",
-          "uploaded_at": "2026-08-16T04:46:58.595907+00:00"
+          "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
+          "video_id": "qQvUbOpiSWY",
+          "uploaded_at": "2026-08-16T08:38:59.325414+00:00"
         },
         "last_long": {
           "title": "Small Town Scandals 🤯",
@@ -556,21 +557,21 @@
           "schedule": "daily 08:00",
           "latest": {
             "id": 31936678391,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "failure",
             "created_at": "2026-08-16T08:31:41Z",
-            "updated_at": "2026-08-16T08:31:44Z",
+            "updated_at": "2026-08-16T09:03:24Z",
             "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/31936678391",
             "run_number": 121
           },
-          "failure_streak": 0,
+          "failure_streak": 5,
           "recent_runs": [
             {
               "id": 31936678391,
-              "status": "in_progress",
-              "conclusion": null,
+              "status": "completed",
+              "conclusion": "failure",
               "created_at": "2026-08-16T08:31:41Z",
-              "updated_at": "2026-08-16T08:31:44Z",
+              "updated_at": "2026-08-16T09:03:24Z",
               "html_url": "https://github.com/RomanBazylev/youtube-salesforce-automation/actions/runs/31936678391",
               "run_number": 121
             },
