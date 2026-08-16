@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-08-16T15:04:54.550847+00:00",
+  "updated_at": "2026-08-16T15:38:10.016012+00:00",
   "summary": {
-    "total_videos_30d": 1504,
-    "total_views_estimate": 104200,
-    "success_rate": 70.0,
+    "total_videos_30d": 1505,
+    "total_views_estimate": 104400,
+    "success_rate": 71.4,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
       "Reddit Stories",
       "Я в Польше",
-      "Salesforce Tips",
-      "Smart Money"
+      "Salesforce Tips"
     ],
     "warning_channels": []
   },
@@ -21,7 +20,7 @@
       "emoji": "🔮",
       "repo": "Omni-Mystery-Machine",
       "repo_url": "https://github.com/RomanBazylev/Omni-Mystery-Machine",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@VoidChronicles-AI",
       "workflows": {
         "run_bot.yml": {
           "name": "Run Bot",
@@ -180,7 +179,7 @@
       "emoji": "📖",
       "repo": "youtube-reddit-stories",
       "repo_url": "https://github.com/RomanBazylev/youtube-reddit-stories",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@told_in_secret",
       "workflows": {
         "generate_story_short.yml": {
           "name": "Generate Story Short",
@@ -335,7 +334,7 @@
       "emoji": "🇵🇱",
       "repo": "youtube-poland-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-poland-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@i_in_poland",
       "workflows": {
         "generate_poland_short.yml": {
           "name": "Generate Poland Short",
@@ -490,7 +489,7 @@
       "emoji": "⚡",
       "repo": "youtube-salesforce-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-salesforce-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@SalesforceRaman",
       "workflows": {
         "generate_salesforce_short.yml": {
           "name": "Generate Salesforce Short",
@@ -645,22 +644,31 @@
       "emoji": "💰",
       "repo": "youtube-smart-money-tips",
       "repo_url": "https://github.com/RomanBazylev/youtube-smart-money-tips",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@BestSmartMoneyTips",
       "workflows": {
         "generate_money_short.yml": {
           "name": "Generate Money Short",
           "schedule": "every 3h",
           "latest": {
-            "id": 31947419277,
+            "id": 31955261702,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-08-16T12:34:16Z",
-            "updated_at": "2026-08-16T12:35:45Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31947419277",
-            "run_number": 1125
+            "conclusion": "success",
+            "created_at": "2026-08-16T15:18:39Z",
+            "updated_at": "2026-08-16T15:30:47Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31955261702",
+            "run_number": 1126
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31955261702,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-16T15:18:39Z",
+              "updated_at": "2026-08-16T15:30:47Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31955261702",
+              "run_number": 1126
+            },
             {
               "id": 31947419277,
               "status": "completed",
@@ -696,15 +704,6 @@
               "updated_at": "2026-08-16T03:55:01Z",
               "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31925003842",
               "run_number": 1122
-            },
-            {
-              "id": 31918967238,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-08-16T01:10:31Z",
-              "updated_at": "2026-08-16T01:11:30Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-smart-money-tips/actions/runs/31918967238",
-              "run_number": 1121
             }
           ]
         },
@@ -772,8 +771,8 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 196,
-        "avg_views": 7,
+        "last_30d": 197,
+        "avg_views": 8,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
@@ -782,14 +781,14 @@
           "views": 243
         },
         "last_upload": {
-          "title": "FIRE Mistake? 🚨 #shorts #money",
-          "video_id": "FlnRjAMmkL8",
-          "uploaded_at": "2026-08-16T09:34:40.778048+00:00"
+          "title": "Ditch Life Insurance? 🚨 #shorts #money",
+          "video_id": "DEuOtvvoKus",
+          "uploaded_at": "2026-08-16T15:30:41.809569+00:00"
         },
         "last_short": {
-          "title": "FIRE Mistake? 🚨 #shorts #money",
-          "video_id": "FlnRjAMmkL8",
-          "uploaded_at": "2026-08-16T09:34:40.778048+00:00"
+          "title": "Ditch Life Insurance? 🚨 #shorts #money",
+          "video_id": "DEuOtvvoKus",
+          "uploaded_at": "2026-08-16T15:30:41.809569+00:00"
         },
         "last_long": {
           "title": "Dividend Investing 📈",
@@ -804,22 +803,31 @@
       "emoji": "🦾",
       "repo": "youtube-ironman-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-ironman-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@IronMind_Unbreakable",
       "workflows": {
         "generate_video.yml": {
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 31947686378,
+            "id": 31955446005,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-08-16T12:40:16Z",
-            "updated_at": "2026-08-16T12:42:35Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31947686378",
-            "run_number": 1125
+            "created_at": "2026-08-16T15:22:19Z",
+            "updated_at": "2026-08-16T15:24:37Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31955446005",
+            "run_number": 1126
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 31955446005,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-08-16T15:22:19Z",
+              "updated_at": "2026-08-16T15:24:37Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31955446005",
+              "run_number": 1126
+            },
             {
               "id": 31947686378,
               "status": "completed",
@@ -855,15 +863,6 @@
               "updated_at": "2026-08-16T03:51:38Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31925132386",
               "run_number": 1122
-            },
-            {
-              "id": 31919414951,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-16T01:22:20Z",
-              "updated_at": "2026-08-16T01:25:00Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/31919414951",
-              "run_number": 1121
             }
           ]
         },
@@ -941,15 +940,15 @@
           "views": 1338
         },
         "last_upload": {
-          "title": "One cold shower taught me more than 4 years of college.",
-          "video_id": "ukUHb-yqrdU",
-          "uploaded_at": "2026-08-16T12:42:05.044800+00:00"
+          "title": "A lion does not lose sleep over the opinions of sheep.",
+          "video_id": "KIShgXXMR0k",
+          "uploaded_at": "2026-08-16T15:24:07.982177+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "One cold shower taught me more than 4 years of college.",
-          "video_id": "ukUHb-yqrdU",
-          "uploaded_at": "2026-08-16T12:42:05.044800+00:00"
+          "title": "A lion does not lose sleep over the opinions of sheep.",
+          "video_id": "KIShgXXMR0k",
+          "uploaded_at": "2026-08-16T15:24:07.982177+00:00"
         }
       }
     },
@@ -959,7 +958,7 @@
       "emoji": "🎣",
       "repo": "youtube-fishing-automation",
       "repo_url": "https://github.com/RomanBazylev/youtube-fishing-automation",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@rybak-Artsiom",
       "workflows": {
         "generate_fishing_short.yml": {
           "name": "Generate Fishing Short",
@@ -1049,7 +1048,7 @@
       "emoji": "👾",
       "repo": "hard4fun",
       "repo_url": "https://github.com/RomanBazylev/hard4fun",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@hard4fun",
       "workflows": {
         "daily-shorts.yml": {
           "name": "Daily-Shorts",
