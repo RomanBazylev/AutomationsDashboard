@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-20T07:23:55.028936+00:00",
+  "updated_at": "2026-08-20T08:06:35.053311+00:00",
   "summary": {
     "total_videos_30d": 1470,
     "total_views_estimate": 104000,
-    "success_rate": 54.3,
+    "success_rate": 52.9,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
@@ -249,16 +249,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 32227984039,
+            "id": 32344405924,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-08-19T07:28:25Z",
-            "updated_at": "2026-08-19T07:49:05Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32227984039",
-            "run_number": 161
+            "created_at": "2026-08-20T07:31:25Z",
+            "updated_at": "2026-08-20T07:39:27Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32344405924",
+            "run_number": 162
           },
-          "failure_streak": 4,
+          "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 32344405924,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-20T07:31:25Z",
+              "updated_at": "2026-08-20T07:39:27Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32344405924",
+              "run_number": 162
+            },
             {
               "id": 32227984039,
               "status": "completed",
@@ -294,15 +303,6 @@
               "updated_at": "2026-08-16T07:41:19Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31933667741",
               "run_number": 158
-            },
-            {
-              "id": 31871697136,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-08-15T07:20:24Z",
-              "updated_at": "2026-08-15T07:29:53Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31871697136",
-              "run_number": 157
             }
           ]
         }
@@ -404,16 +404,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 32275724673,
+            "id": 32344454626,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-08-19T16:24:26Z",
-            "updated_at": "2026-08-19T16:27:27Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32275724673",
-            "run_number": 312
+            "created_at": "2026-08-20T07:32:04Z",
+            "updated_at": "2026-08-20T07:33:51Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32344454626",
+            "run_number": 313
           },
-          "failure_streak": 1,
+          "failure_streak": 2,
           "recent_runs": [
+            {
+              "id": 32344454626,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-20T07:32:04Z",
+              "updated_at": "2026-08-20T07:33:51Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32344454626",
+              "run_number": 313
+            },
             {
               "id": 32275724673,
               "status": "completed",
@@ -449,15 +458,6 @@
               "updated_at": "2026-08-18T07:31:34Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32111641753",
               "run_number": 309
-            },
-            {
-              "id": 32045181790,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-08-17T16:20:42Z",
-              "updated_at": "2026-08-17T16:22:17Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32045181790",
-              "run_number": 308
             }
           ]
         }
