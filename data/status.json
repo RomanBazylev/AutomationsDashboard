@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T07:25:02.285582+00:00",
+  "updated_at": "2026-08-21T08:06:56.228431+00:00",
   "summary": {
     "total_videos_30d": 1462,
     "total_views_estimate": 101800,
@@ -249,16 +249,25 @@
           "name": "Generate Story Long",
           "schedule": "daily 07:00",
           "latest": {
-            "id": 32344405924,
+            "id": 32459160397,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-08-20T07:31:25Z",
-            "updated_at": "2026-08-20T07:39:27Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32344405924",
-            "run_number": 162
+            "created_at": "2026-08-21T07:33:34Z",
+            "updated_at": "2026-08-21T07:41:25Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32459160397",
+            "run_number": 163
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 32459160397,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-21T07:33:34Z",
+              "updated_at": "2026-08-21T07:41:25Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32459160397",
+              "run_number": 163
+            },
             {
               "id": 32344405924,
               "status": "completed",
@@ -294,15 +303,6 @@
               "updated_at": "2026-08-17T08:01:26Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/32006924281",
               "run_number": 159
-            },
-            {
-              "id": 31933667741,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-08-16T07:21:28Z",
-              "updated_at": "2026-08-16T07:41:19Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/31933667741",
-              "run_number": 158
             }
           ]
         }
@@ -404,16 +404,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 32392137644,
+            "id": 32459211342,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-08-20T16:27:59Z",
-            "updated_at": "2026-08-20T16:29:16Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32392137644",
-            "run_number": 314
+            "created_at": "2026-08-21T07:34:15Z",
+            "updated_at": "2026-08-21T07:42:21Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32459211342",
+            "run_number": 315
           },
-          "failure_streak": 3,
+          "failure_streak": 4,
           "recent_runs": [
+            {
+              "id": 32459211342,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-08-21T07:34:15Z",
+              "updated_at": "2026-08-21T07:42:21Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32459211342",
+              "run_number": 315
+            },
             {
               "id": 32392137644,
               "status": "completed",
@@ -449,15 +458,6 @@
               "updated_at": "2026-08-19T08:30:10Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32228089931",
               "run_number": 311
-            },
-            {
-              "id": 32160126947,
-              "status": "completed",
-              "conclusion": "cancelled",
-              "created_at": "2026-08-18T16:24:29Z",
-              "updated_at": "2026-08-18T17:25:05Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/32160126947",
-              "run_number": 310
             }
           ]
         }
