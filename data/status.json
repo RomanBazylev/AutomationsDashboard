@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T18:37:12.758180+00:00",
+  "updated_at": "2026-10-27T22:38:44.870277+00:00",
   "summary": {
-    "total_videos_30d": 875,
-    "total_views_estimate": 36800,
+    "total_videos_30d": 871,
+    "total_views_estimate": 36600,
     "success_rate": 47.1,
     "total_runs_sampled": 70,
     "failed_channels": [
@@ -184,16 +184,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 40517482727,
+            "id": 40578259543,
             "status": "completed",
-            "conclusion": "success",
-            "created_at": "2026-10-27T14:03:10Z",
-            "updated_at": "2026-10-27T14:14:00Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40517482727",
-            "run_number": 1243
+            "conclusion": "failure",
+            "created_at": "2026-10-27T20:27:47Z",
+            "updated_at": "2026-10-27T20:30:17Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40578259543",
+            "run_number": 1244
           },
-          "failure_streak": 0,
+          "failure_streak": 1,
           "recent_runs": [
+            {
+              "id": 40578259543,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-10-27T20:27:47Z",
+              "updated_at": "2026-10-27T20:30:17Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40578259543",
+              "run_number": 1244
+            },
             {
               "id": 40517482727,
               "status": "completed",
@@ -229,15 +238,6 @@
               "updated_at": "2026-10-26T18:23:45Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40376962131",
               "run_number": 1240
-            },
-            {
-              "id": 40302423417,
-              "status": "completed",
-              "conclusion": "cancelled",
-              "created_at": "2026-10-26T09:48:33Z",
-              "updated_at": "2026-10-26T10:18:53Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40302423417",
-              "run_number": 1239
             }
           ]
         },
@@ -305,7 +305,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 92,
+        "last_30d": 91,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -396,16 +396,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 40507069269,
+            "id": 40577420608,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-10-27T12:51:18Z",
-            "updated_at": "2026-10-27T12:52:34Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40507069269",
-            "run_number": 449
+            "created_at": "2026-10-27T20:22:12Z",
+            "updated_at": "2026-10-27T20:23:20Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40577420608",
+            "run_number": 450
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 40577420608,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-10-27T20:22:12Z",
+              "updated_at": "2026-10-27T20:23:20Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40577420608",
+              "run_number": 450
+            },
             {
               "id": 40507069269,
               "status": "completed",
@@ -441,22 +450,13 @@
               "updated_at": "2026-10-25T18:41:59Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40222389062",
               "run_number": 446
-            },
-            {
-              "id": 40192078167,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-10-25T12:12:12Z",
-              "updated_at": "2026-10-25T12:13:26Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40192078167",
-              "run_number": 445
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 115,
+        "last_30d": 114,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -607,7 +607,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 115,
+        "last_30d": 114,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -796,16 +796,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 40528320546,
+            "id": 40590550187,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-10-27T15:10:21Z",
-            "updated_at": "2026-10-27T15:12:41Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/40528320546",
-            "run_number": 1467
+            "created_at": "2026-10-27T21:54:02Z",
+            "updated_at": "2026-10-27T21:56:21Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/40590550187",
+            "run_number": 1468
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 40590550187,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-10-27T21:54:02Z",
+              "updated_at": "2026-10-27T21:56:21Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/40590550187",
+              "run_number": 1468
+            },
             {
               "id": 40528320546,
               "status": "completed",
@@ -841,15 +850,6 @@
               "updated_at": "2026-10-26T20:25:09Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/40394629891",
               "run_number": 1464
-            },
-            {
-              "id": 40322469709,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-10-26T12:25:50Z",
-              "updated_at": "2026-10-26T12:28:43Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/40322469709",
-              "run_number": 1463
             }
           ]
         },
@@ -918,7 +918,7 @@
       "video_stats": {
         "total": 200,
         "last_30d": 124,
-        "avg_views": 50,
+        "avg_views": 49,
         "avg_likes": 1,
         "avg_comments": 0,
         "best_video": {
@@ -927,15 +927,15 @@
           "views": 846
         },
         "last_upload": {
-          "title": "Your bank account reflects your discipline.",
-          "video_id": "7AMCyOiXQsw",
-          "uploaded_at": "2026-10-27T15:12:09.674014+00:00"
+          "title": "The dark truth about comfort zones.",
+          "video_id": "3jlXbOlA0ac",
+          "uploaded_at": "2026-10-27T21:55:51.153411+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Your bank account reflects your discipline.",
-          "video_id": "7AMCyOiXQsw",
-          "uploaded_at": "2026-10-27T15:12:09.674014+00:00"
+          "title": "The dark truth about comfort zones.",
+          "video_id": "3jlXbOlA0ac",
+          "uploaded_at": "2026-10-27T21:55:51.153411+00:00"
         }
       }
     },
@@ -1011,7 +1011,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 118,
+        "last_30d": 117,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -1041,16 +1041,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 40447479607,
+            "id": 40565275042,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-10-27T04:02:08Z",
-            "updated_at": "2026-10-27T04:12:10Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40447479607",
-            "run_number": 449
+            "created_at": "2026-10-27T19:01:08Z",
+            "updated_at": "2026-10-27T19:15:48Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40565275042",
+            "run_number": 450
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 40565275042,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-10-27T19:01:08Z",
+              "updated_at": "2026-10-27T19:15:48Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40565275042",
+              "run_number": 450
+            },
             {
               "id": 40447479607,
               "status": "completed",
@@ -1086,15 +1095,6 @@
               "updated_at": "2026-10-25T17:25:36Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40215732993",
               "run_number": 446
-            },
-            {
-              "id": 40158742795,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-10-25T03:34:56Z",
-              "updated_at": "2026-10-25T03:43:29Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40158742795",
-              "run_number": 445
             }
           ]
         }
@@ -1111,15 +1111,15 @@
           "views": 3
         },
         "last_upload": {
-          "title": "Stairs keep adding an extra step that shouldnt exist",
-          "video_id": "4MADxWJMVKU",
-          "uploaded_at": "2026-10-27T04:12:04.251623+00:00"
+          "title": "Sun rose twice and nobody said anything",
+          "video_id": "4dKF-QMCI58",
+          "uploaded_at": "2026-10-27T19:15:42.700246+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Stairs keep adding an extra step that shouldnt exist",
-          "video_id": "4MADxWJMVKU",
-          "uploaded_at": "2026-10-27T04:12:04.251623+00:00"
+          "title": "Sun rose twice and nobody said anything",
+          "video_id": "4dKF-QMCI58",
+          "uploaded_at": "2026-10-27T19:15:42.700246+00:00"
         }
       }
     }
