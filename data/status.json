@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T19:15:20.213209+00:00",
+  "updated_at": "2026-10-29T23:30:27.571956+00:00",
   "summary": {
-    "total_videos_30d": 870,
+    "total_videos_30d": 866,
     "total_views_estimate": 37200,
     "success_rate": 50.0,
     "total_runs_sampled": 70,
@@ -150,7 +150,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 111,
+        "last_30d": 110,
         "avg_views": 124,
         "avg_likes": 3,
         "avg_comments": 0,
@@ -184,16 +184,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 40896856544,
+            "id": 40953125819,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-10-29T14:58:40Z",
-            "updated_at": "2026-10-29T15:01:05Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40896856544",
-            "run_number": 1249
+            "conclusion": "success",
+            "created_at": "2026-10-29T20:54:18Z",
+            "updated_at": "2026-10-29T21:03:44Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40953125819",
+            "run_number": 1250
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 40953125819,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-10-29T20:54:18Z",
+              "updated_at": "2026-10-29T21:03:44Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40953125819",
+              "run_number": 1250
+            },
             {
               "id": 40896856544,
               "status": "completed",
@@ -229,15 +238,6 @@
               "updated_at": "2026-10-28T14:56:10Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40710452313",
               "run_number": 1246
-            },
-            {
-              "id": 40632284707,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-10-28T04:25:58Z",
-              "updated_at": "2026-10-28T04:39:05Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/40632284707",
-              "run_number": 1245
             }
           ]
         },
@@ -305,20 +305,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 88,
+        "last_30d": 89,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "My Uber Driver Gave Me Life-Changing Advice 🚗 #shorts",
-          "video_id": "JTndzUR5Bq0",
-          "uploaded_at": "2026-10-29T04:56:45.322260+00:00"
+          "title": "I Accidentally Sent My Boss a Rant About Him 💀 #shorts",
+          "video_id": "H4kyOlDyGuQ",
+          "uploaded_at": "2026-10-29T21:03:38.575069+00:00"
         },
         "last_short": {
-          "title": "My Uber Driver Gave Me Life-Changing Advice 🚗 #shorts",
-          "video_id": "JTndzUR5Bq0",
-          "uploaded_at": "2026-10-29T04:56:45.322260+00:00"
+          "title": "I Accidentally Sent My Boss a Rant About Him 💀 #shorts",
+          "video_id": "H4kyOlDyGuQ",
+          "uploaded_at": "2026-10-29T21:03:38.575069+00:00"
         },
         "last_long": null
       }
@@ -396,16 +396,25 @@
           "name": "Generate Poland Long",
           "schedule": "2x daily",
           "latest": {
-            "id": 40885629979,
+            "id": 40952231892,
             "status": "completed",
             "conclusion": "failure",
-            "created_at": "2026-10-29T13:50:18Z",
-            "updated_at": "2026-10-29T13:51:27Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40885629979",
-            "run_number": 453
+            "created_at": "2026-10-29T20:48:02Z",
+            "updated_at": "2026-10-29T20:49:09Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40952231892",
+            "run_number": 454
           },
           "failure_streak": 5,
           "recent_runs": [
+            {
+              "id": 40952231892,
+              "status": "completed",
+              "conclusion": "failure",
+              "created_at": "2026-10-29T20:48:02Z",
+              "updated_at": "2026-10-29T20:49:09Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40952231892",
+              "run_number": 454
+            },
             {
               "id": 40885629979,
               "status": "completed",
@@ -441,22 +450,13 @@
               "updated_at": "2026-10-27T20:23:20Z",
               "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40577420608",
               "run_number": 450
-            },
-            {
-              "id": 40507069269,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-10-27T12:51:18Z",
-              "updated_at": "2026-10-27T12:52:34Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-poland-automation/actions/runs/40507069269",
-              "run_number": 449
             }
           ]
         }
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 115,
+        "last_30d": 114,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -607,7 +607,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 114,
+        "last_30d": 113,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -917,7 +917,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 125,
+        "last_30d": 124,
         "avg_views": 54,
         "avg_likes": 1,
         "avg_comments": 0,
@@ -1011,7 +1011,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 117,
+        "last_30d": 116,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
@@ -1041,16 +1041,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 40819463628,
+            "id": 40938864076,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-10-29T04:44:52Z",
-            "updated_at": "2026-10-29T04:54:11Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40819463628",
-            "run_number": 453
+            "created_at": "2026-10-29T19:18:18Z",
+            "updated_at": "2026-10-29T19:27:07Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40938864076",
+            "run_number": 454
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 40938864076,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-10-29T19:18:18Z",
+              "updated_at": "2026-10-29T19:27:07Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40938864076",
+              "run_number": 454
+            },
             {
               "id": 40819463628,
               "status": "completed",
@@ -1086,15 +1095,6 @@
               "updated_at": "2026-10-27T19:15:48Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40565275042",
               "run_number": 450
-            },
-            {
-              "id": 40447479607,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-10-27T04:02:08Z",
-              "updated_at": "2026-10-27T04:12:10Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/40447479607",
-              "run_number": 449
             }
           ]
         }
@@ -1112,14 +1112,14 @@
         },
         "last_upload": {
           "title": "Car going forward but wheels spinning backwards",
-          "video_id": "4Mzrihxv2Fo",
-          "uploaded_at": "2026-10-29T04:54:05.513817+00:00"
+          "video_id": "XMInHbrqgQ8",
+          "uploaded_at": "2026-10-29T19:27:03.060212+00:00"
         },
         "last_short": null,
         "last_long": {
           "title": "Car going forward but wheels spinning backwards",
-          "video_id": "4Mzrihxv2Fo",
-          "uploaded_at": "2026-10-29T04:54:05.513817+00:00"
+          "video_id": "XMInHbrqgQ8",
+          "uploaded_at": "2026-10-29T19:27:03.060212+00:00"
         }
       }
     }
