@@ -1,18 +1,16 @@
 {
-  "updated_at": "2026-11-12T03:05:16.694262+00:00",
+  "updated_at": "2026-11-12T11:21:50.168687+00:00",
   "summary": {
-    "total_videos_30d": 833,
+    "total_videos_30d": 835,
     "total_views_estimate": 47800,
-    "success_rate": 48.6,
+    "success_rate": 50.0,
     "total_runs_sampled": 70,
     "failed_channels": [
       "Omni Mystery",
-      "Reddit Stories",
       "Я в Польше",
       "Salesforce Tips",
       "Smart Money",
-      "Iron Man",
-      "GlitchRealityAI"
+      "Iron Man"
     ],
     "warning_channels": [
       "Smart Money"
@@ -186,16 +184,25 @@
           "name": "Generate Story Short",
           "schedule": "every 4h",
           "latest": {
-            "id": 43112265673,
+            "id": 43165508331,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-11-11T22:30:02Z",
-            "updated_at": "2026-11-11T22:32:21Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/43112265673",
-            "run_number": 1290
+            "conclusion": "success",
+            "created_at": "2026-11-12T06:03:52Z",
+            "updated_at": "2026-11-12T06:16:32Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/43165508331",
+            "run_number": 1291
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 43165508331,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-11-12T06:03:52Z",
+              "updated_at": "2026-11-12T06:16:32Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/43165508331",
+              "run_number": 1291
+            },
             {
               "id": 43112265673,
               "status": "completed",
@@ -231,15 +238,6 @@
               "updated_at": "2026-11-10T21:49:43Z",
               "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/42907253595",
               "run_number": 1287
-            },
-            {
-              "id": 42813757916,
-              "status": "completed",
-              "conclusion": "failure",
-              "created_at": "2026-11-10T12:12:21Z",
-              "updated_at": "2026-11-10T12:15:11Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-reddit-stories/actions/runs/42813757916",
-              "run_number": 1286
             }
           ]
         },
@@ -307,20 +305,20 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 80,
+        "last_30d": 81,
         "avg_views": 0,
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": null,
         "last_upload": {
-          "title": "The Hospital Said I Had 6 Months. They Were Wrong 🏥 #shorts",
-          "video_id": "WcPB8qswVGQ",
-          "uploaded_at": "2026-11-11T05:11:30.644892+00:00"
+          "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
+          "video_id": "n7KJ8y2PlBU",
+          "uploaded_at": "2026-11-12T06:16:27.616882+00:00"
         },
         "last_short": {
-          "title": "The Hospital Said I Had 6 Months. They Were Wrong 🏥 #shorts",
-          "video_id": "WcPB8qswVGQ",
-          "uploaded_at": "2026-11-11T05:11:30.644892+00:00"
+          "title": "My Ex Showed Up to My Wedding in White 👰 #shorts",
+          "video_id": "n7KJ8y2PlBU",
+          "uploaded_at": "2026-11-12T06:16:27.616882+00:00"
         },
         "last_long": null
       }
@@ -798,16 +796,25 @@
           "name": "Generate Video",
           "schedule": "every 3h",
           "latest": {
-            "id": 43105896347,
+            "id": 43166420299,
             "status": "completed",
             "conclusion": "success",
-            "created_at": "2026-11-11T21:45:45Z",
-            "updated_at": "2026-11-11T21:48:40Z",
-            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/43105896347",
-            "run_number": 1516
+            "created_at": "2026-11-12T06:11:44Z",
+            "updated_at": "2026-11-12T06:14:22Z",
+            "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/43166420299",
+            "run_number": 1517
           },
           "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 43166420299,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-11-12T06:11:44Z",
+              "updated_at": "2026-11-12T06:14:22Z",
+              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/43166420299",
+              "run_number": 1517
+            },
             {
               "id": 43105896347,
               "status": "completed",
@@ -843,15 +850,6 @@
               "updated_at": "2026-11-10T22:57:57Z",
               "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/42918964469",
               "run_number": 1513
-            },
-            {
-              "id": 42858566435,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-11-10T16:49:56Z",
-              "updated_at": "2026-11-10T16:52:17Z",
-              "html_url": "https://github.com/RomanBazylev/youtube-ironman-automation/actions/runs/42858566435",
-              "run_number": 1512
             }
           ]
         },
@@ -919,7 +917,7 @@
       },
       "video_stats": {
         "total": 200,
-        "last_30d": 121,
+        "last_30d": 122,
         "avg_views": 60,
         "avg_likes": 1,
         "avg_comments": 0,
@@ -929,15 +927,15 @@
           "views": 881
         },
         "last_upload": {
-          "title": "Weak men ignore this until it destroys them.",
-          "video_id": "nthc74iMVbc",
-          "uploaded_at": "2026-11-11T21:48:10.423100+00:00"
+          "title": "This is why you are always tired.",
+          "video_id": "CbSfcqB6xOw",
+          "uploaded_at": "2026-11-12T06:13:50.167425+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "Weak men ignore this until it destroys them.",
-          "video_id": "nthc74iMVbc",
-          "uploaded_at": "2026-11-11T21:48:10.423100+00:00"
+          "title": "This is why you are always tired.",
+          "video_id": "CbSfcqB6xOw",
+          "uploaded_at": "2026-11-12T06:13:50.167425+00:00"
         }
       }
     },
@@ -1043,16 +1041,25 @@
           "name": "Daily-Shorts",
           "schedule": "2x daily (00:00 + 14:00 UTC)",
           "latest": {
-            "id": 43098645995,
+            "id": 43165742309,
             "status": "completed",
-            "conclusion": "failure",
-            "created_at": "2026-11-11T20:53:21Z",
-            "updated_at": "2026-11-11T21:02:17Z",
-            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/43098645995",
-            "run_number": 480
+            "conclusion": "success",
+            "created_at": "2026-11-12T06:05:53Z",
+            "updated_at": "2026-11-12T06:20:30Z",
+            "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/43165742309",
+            "run_number": 481
           },
-          "failure_streak": 1,
+          "failure_streak": 0,
           "recent_runs": [
+            {
+              "id": 43165742309,
+              "status": "completed",
+              "conclusion": "success",
+              "created_at": "2026-11-12T06:05:53Z",
+              "updated_at": "2026-11-12T06:20:30Z",
+              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/43165742309",
+              "run_number": 481
+            },
             {
               "id": 43098645995,
               "status": "completed",
@@ -1088,15 +1095,6 @@
               "updated_at": "2026-11-10T06:25:00Z",
               "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/42767533500",
               "run_number": 477
-            },
-            {
-              "id": 42718365675,
-              "status": "completed",
-              "conclusion": "success",
-              "created_at": "2026-11-09T23:11:13Z",
-              "updated_at": "2026-11-09T23:24:08Z",
-              "html_url": "https://github.com/RomanBazylev/hard4fun/actions/runs/42718365675",
-              "run_number": 476
             }
           ]
         }
@@ -1108,20 +1106,20 @@
         "avg_likes": 0,
         "avg_comments": 0,
         "best_video": {
-          "title": "The sky had a loading bar for 20 seconds",
-          "video_id": "ERtOkF32NY8",
+          "title": "The moment the sky loads the wrong texture",
+          "video_id": "gksW-fLomHk",
           "views": 3
         },
         "last_upload": {
-          "title": "My microwave just cooked food BACKWARDS",
-          "video_id": "jyRXK9v4UFw",
-          "uploaded_at": "2026-11-11T05:06:15.264913+00:00"
+          "title": "My phone is getting notifications from tomorrow",
+          "video_id": "Fp_IQZJO6lg",
+          "uploaded_at": "2026-11-12T06:20:25.994514+00:00"
         },
         "last_short": null,
         "last_long": {
-          "title": "My microwave just cooked food BACKWARDS",
-          "video_id": "jyRXK9v4UFw",
-          "uploaded_at": "2026-11-11T05:06:15.264913+00:00"
+          "title": "My phone is getting notifications from tomorrow",
+          "video_id": "Fp_IQZJO6lg",
+          "uploaded_at": "2026-11-12T06:20:25.994514+00:00"
         }
       }
     }
